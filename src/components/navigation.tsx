@@ -365,11 +365,11 @@ function NavBar() {
     return (
         <div className='sticky top-0 z-[100] bg-white shadow-sm font-helvetica'>
             {/* Top Blue Bar */}
-            <div className="w-full h-auto flex items-center min-h-[40px] bg-[#0085E2] py-2 md:py-0">
-                <div className="w-full px-3 md:container md:mx-auto md:px-4 h-full flex flex-wrap items-center justify-between md:justify-end md:mr-[80px] gap-x-2 gap-y-1 md:gap-x-[20px] text-[#FFFFFF] text-[10px] md:text-[12px]">
+            <div className="w-full h-auto bg-[#0085E2] py-2 md:py-0">
+                <div className="w-full px-4 md:container md:mx-auto md:px-4 flex flex-col md:flex-row md:flex-nowrap md:items-center md:justify-end md:mr-[80px] md:h-[36px] md:gap-x-[20px] text-[#FFFFFF] text-[10px] md:text-[12px] gap-y-2 md:gap-y-0">
 
-                    {/* Links Group */}
-                    <div className="flex items-center gap-2 md:gap-3">
+                    {/* Links Group — evenly spaced across full width on mobile */}
+                    <div className="flex items-center justify-evenly pb-1.5 border-b border-white/15 md:border-0 md:pb-0 md:justify-start md:gap-3">
                         <div onClick={() => navigate({ to: '/photo-gallery' })} className="whitespace-nowrap cursor-pointer hover:underline transition-colors">
                             Gallery
                         </div>
@@ -404,14 +404,14 @@ function NavBar() {
 
                     <div className="hidden md:block">|</div>
 
-                    {/* Font Size & Lang & Search Group */}
-                    <div className="flex items-center gap-2 md:gap-[20px]">
-                        <div className="flex items-center gap-2 md:gap-[20px]">
+                    {/* Font Size & Lang & Search Group — evenly spread on mobile */}
+                    <div className="flex items-center w-full gap-2 md:justify-start md:gap-[20px]">
+                        <div className="flex items-center gap-2.5 md:gap-[20px]">
                             <button onClick={decreaseFontSize} className="hover:underline cursor-pointer">A-</button>
                             <button onClick={resetFontSize} className="hover:underline cursor-pointer">A</button>
                             <button onClick={increaseFontSize} className="hover:underline cursor-pointer">A+</button>
                         </div>
-                        <div className="hidden md:block">|</div>
+                        <div className="opacity-40 md:block">|</div>
 
                         {/* Language Dropdown */}
                         <div
@@ -457,7 +457,7 @@ function NavBar() {
                         </div>
 
                         {/* Search Box - Hidden on very small screens if needed, or compacted */}
-                        <div className={`rounded-[8px] bg-white/20 w-[90px] md:w-[180px] h-[24px] md:h-[28px] flex items-center gap-[6px] px-[8px] hover:bg-white/30 transition-colors focus-within:bg-white/30 ${isListening ? 'ring-2 ring-red-400 bg-white/30' : ''}`}>
+                        <div className={`rounded-[8px] bg-white/20 flex-1 md:flex-none md:w-[180px] h-[24px] md:h-[28px] flex items-center gap-[6px] px-[8px] hover:bg-white/30 transition-colors focus-within:bg-white/30 ${isListening ? 'ring-2 ring-red-400 bg-white/30' : ''}`}>
                             <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round" className="opacity-90 shrink-0">
                                 <circle cx="11" cy="11" r="8"></circle>
                                 <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
