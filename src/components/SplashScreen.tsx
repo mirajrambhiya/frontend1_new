@@ -1,7 +1,5 @@
 import { useState, useEffect, useCallback } from 'react';
 
-const COLUMN_COUNT = 5;
-
 const SplashScreen = () => {
   const [isVisible, setIsVisible] = useState(() => {
     return !sessionStorage.getItem('splashShown');
@@ -14,7 +12,7 @@ const SplashScreen = () => {
     sessionStorage.setItem('splashShown', 'true');
     document.body.style.overflow = 'hidden';
 
-    // Show logo for 1s, then trigger shutter reveal
+    // Show logo for 1s, then trigger slide-up reveal
     const timer = setTimeout(() => {
       setPhase('reveal');
     }, 1000);
@@ -31,7 +29,7 @@ const SplashScreen = () => {
     setIsVisible(false);
   }, []);
 
-  // After shutter animation completes (longest stagger + duration)
+  // After slide-up animation completes
   useEffect(() => {
     if (phase !== 'reveal') return;
     const timer = setTimeout(handleDone, 1000);
@@ -42,7 +40,7 @@ const SplashScreen = () => {
 
   return (
     <div className="splash-container">
-      {/* Logo layer — sits behind the shutters */}
+      {/* Logo layer */}
       <div className={`splash-logo-layer ${phase === 'reveal' ? 'splash-logo-hidden' : ''}`}>
         <img
           src="/assets/mpcblogofinalnew.png"
@@ -51,18 +49,8 @@ const SplashScreen = () => {
         />
       </div>
 
-      {/* Shutter columns */}
-      <div className="splash-shutters">
-        {Array.from({ length: COLUMN_COUNT }).map((_, i) => (
-          <div
-            key={i}
-            className={`splash-col ${phase === 'reveal' ? 'splash-col-exit' : ''}`}
-            style={{
-              animationDelay: phase === 'reveal' ? `${i * 0.07}s` : undefined,
-            }}
-          />
-        ))}
-      </div>
+      {/* Single slide-up panel */}
+      <div className={`splash-panel ${phase === 'reveal' ? 'splash-panel-exit' : ''}`} />
     </div>
   );
 };

@@ -90,7 +90,7 @@ body {
   }
 }
 
-@keyframes shutterSlideUp {
+@keyframes panelSlideUp {
   from {
     transform: translateY(0);
   }
@@ -107,13 +107,13 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  pointer-events: none; /* Let clicks pass through after animation */
+  pointer-events: none;
 }
 
 /* --- Logo Layer --- */
 .splash-logo-layer {
   position: absolute;
-  z-index: 9999; /* In front of shutters while visible */
+  z-index: 9999;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -121,34 +121,32 @@ body {
 }
 
 .splash-logo {
-  width: 600px;
-  height: 600px;
+  width: 400px;
+  height: 400px;
   object-fit: contain;
   animation: splashFadeInScale 0.8s cubic-bezier(0.25, 0.1, 0.25, 1) forwards;
+}
+
+@media (min-width: 768px) {
+  .splash-logo {
+    width: 600px;
+    height: 600px;
+  }
 }
 
 .splash-logo-hidden {
   animation: splashLogoExit 0.4s cubic-bezier(0.33, 1, 0.68, 1) forwards;
 }
 
-/* --- Shutters --- */
-.splash-shutters {
+/* --- Single slide-up panel --- */
+.splash-panel {
   position: absolute;
   inset: 0;
-  z-index: 9998; /* Behind logo */
-  display: flex;
-  width: 100vw;
-  height: 100vh;
-}
-
-.splash-col {
-  flex: 1;
-  height: 100%;
-  background-color: #ffffff; /* White columns */
-  transform-origin: top;
+  z-index: 9998;
+  background-color: #ffffff;
   will-change: transform;
 }
 
-.splash-col-exit {
-  animation: shutterSlideUp 0.8s cubic-bezier(0.76, 0, 0.24, 1) forwards;
+.splash-panel-exit {
+  animation: panelSlideUp 0.9s cubic-bezier(0.76, 0, 0.24, 1) forwards;
 }
