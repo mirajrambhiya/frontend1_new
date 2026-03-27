@@ -4,6 +4,7 @@ import { useEffect } from 'react'
 // Persistent Components
 import NavBar from './components/navigation'
 import Footer from './components/footer'
+import SplashScreen from './components/SplashScreen'
 
 // Page Components
 import HomePage from './pages/Home'
@@ -204,6 +205,7 @@ const ScrollToTop = () => {
 // Root Layout
 const RootComponent = () => (
   <>
+    <SplashScreen />
     <ScrollToTop />
     <NavBar />
     <main className="min-h-screen">

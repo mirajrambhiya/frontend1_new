@@ -131,12 +131,11 @@ const ImageSlider = () => {
                 <img
                   src={src}
                   alt={`Slider ${index}`}
-                  className="w-full h-[700px] block"
+                  className="w-full h-[220px] md:h-[700px] object-cover block"
                 />
               </div>
               {/* Subtle gradient overlay */}
               <div className="absolute inset-0 bg-gradient-to-b from-black/5 via-transparent to-black/25 pointer-events-none" />
-
             </div>
           );
         })}

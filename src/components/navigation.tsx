@@ -3,7 +3,7 @@ import { useState, useEffect, useRef } from 'react';
 const translate = "/assets/translate.png";
 const down_arrow = "/assets/downarrow.png";
 
-import mpcblogonew from "/assets/mpcblogonew.jpg";
+import mpcblogonew from "/assets/mpcblogofinalnew.png";
 const down_arrow_black = "/assets/blackdownarrow.svg";
 import { useNavigate, Link } from '@tanstack/react-router';
 import { useLanguage } from '../context/LanguageContext';
@@ -365,11 +365,11 @@ function NavBar() {
     return (
         <div className='sticky top-0 z-[100] bg-white shadow-sm font-helvetica'>
             {/* Top Blue Bar */}
-            <div className="w-full h-auto flex items-center min-h-[36px] bg-[#0085E2] py-1 md:py-0">
-                <div className="container mx-auto px-4 h-full flex flex-wrap items-center justify-center md:justify-end md:mr-[80px] gap-2 md:gap-x-[20px] text-[#FFFFFF] text-[10px] md:text-[12px]">
+            <div className="w-full h-auto flex items-center min-h-[40px] bg-[#0085E2] py-2 md:py-0">
+                <div className="w-full px-3 md:container md:mx-auto md:px-4 h-full flex flex-wrap items-center justify-between md:justify-end md:mr-[80px] gap-x-2 gap-y-1 md:gap-x-[20px] text-[#FFFFFF] text-[10px] md:text-[12px]">
 
                     {/* Links Group */}
-                    <div className="flex flex-wrap items-center justify-center gap-3">
+                    <div className="flex items-center gap-2 md:gap-3">
                         <div onClick={() => navigate({ to: '/photo-gallery' })} className="whitespace-nowrap cursor-pointer hover:underline transition-colors">
                             Gallery
                         </div>
@@ -439,7 +439,7 @@ function NavBar() {
 
                         {/* Speech Toggle Button */}
                         <div
-                            className={`rounded-[8px] border border-white/30 cursor-pointer h-[24px] md:h-[28px] px-2 flex items-center justify-center gap-1 transition-all duration-300 ${isSpeechOn ? 'bg-white/20' : 'hover:bg-white/10'}`}
+                            className={`hidden md:flex rounded-[8px] border border-white/30 cursor-pointer h-[24px] md:h-[28px] px-2 items-center justify-center gap-1 transition-all duration-300 ${isSpeechOn ? 'bg-white/20' : 'hover:bg-white/10'}`}
                             onClick={toggleSpeech}
                             title={isSpeechOn ? "Turn Speech Off" : "Turn Speech On"}
                         >
@@ -457,7 +457,7 @@ function NavBar() {
                         </div>
 
                         {/* Search Box - Hidden on very small screens if needed, or compacted */}
-                        <div className={`rounded-[8px] bg-white/20 w-[120px] md:w-[180px] h-[24px] md:h-[28px] flex items-center gap-[6px] px-[8px] hover:bg-white/30 transition-colors focus-within:bg-white/30 ${isListening ? 'ring-2 ring-red-400 bg-white/30' : ''}`}>
+                        <div className={`rounded-[8px] bg-white/20 w-[90px] md:w-[180px] h-[24px] md:h-[28px] flex items-center gap-[6px] px-[8px] hover:bg-white/30 transition-colors focus-within:bg-white/30 ${isListening ? 'ring-2 ring-red-400 bg-white/30' : ''}`}>
                             <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round" className="opacity-90 shrink-0">
                                 <circle cx="11" cy="11" r="8"></circle>
                                 <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
@@ -486,7 +486,7 @@ function NavBar() {
                 <div className="container mx-auto md:mr-[80px] md:ml-[80px] flex items-center justify-between">
                     {/* Logo Section */}
                     <Link to="/" className='flex items-center shrink-0 gap-2'>
-                        <img src={mpcblogonew} alt="mpcb logo" className='w-[140px] md:w-[250px] h-auto' />
+                        <img src={mpcblogonew} alt="mpcb logo" className='w-[250px] md:w-[300px] h-auto' />
                     </Link>
 
                     {/* Desktop Navigation - Hidden on Mobile */}
