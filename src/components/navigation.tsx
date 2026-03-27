@@ -405,7 +405,7 @@ function NavBar() {
                     <div className="hidden md:block">|</div>
 
                     {/* Font Size & Lang & Search Group — evenly spread on mobile */}
-                    <div className="flex items-center w-full gap-2 md:justify-start md:gap-[20px]">
+                    <div className="flex items-center w-full md:w-auto gap-2 md:justify-start md:gap-[20px]">
                         <div className="flex items-center gap-2.5 md:gap-[20px]">
                             <button onClick={decreaseFontSize} className="hover:underline cursor-pointer">A-</button>
                             <button onClick={resetFontSize} className="hover:underline cursor-pointer">A</button>
