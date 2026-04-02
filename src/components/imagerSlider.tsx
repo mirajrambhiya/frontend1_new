@@ -131,7 +131,7 @@ const ImageSlider = () => {
                 <img
                   src={src}
                   alt={`Slider ${index}`}
-                  className="w-full h-auto md:h-[700px] md:object-cov
+                  className="w-full h-auto md:h-[650px] md:object-cov
           -er block"
                 />
               </div>
