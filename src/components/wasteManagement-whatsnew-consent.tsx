@@ -126,8 +126,9 @@ function WasteManagement() {
                 {/* Tabs / Scrollable Menu */}
                 <div className="flex flex-wrap justify-center gap-x-3 gap-y-4 mb-8 px-4">
                     {wasteTags.map((tag, index) => (
-                        <button
+                        <Link
                             key={index}
+                            to={wasteLinks[index]}
                             onClick={() => setActiveTab(index)}
                             className={`
                                 whitespace-nowrap px-6 py-2.5 rounded-full text-[13px] font-medium transition-all duration-300 border
@@ -137,7 +138,7 @@ function WasteManagement() {
                             `}
                         >
                             {tag}
-                        </button>
+                        </Link>
                     ))}
                 </div>
 
