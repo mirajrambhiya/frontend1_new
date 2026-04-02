@@ -5,6 +5,10 @@
   --font-family-helvetica: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
+html {
+  zoom: 1.2;
+}
+
 body {
   margin: 0;
   padding: 0;

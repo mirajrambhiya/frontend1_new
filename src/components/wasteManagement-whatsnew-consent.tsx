@@ -201,77 +201,81 @@ function WasteManagement() {
                 </div>
 
                 {/* What's New and Consent Status Grid */}
-                <div className="flex flex-col md:flex-row gap-8 items-center md:items-start">
-                    {/* What's New Card */}
-                    <div className="w-full max-w-[350px] md:w-[260px] shrink-0 mx-auto md:mx-0">
-                        <div
-                            className="relative rounded-[16px] overflow-hidden h-[320px]"
-                            style={{
-                                backgroundImage: `url(${whatsnewbg})`,
-                                backgroundSize: 'cover',
-                                backgroundPosition: 'center',
-                                backgroundRepeat: 'no-repeat'
-                            }}
-                        >
-                            {/* Header */}
-                            <div className="px-5 pt-5 pb-2">
-                                <h3 className="text-white text-[24px] md:text-[28px] font-bold leading-tight">What&rsquo;s New</h3>
-                                <div className="h-[1px] bg-white/30 w-full mt-3"></div>
-                            </div>
+        <div className="flex flex-col justify-center md:flex-row gap-30 items-center md:items-center">
+          {/* What's New Card */}
+          <div className="w-full max-w-[350px] md:w-[280px] shrink-0 mx-auto md:mx-0">
+            <div className="relative rounded-[20px] overflow-hidden flex flex-col bg-cover bg-center h-[420px]" style={{ backgroundImage: "url('/assets/whatsnewcard.png')" }}>
+              {/* Header */}
+              <div className="px-5 pt-6 pb-2 shrink-0">
+                <h3 className="text-white text-[24px] md:text-[28px] font-bold leading-tight">
+                  What&rsquo;s New
+                </h3>
+                <div className="h-[1px] bg-white/30 w-full mt-3"></div>
+              </div>
 
-                            {/* Scrollable content area */}
-                            <div
-                                className="whats-new-scroll px-5 pb-4 space-y-6 overflow-y-auto"
-                                style={{ height: 'calc(100% - 75px)' }}
-                            >
-                                {whatsNewItems.map((item, index) => (
-                                    <div key={index}>
-                                        <p className="text-white text-[13px] leading-[1.6] font-medium opacity-90 cursor-pointer group">
-                                            <span className="group-hover:underline transition-all decoration-white/80 underline-offset-2">{item.text}</span>
-                                            {item.isNew && (
-                                                <span className="ml-2 inline-flex align-middle">
-                                                    <span className="text-[10px] text-red-500 bg-white px-1.5 py-0.5 rounded-[4px] font-bold shadow-sm">New</span>
-                                                </span>
-                                            )}
-                                        </p>
-                                    </div>
-                                ))}
-                                <div className="h-[20px]"></div>
-                            </div>
+              {/* Scrollable content area */}
+              <div className="whats-new-scroll px-5 pb-14 space-y-4 overflow-y-auto flex-1 min-h-0">
+                {whatsNewItems.map((item, index) => (
+                  <div key={index} className="group">
+                    <p className="text-white text-[13px] leading-[1.6] font-medium opacity-90 hover:opacity-100">
+                      <span className="group-hover:underline transition-all decoration-white/80 underline-offset-2">
+                        {item.text}
+                      </span>
+                      {item.isNew && (
+                        <span className="ml-2 inline-flex align-middle">
+                          <span className="text-[10px] text-red-500 bg-white px-1.5 py-0.5 rounded-[4px] font-bold shadow-sm">
+                            New
+                          </span>
+                        </span>
+                      )}
+                    </p>
+                  </div>
+                ))}
+              </div>
 
-                        </div>
-                    </div>
+              {/* View All button — pinned at bottom */}
+              <div className="shrink-0 px-5 pb-5 pt-2 bg-gradient-to-t from-[#0052CC]/60 via-[#1A6FFF]/30 to-transparent">
+                <a
+                  href="/whats-new"
+                  className="flex items-center justify-center gap-1.5 w-full py-2.5 text-[13px] font-semibold text-white bg-white/15 border border-white/40 rounded-[10px] hover:bg-white/30 transition-all duration-200 backdrop-blur-sm"
+                >
+                  View All
+                  <span className="text-[15px]">→</span>
+                </a>
+              </div>
+            </div>
+          </div>
 
-                    {/* Consent Status */}
-                    <div className="w-full flex-1 max-w-[500px] relative mx-auto md:mx-0">
-                        <h3 className="text-[20px] md:text-[24px] font-bold text-black mb-4 md:mb-5 text-center md:text-left">Consent Status</h3>
-                        <div className="relative h-auto md:h-[286px]">
-                            {/* Scrollable container */}
-                            <div
-                                className="consent-scroll space-y-3 overflow-y-auto pr-2 h-[300px] md:h-full"
-                            // style={{ height: 'calc(100% - 40px)' }} // Removing inline height calc for mobile simplicity, using class h-[300px]
-                            >
-                                {consentStatusItems.map((item, index) => (
-                                    <div
-                                        key={index}
-                                        className="flex flex-col sm:flex-row items-start sm:items-center justify-between p-4 rounded-[24px] border-1 border-gray-300 gap-4 sm:gap-0"
-                                    >
-                                        <p className="text-[13px] text-gray-700 leading-relaxed pr-0 sm:pr-4 flex-1 font-semibold">
-                                            {item.text}
-                                        </p>
-                                        <button
-                                            onClick={() => item.link && window.open(item.link, '_blank')}
-                                            className="shrink-0 px-4 py-1.5 text-[12px] text-[#0085E2] border border-[#0085E2] rounded-[12px] hover:bg-[#0085E2] hover:text-white transition-colors duration-200 cursor-pointer w-full sm:w-auto"
-                                        >
-                                            Read More
-                                        </button>
-                                    </div>
-                                ))}
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
+          {/* Consent Status */}
+          <div className="w-full flex-1 max-w-[600px] relative mx-auto md:mx-0">
+            <h3 className="text-[22px] md:text-[28px] font-bold text-black mb-5 md:mb-6 text-center md:text-left">
+              Consent Status
+            </h3>
+            <div className="relative">
+              {/* Consent items container */}
+              <div className="space-y-4">
+                {consentStatusItems.map((item, index) => (
+                  <div
+                    key={index}
+                    className="flex flex-col sm:flex-row items-start sm:items-center justify-between p-5 rounded-[24px] border-1 border-gray-300 gap-4 sm:gap-0"
+                  >
+                    <p className="text-[14px] text-gray-700 leading-relaxed pr-0 sm:pr-4 flex-1 font-semibold">
+                      {item.text}
+                    </p>
+                    <button
+                      onClick={() =>
+                        item.link && window.open(item.link, "_blank")
+                      }
+                      className="shrink-0 px-5 py-2 text-[13px] text-[#0085E2] border border-[#0085E2] rounded-[12px] hover:bg-[#0085E2] hover:text-white transition-colors duration-200 cursor-pointer w-full sm:w-auto"
+                    >
+                      Read More
+                    </button>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div>
+        </div>
             </div>
         </section>
     );

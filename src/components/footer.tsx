@@ -32,7 +32,7 @@ const Footer: React.FC = () => {
 
       {/* 1. CALL TO ACTION SECTION (With Background Image) */}
       <div
-        className="relative w-full max-w-[1282px] h-auto min-h-[320px] rounded-[24px] md:rounded-[48px] overflow-hidden -mb-32 z-10 flex flex-col items-center justify-center text-center px-4 md:px-6 shadow-2xl mx-4"
+        className="relative w-full max-w-[1100px] h-auto min-h-[320px] rounded-[24px] md:rounded-[48px] overflow-hidden -mb-32 z-10 flex flex-col items-center justify-center text-center px-4 md:px-6 shadow-2xl mx-4"
       >
         {/* The Background Image */}
         <div
@@ -48,8 +48,8 @@ const Footer: React.FC = () => {
 
         {/* Content - Lifted above the image and overlay with z-20 */}
         <div className="relative z-20 flex flex-col items-center py-10 md:py-0 md:mt-[20px]">
-          <h2 className="text-[28px] md:text-[42px] font-bold text-white mb-2 tracking-tight">Need Assistance?</h2>
-          <p className="text-[16px] md:text-[20px] text-white mb-8 md:mb-10 max-w-[600px] font-normal leading-relaxed">
+          <h2 className="text-[24px] md:text-[38px] font-bold text-white mb-2 tracking-tight">Need Assistance?</h2>
+          <p className="text-[14px] md:text-[18px] text-white mb-8 md:mb-10 max-w-[600px] font-normal leading-relaxed">
             Our team is here to help you with consents, authorizations, and environmental compliance.
           </p>
 
@@ -66,7 +66,7 @@ const Footer: React.FC = () => {
 
       {/* 2. MAIN FOOTER CONTENT */}
       <div className="w-full bg-[#003458] pt-40 md:pt-48 pb-10 flex flex-col items-center">
-        <div className="w-full max-w-[1282px] grid grid-cols-1 md:grid-cols-12 gap-10 px-6 md:px-4">
+        <div className="w-full max-w-[1100px] grid grid-cols-1 md:grid-cols-12 gap-10 px-6 md:px-4">
           {/* Column 1: Logo & Address */}
           <div className="col-span-1 md:col-span-4 flex flex-col gap-6 items-center md:items-start text-center md:text-left">
             <div className="flex flex-col md:flex-row items-center gap-4">
@@ -154,7 +154,7 @@ const Footer: React.FC = () => {
 
 
           <div className="flex flex-col gap-2 text-center md:text-left">
-            <p className='text-[14px] md:text-[16px] opacity-50'>Copyright {currentYear}, Maharashtra Pollution Control Board. All Rights Reserved.</p>
+            <p className='text-[14px] md:text-[16px] opacity-50'>Copyright {currentYear}, Maharashtra Pollution Control Board.<p> All Rights Reserved.</p></p>
           </div>
 
           <div className="flex flex-col items-center gap-2">
