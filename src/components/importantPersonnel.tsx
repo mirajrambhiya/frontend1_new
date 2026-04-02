@@ -2,10 +2,10 @@ import React, { useEffect, useRef, useState } from 'react';
 
 const devendra = "/assets/devendra.svg";
 const eknath = "/assets/eknath.svg";
-const ajit = "/assets/ajitupscaled.jpg";
 const pankaja = "/assets/pankaja.svg";
 const siddhesh = "/assets/siddheshupscaled.jpg";
-const devender = "/assets/devender.svg";
+const sunetra = "/assets/sunetra.jpeg";
+const rahul = "/assets/rahul.png"
 
 interface Profile {
   name: string;
@@ -26,9 +26,9 @@ const profiles: Profile[] = [
     imageUrl: eknath,
   },
   {
-    name: "Hon'ble Shri. Ajit Pawar",
-    role: "Deputy Chief Minister, Finance and Planning",
-    imageUrl: ajit,
+    name: "Smt. Sunetra Ajit Pawar",
+    role: "Hon. Deputy Chief Minister, Maharashtra",
+    imageUrl: sunetra,
   },
   {
     name: "Hon'ble Shri. Pankaja Munde",
@@ -41,9 +41,9 @@ const profiles: Profile[] = [
     imageUrl: siddhesh,
   },
   {
-    name: "Shri. M. Devender Singh (IAS:2011 DR)",
+    name: "Shri. Rahul Rekhawar (IAS:2011 RR)",
     role: "Member Secretory | M.P.C Board Mumbai, Maharashtra",
-    imageUrl: devender,
+    imageUrl: rahul,
   },
 ];
 
