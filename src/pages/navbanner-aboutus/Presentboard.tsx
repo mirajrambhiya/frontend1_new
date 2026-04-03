@@ -20,6 +20,14 @@ interface ContactData {
 // --- Sample Data (Matching the image) ---
 const sampleContacts: ContactData[] = [
   {
+    id: 0,
+    designation: 'Mrs. Jayshree Bhoj, (I.A.S)',
+    department: 'Secretary | Environment & CC',
+    address: 'Dept. Government of Maharashtra',
+    landline: '022 22873845/ 22825973',
+    fax: '022 22029388',
+  },
+  {
     id: 1,
     designation: 'Principle Secretary',
     department: 'Urban Development Dept.',
@@ -204,15 +212,6 @@ const TeamSection: React.FC = () => {
       location: 'Mumbai, Maharashtra',
       phone: '022 24010706',
       fax: '022 24023516',
-      hideContact: true,
-    },
-    {
-      image: jayshree,
-      name: 'Mrs. Jayshree Bhoj, (I.A.S)',
-      designation: 'Secretary | Environment & CC',
-      location: 'Dept. Government of Maharashtra',
-      phone: '022 22873845/ 22825973',
-      fax: '022 22029388',
       hideContact: true,
     },
   ];
