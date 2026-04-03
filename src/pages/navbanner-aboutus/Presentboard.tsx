@@ -5,6 +5,7 @@ import Banner from '../navbanner-aboutus.tsx';
 const siddhesh = "/assets/siddheshupscaled.jpg";
 const devender = "/assets/devender.svg";
 const jayshree = "/assets/jayshree.svg";
+const rahul = "/assets/rahul.png"
 
 
 interface ContactData {
@@ -194,10 +195,11 @@ const TeamSection: React.FC = () => {
       location: 'Mumbai',
       phone: '022 24042418',
       fax: '022 24023516',
+      hideContact: true,
     },
     {
-      image: devender,
-      name: 'Shri. M. Devender Singh (IAS:2011 DR)',
+      image: rahul,
+      name: 'Shri. Rahul Rekhawar (IAS:2011 RR)',
       designation: 'Member Secretary | M.P.C Board',
       location: 'Mumbai, Maharashtra',
       phone: '022 24010706',
