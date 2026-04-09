@@ -5,7 +5,7 @@ import Banner from '../navbanner-aboutus.tsx';
 const siddhesh = "/assets/siddheshupscaled.jpg";
 const devender = "/assets/devender.svg";
 const jayshree = "/assets/jayshree.svg";
-const rahul = "/assets/rahul.png"
+const rahul = "/assets/rahul.jpeg"
 
 
 interface ContactData {

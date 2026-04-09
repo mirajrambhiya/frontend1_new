@@ -5,7 +5,7 @@ const eknath = "/assets/eknath.svg";
 const pankaja = "/assets/pankaja.svg";
 const siddhesh = "/assets/siddheshupscaled.jpg";
 const sunetra = "/assets/sunetra.jpeg";
-const rahul = "/assets/rahul.png"
+const rahul = "/assets/rahul.jpeg"
 
 interface Profile {
   name: string;
