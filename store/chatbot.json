@@ -1,0 +1,3209 @@
+{
+  "content": [
+    {
+      "heading": "Manufacturing of Automobiles (integrated facilities)",
+      "subheading": "",
+      "category": "Red"
+    },
+    {
+      "heading": "Asbestos and asbestos based industries",
+      "subheading": "",
+      "category": "Red"
+    },
+    {
+      "heading": "Almirah, Grill Manufacturing (Dry Mechanical Process)",
+      "subheading": "",
+      "category": "Green"
+    },
+    {
+      "heading": "BAKERY, CONFECTIONERY AND SWEETS PRODUCTS",
+      "subheading": "Bakery, confectionery, sweets with production capacity ≥ 1 TPD",
+      "category": "Orange"
+    },
+    {
+      "heading": "BAKERY, CONFECTIONERY AND SWEETS PRODUCTS",
+      "subheading": "Bakery, confectionery, sweets with production capacity ≥ 1 TPD. (using cleaner/gaseous fuel)",
+      "category": "Green"
+    },
+    {
+      "heading": "BRICK MANUFACTURING",
+      "subheading": "Brick kilns using coal as fuel",
+      "category": "Orange"
+    },
+    {
+      "heading": "BRICK MANUFACTURING",
+      "subheading": "Brick kilns using biomass as fuel",
+      "category": "Orange"
+    },
+    {
+      "heading": "BRICK MANUFACTURING",
+      "subheading": "Tunnel brick kilns (gas fired)",
+      "category": "Orange"
+    },
+    {
+      "heading": "MANUFACTURING OF AUTOCLAVED AERATED CONCRETE (AAC) BRICKS/BLOCKS.",
+      "subheading": "AAC bricks/blocks manufacturing using coal as fuel (12 TPD and above)",
+      "category": "Red"
+    },
+    {
+      "heading": "MANUFACTURING OF AUTOCLAVED AERATED CONCRETE (AAC) BRICKS/BLOCKS.",
+      "subheading": "AAC bricks/blocks manufacturing using coal as fuel (less than 12 TPD)",
+      "category": "Orange"
+    },
+    {
+      "heading": "MANUFACTURING OF AUTOCLAVED AERATED CONCRETE (AAC) BRICKS/BLOCKS.",
+      "subheading": "AAC bricks/blocks manufacturing using biomass as fuel",
+      "category": "Orange"
+    },
+    {
+      "heading": "MANUFACTURING OF AUTOCLAVED AERATED CONCRETE (AAC) BRICKS/BLOCKS.",
+      "subheading": "AAC bricks/blocks manufacturing using gas as fuel",
+      "category": "Orange"
+    },
+    {
+      "heading": "FLY ASH BRICKS / BLOCK MANUFACTURING",
+      "subheading": "Fly ash bricks/ block manufacturing (with boiler)",
+      "category": "Orange"
+    },
+    {
+      "heading": "FLY ASH BRICKS / BLOCK MANUFACTURING",
+      "subheading": "Fly ash bricks/ block manufacturing (without boiler)",
+      "category": "Green"
+    },
+    {
+      "heading": "MANUFACTURING OF NON-ALCOHOLIC BEVERAGES",
+      "subheading": "Wastewater generation ≥ 100 KLD",
+      "category": "Red"
+    },
+    {
+      "heading": "MANUFACTURING OF NON-ALCOHOLIC BEVERAGES",
+      "subheading": "Wastewater generation < 100 KLD",
+      "category": "Orange"
+    },
+    {
+      "heading": "BATTERY MANUFACTURING",
+      "subheading": "Lead-acid Battery manufacturing (excluding assembling and charging of lead acid Battery in micro-scale)",
+      "category": "Red"
+    },
+    {
+      "heading": "BATTERY MANUFACTURING",
+      "subheading": "Dry cell Battery (excluding manufacturing of electrodes) and assembling & charging of acid lead battery on micro scale",
+      "category": "Orange"
+    },
+    {
+      "heading": "BATTERY MANUFACTURING",
+      "subheading": "Battery manufacturing without boiler (excluding lead acid battery)",
+      "category": "Green"
+    },
+    {
+      "heading": "Briquette manufacturing (coal/biomass/coke)",
+      "subheading": "",
+      "category": "Green"
+    },
+    {
+      "heading": "Assembly of Bicycles , Baby carriages and other small non motorizing vehicles",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Bailing (hydraulic press) of waste papers",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Bio fertilizer and bio-pesticides without using inorganic chemicals",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Block making of printing without foundry (excluding wooden block making)",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Flavoured Betel nuts production/ grinding (completely dry mechanical operations)",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Manufacturing of shoe Brush and wire Brush",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "MANUFACTURING OF INDUSTRIAL CARBON INCLUDING ELECTRODES AND GRAPHITE BLOCKS, ACTIVATED CARBON, CARBON BLACK",
+      "subheading": "Carbon black manufacturing",
+      "category": "Red"
+    },
+    {
+      "heading": "MANUFACTURING OF INDUSTRIAL CARBON INCLUDING ELECTRODES AND GRAPHITE BLOCKS, ACTIVATED CARBON, CARBON BLACK",
+      "subheading": "Industrial carbon including electrodes & graphite blocks and calcined pet coke",
+      "category": "Red"
+    },
+    {
+      "heading": "MANUFACTURING OF INDUSTRIAL CARBON INCLUDING ELECTRODES AND GRAPHITE BLOCKS, ACTIVATED CARBON, CARBON BLACK",
+      "subheading": "Activated carbon manufacturing (with steam activation)",
+      "category": "Orange"
+    },
+    {
+      "heading": "INORGANIC CHEMICALS",
+      "subheading": "Basic inorganic chemicals and electro chemicals and its derivatives including manufacturing of acid",
+      "category": "Red"
+    },
+    {
+      "heading": "INORGANIC CHEMICALS",
+      "subheading": "Phosphorous and its compounds, including phosphorous rock processing",
+      "category": "Red"
+    },
+    {
+      "heading": "INORGANIC CHEMICALS",
+      "subheading": "Chlorates, per-chlorates & peroxides",
+      "category": "Red"
+    },
+    {
+      "heading": "INORGANIC CHEMICALS",
+      "subheading": "Chlorine, fluorine, bromine, iodine, and their compounds",
+      "category": "Red"
+    },
+    {
+      "heading": "Coke oven plant, coal liquefaction, coal tar distillation and fuel gas-making",
+      "subheading": "",
+      "category": "Red"
+    },
+    {
+      "heading": "CEMENT PLANTS",
+      "subheading": "With co-processing with CPP (Captive Power Plant)",
+      "category": "Red"
+    },
+    {
+      "heading": "CEMENT PLANTS",
+      "subheading": "With co-processing without CPP",
+      "category": "Red"
+    },
+    {
+      "heading": "CEMENT PLANTS",
+      "subheading": "Without co-processing with CPP",
+      "category": "Red"
+    },
+    {
+      "heading": "CEMENT PLANTS",
+      "subheading": "Without co-processing without CPP",
+      "category": "Red"
+    },
+    {
+      "heading": "CEMENT PLANTS",
+      "subheading": "Stand-alone grinding units with CPP",
+      "category": "Red"
+    },
+    {
+      "heading": "CEMENT PLANTS",
+      "subheading": "Stand-alone grinding units without CPP",
+      "category": "Orange"
+    },
+    {
+      "heading": "CEMENT PLANTS",
+      "subheading": "Bulk terminals for storage and packaging of cement",
+      "category": "Green"
+    },
+    {
+      "heading": "CHLOR ALKALI",
+      "subheading": "Chlor alkali",
+      "category": "Red"
+    },
+    {
+      "heading": "CHLOR ALKALI",
+      "subheading": "Chlor alkali using washed salt",
+      "category": "Red"
+    },
+    {
+      "heading": "CHLOR ALKALI",
+      "subheading": "Chlor alkali using cleaner/gaseous fuel",
+      "category": "Red"
+    },
+    {
+      "heading": "CHLOR ALKALI",
+      "subheading": "Chlor alkali using cleaner/gaseous fuel and washed salt",
+      "category": "Orange"
+    },
+    {
+      "heading": "Manufacturing of Compact disc Computer (CD/DVD) / cassette manufacturing / reel manufacturing",
+      "subheading": "",
+      "category": "Green"
+    },
+    {
+      "heading": "MANUFACTURING OF COIR/COIR PITH AND COIR PRODUCTS",
+      "subheading": "Coir bleaching and dyeing/printing units",
+      "category": "Orange"
+    },
+    {
+      "heading": "MANUFACTURING OF COIR/COIR PITH AND COIR PRODUCTS",
+      "subheading": "Coir fibre/pith processing units generating effluent",
+      "category": "Green"
+    },
+    {
+      "heading": "MANUFACTURING OF COIR/COIR PITH AND COIR PRODUCTS",
+      "subheading": "Coir fibre/pith processing and/or Manufacturing of coir products from coir (only dry process)",
+      "category": "White"
+    },
+    {
+      "heading": "CERAMICS",
+      "subheading": "Ceramics/ Glass /Earthen potteries and tile manufacturing using coal/oil fired kilns (fuel consumption: 12 TPD and above)",
+      "category": "Red"
+    },
+    {
+      "heading": "CERAMICS",
+      "subheading": "Ceramics/ Glass /Earthen potteries and tile manufacturing using coal/oil fired kilns (fuel consumption: less than 12 TPD)",
+      "category": "Orange"
+    },
+    {
+      "heading": "CERAMICS",
+      "subheading": "Ceramics/ Glass /Earthen potteries and tile manufacturing (using gas fired kilns)/tunnel kiln",
+      "category": "Orange"
+    },
+    {
+      "heading": "CERAMICS",
+      "subheading": "Ceramics/ Glass /Earthen potteries and tile manufacturing (using only electrical kiln)",
+      "category": "Green"
+    },
+    {
+      "heading": "Coal Washeries",
+      "subheading": "",
+      "category": "Orange"
+    },
+    {
+      "heading": "Liquid floor Cleaner, black phenyl, liquid soap, glycerol mono-stearate manufacturing",
+      "subheading": "",
+      "category": "Orange"
+    },
+    {
+      "heading": "Phenyl/toilet Cleaner formulation and bottling",
+      "subheading": "",
+      "category": "Green"
+    },
+    {
+      "heading": "Cashew nut processing",
+      "subheading": "",
+      "category": "Orange"
+    },
+    {
+      "heading": "COFFEE SEEDS PROCESSING INDUSTRY",
+      "subheading": "Coffee seeds processing (wet process)",
+      "category": "Orange"
+    },
+    {
+      "heading": "COFFEE SEEDS PROCESSING INDUSTRY",
+      "subheading": "Coffee seeds processing with eco-pulper",
+      "category": "Green"
+    },
+    {
+      "heading": "Manufacturing of Candy",
+      "subheading": "",
+      "category": "Green"
+    },
+    {
+      "heading": "Cardboard or corrugated box and paper products (excluding paper or pulp manufacturing and without using boilers)",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Manufacturing of precast Cement products (without using asbestos/ boiler / steam curing) like pipe, pillar, jafri, well ring, block/tiles etc.(should be done in closed covered shed to control fugitive emissions)",
+      "subheading": "",
+      "category": "Green"
+    },
+    {
+      "heading": "Manufacturing of Ceramic Colour by mixing & blending only (not using boiler and wastewater recycling process)",
+      "subheading": "",
+      "category": "Green"
+    },
+    {
+      "heading": "CHILLING PLANT, COLD STORAGE AND ICE-MAKING",
+      "subheading": "Chilling plant",
+      "category": "Green"
+    },
+    {
+      "heading": "CHILLING PLANT, COLD STORAGE AND ICE-MAKING",
+      "subheading": "Cold storage",
+      "category": "Green"
+    },
+    {
+      "heading": "CHILLING PLANT, COLD STORAGE AND ICE-MAKING",
+      "subheading": "Ice Making",
+      "category": "Green"
+    },
+    {
+      "heading": "Decoration of Ceramic Cups and plates by electric furnace",
+      "subheading": "",
+      "category": "Green"
+    },
+    {
+      "heading": "Ready mix Cement Concrete",
+      "subheading": "",
+      "category": "Orange"
+    },
+    {
+      "heading": "CO2 recovery plant",
+      "subheading": "",
+      "category": "Green"
+    },
+    {
+      "heading": "Assembly of air Coolers/Conditioners, repairing and servicing",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Chalk making from plaster of Paris ( only casting without boilers etc.(sun drying / electrical oven)",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Standalone manufacturing of Concrete admixtures up to 1000 MT per Month capacity by physical mixing (without boiler and reactor and no generation of wastewater)",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Used Cooking oil (UCO) collection centers",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "DYES, DYE INTERMEDIATES AND PIGMENT PRODUCTIONS",
+      "subheading": "Dyes, Dye Intermediates and Pigments produced by chemical synthesis",
+      "category": "Red"
+    },
+    {
+      "heading": "DYES, DYE INTERMEDIATES AND PIGMENT PRODUCTIONS",
+      "subheading": "Natural Dye and Pigments requiring acidic/ alkaline/ solvent extraction",
+      "category": "Red"
+    },
+    {
+      "heading": "DYES, DYE INTERMEDIATES AND PIGMENT PRODUCTIONS",
+      "subheading": "Natural Dye and Pigments not require acidic/ alkaline/ solvent extraction",
+      "category": "Orange"
+    },
+    {
+      "heading": "SYNTHETIC DETERGENT AND SOAPS",
+      "subheading": "Synthetic detergents and soaps (wastewater generation ≥ 100 KLD)",
+      "category": "Red"
+    },
+    {
+      "heading": "SYNTHETIC DETERGENT AND SOAPS",
+      "subheading": "Synthetic detergents and soaps (wastewater generation < 100 KLD)",
+      "category": "Orange"
+    },
+    {
+      "heading": "SYNTHETIC DETERGENT AND SOAPS",
+      "subheading": "Synthetic detergents and soaps (only formulation)",
+      "category": "Green"
+    },
+    {
+      "heading": "SYNTHETIC DETERGENT AND SOAPS",
+      "subheading": "Soap manufacturing (handmade -without steam boiling / boiler)",
+      "category": "White"
+    },
+    {
+      "heading": "DISTILLERIES AND FERMENTATION INDUSTRIES",
+      "subheading": "Distillery (Molasses based)",
+      "category": "Red"
+    },
+    {
+      "heading": "DISTILLERIES AND FERMENTATION INDUSTRIES",
+      "subheading": "Distillery (Grain based)",
+      "category": "Red"
+    },
+    {
+      "heading": "DISTILLERIES AND FERMENTATION INDUSTRIES",
+      "subheading": "Distillery (Grain based) with Distiller's Dried Grains with Soluble (DDGS) as by-product",
+      "category": "Red"
+    },
+    {
+      "heading": "DISTILLERIES AND FERMENTATION INDUSTRIES",
+      "subheading": "Standalone yeast manufacturing units",
+      "category": "Red"
+    },
+    {
+      "heading": "DISTILLERIES AND FERMENTATION INDUSTRIES",
+      "subheading": "Breweries and malteries industry (with fermentation)- Wastewater generation ≥ 100 KLD",
+      "category": "Red"
+    },
+    {
+      "heading": "DISTILLERIES AND FERMENTATION INDUSTRIES",
+      "subheading": "Breweries and malteries industry (with fermentation)- Wastewater generation < 100 KLD",
+      "category": "Orange"
+    },
+    {
+      "heading": "DISTILLERIES AND FERMENTATION INDUSTRIES",
+      "subheading": "Potable alcohol by blending, bottling of alcohol products",
+      "category": "Green"
+    },
+    {
+      "heading": "Diesel pump repairing and servicing (complete mechanical dry process)",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Manufacturing of Explosives, detonators, fuses, etc.",
+      "subheading": "",
+      "category": "Red"
+    },
+    {
+      "heading": "Manufacturing of coated Electrode",
+      "subheading": "",
+      "category": "Green"
+    },
+    {
+      "heading": "Emery powder (fine dust of sand) manufacturing",
+      "subheading": "",
+      "category": "Green"
+    },
+    {
+      "heading": "Electric lamp (bulb) and CFL manufacturing by assembling only",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Electrical and electronic item assembling (completely dry process)",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Engineering and fabrication units (dry process without any heat treatment / metal surface finishing operations / painting)",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "FIBRE GLASS (FIBRE REINFORCED PLASTIC) PRODUCTION",
+      "subheading": "Fibre glass (containing lead) production and processing (excluding moulding)",
+      "category": "Orange"
+    },
+    {
+      "heading": "FIBRE GLASS (FIBRE REINFORCED PLASTIC) PRODUCTION",
+      "subheading": "Fibre glass (without lead) production and processing (excluding moulding)",
+      "category": "Orange"
+    },
+    {
+      "heading": "Manufacturing of Firecrackers including improved crackers/green crackers, etc.",
+      "subheading": "",
+      "category": "Orange"
+    },
+    {
+      "heading": "SYNTHETIC FIBRES MANUFACTURING",
+      "subheading": "Synthetic fibres-PSF & PFY, generated from petrochemical",
+      "category": "Red"
+    },
+    {
+      "heading": "SYNTHETIC FIBRES MANUFACTURING",
+      "subheading": "Synthetic fibres including rayon, tyre cord, viscose filament yarn/staple fibre, acrylic fibres",
+      "category": "Red"
+    },
+    {
+      "heading": "SYNTHETIC FIBRES MANUFACTURING",
+      "subheading": "Synthetic fibres including rayon, tyre cord, viscose filament yarn/staple fibre, acrylic fibres using cleaner/gaseous fuel",
+      "category": "Red"
+    },
+    {
+      "heading": "FERTILIZERS PRODUCTION",
+      "subheading": "Fertilizers (Urea)",
+      "category": "Red"
+    },
+    {
+      "heading": "FERTILIZERS PRODUCTION",
+      "subheading": "Fertilizers (Calcium Ammonium Nitrate/Ammonium Nitrate)",
+      "category": "Red"
+    },
+    {
+      "heading": "FERTILIZERS PRODUCTION",
+      "subheading": "Fertilizers (NPK)",
+      "category": "Red"
+    },
+    {
+      "heading": "FERTILIZERS PRODUCTION",
+      "subheading": "Fertilizers (Straight Phosphatic Fertilizers)",
+      "category": "Red"
+    },
+    {
+      "heading": "FERTILIZERS PRODUCTION",
+      "subheading": "Fertilizer (granulation /formulation / blending) generating wastewater through floor washings, cooling towers etc.",
+      "category": "Orange"
+    },
+    {
+      "heading": "FERTILIZERS PRODUCTION",
+      "subheading": "Fertilizer (granulation /formulation / blending) not generating wastewater",
+      "category": "Orange"
+    },
+    {
+      "heading": "FOOD AND FOOD PROCESSING INCLUDING FRUITS AND VEGETABLE PROCESSING",
+      "subheading": "Wastewater generation ≥ 10 KLD",
+      "category": "Orange"
+    },
+    {
+      "heading": "FOOD AND FOOD PROCESSING INCLUDING FRUITS AND VEGETABLE PROCESSING",
+      "subheading": "Wastewater generation < 10 KLD (without boiler)",
+      "category": "Green"
+    },
+    {
+      "heading": "FISH FEED, POULTRY FEED AND CATTLE FEED",
+      "subheading": "Fish feed, poultry feed and cattle feed (with boiler)",
+      "category": "Orange"
+    },
+    {
+      "heading": "FISH FEED, POULTRY FEED AND CATTLE FEED",
+      "subheading": "Fish feed, poultry feed and cattle feed (without boiler)",
+      "category": "Green"
+    },
+    {
+      "heading": "Fish processing and packing (excluding chilling of fishes)",
+      "subheading": "",
+      "category": "Orange"
+    },
+    {
+      "heading": "MANUFACTURING OF MODULAR WOODEN FURNITURE",
+      "subheading": "Modular wooden furniture from particle board, MDF, swan timber etc, Ceiling tiles/ partition board from saw dust, wood chips etc., and other agricultural waste using synthetic adhesive resin, wooden box making (With boiler)",
+      "category": "Orange"
+    },
+    {
+      "heading": "MANUFACTURING OF MODULAR WOODEN FURNITURE",
+      "subheading": "Modular wooden furniture from particle board, MDF, swan timber etc, Ceiling tiles/ partition board from saw dust, wood chips etc., and other agricultural waste using synthetic adhesive resin, wooden box making (Without boiler)",
+      "category": "Green"
+    },
+    {
+      "heading": "CARPENTRY & WOODEN FURNITURE MANUFACTURING",
+      "subheading": "Carpentry & wooden furniture manufacturing with spray painting (excluding saw mill) with the help of electrical (motorized) machines such as electrical wood planner, steel saw cutting circular blade, etc.",
+      "category": "Green"
+    },
+    {
+      "heading": "CARPENTRY & WOODEN FURNITURE MANUFACTURING",
+      "subheading": "Carpentry & wooden furniture manufacturing without spray painting (excluding saw mill) with the help of electrical (motorized) machines such as electrical wood planner, steel saw cutting circular blade, etc.",
+      "category": "White"
+    },
+    {
+      "heading": "Foam manufacturing",
+      "subheading": "",
+      "category": "Green"
+    },
+    {
+      "heading": "Flour mills (dry process)",
+      "subheading": "",
+      "category": "Green"
+    },
+    {
+      "heading": "STEEL FURNITURE INDUSTRY (Obnoxious gases from welding.)",
+      "subheading": "Steel furniture with spray painting",
+      "category": "Green"
+    },
+    {
+      "heading": "STEEL FURNITURE INDUSTRY (Obnoxious gases from welding.)",
+      "subheading": "Steel furniture without spray painting",
+      "category": "White"
+    },
+    {
+      "heading": "MANUFACTURING OF GLUE AND GELATIN",
+      "subheading": "Manufacturing of glue and gelatin using coal/liquid fuel",
+      "category": "Red"
+    },
+    {
+      "heading": "MANUFACTURING OF GLUE AND GELATIN",
+      "subheading": "Manufacturing of glue and gelatin by using biomass/cleaner fuel",
+      "category": "Orange"
+    },
+    {
+      "heading": "MANUFACTURING OF GLASS (INCLUDING PRINTING OR ETCHING OF GLASS SHEET USING HYDROFLUORIC ACID)",
+      "subheading": "Manufacturing of glass (Oil/coal fired)",
+      "category": "Orange"
+    },
+    {
+      "heading": "MANUFACTURING OF GLASS (INCLUDING PRINTING OR ETCHING OF GLASS SHEET USING HYDROFLUORIC ACID)",
+      "subheading": "Manufacturing of glass (gas fired)",
+      "category": "Orange"
+    },
+    {
+      "heading": "Producer Gas plant using conventional coal Gasification",
+      "subheading": "",
+      "category": "Orange"
+    },
+    {
+      "heading": "COMPRESSED BIOGAS (CBG)/BIO-CNG PLANTS",
+      "subheading": "CBG plants based on Municipal Solid Waste (MSW) as feed",
+      "category": "Red"
+    },
+    {
+      "heading": "COMPRESSED BIOGAS (CBG)/BIO-CNG PLANTS",
+      "subheading": "CBG plants based on process waste (industrial/ process liquid effluent & solid waste like press mud, organic sludge, molasses, etc.) as feed",
+      "category": "Red"
+    },
+    {
+      "heading": "COMPRESSED BIOGAS (CBG)/BIO-CNG PLANTS",
+      "subheading": "CBG plants based on crop residue (paddy straw /wheat straw /corn sweet sorghum/ Napier grass, etc.) as feed",
+      "category": "Orange"
+    },
+    {
+      "heading": "COMPRESSED BIOGAS (CBG)/BIO-CNG PLANTS",
+      "subheading": "CBG plants based on animal waste (dairy farms, poultry farms, and other animal waste) as feed",
+      "category": "Orange"
+    },
+    {
+      "heading": "COMPRESSED BIOGAS (CBG)/BIO-CNG PLANTS",
+      "subheading": "CBG plants producing Fermented Organic Manure (FOM) & Liquid Fermented Organic Manure (LFOM) as by-products",
+      "category": "White"
+    },
+    {
+      "heading": "STANDALONE PRODUCTION OF HYDROGEN AND/OR AMMONIA (WITHOUT CAPTIVE POWER PLANT USING FOSSIL FUEL)",
+      "subheading": "Integrated unit for production of Ammonia through Hydrogen generated by pyrolysis/gasification",
+      "category": "Red"
+    },
+    {
+      "heading": "STANDALONE PRODUCTION OF HYDROGEN AND/OR AMMONIA (WITHOUT CAPTIVE POWER PLANT USING FOSSIL FUEL)",
+      "subheading": "Integrated unit for production of ammonia through Hydrogen generated by electrolysis using renewable energy (capacity ≥ 15 TPD)",
+      "category": "Red"
+    },
+    {
+      "heading": "STANDALONE PRODUCTION OF HYDROGEN AND/OR AMMONIA (WITHOUT CAPTIVE POWER PLANT USING FOSSIL FUEL)",
+      "subheading": "Integrated unit for production of Ammonia through hydrogen generated by electrolysis using renewable energy (Capacity < 15 TPD)",
+      "category": "Orange"
+    },
+    {
+      "heading": "STANDALONE PRODUCTION OF HYDROGEN AND/OR AMMONIA (WITHOUT CAPTIVE POWER PLANT USING FOSSIL FUEL)",
+      "subheading": "Hydrogen production through pyrolysis/gasification",
+      "category": "Red"
+    },
+    {
+      "heading": "STANDALONE PRODUCTION OF HYDROGEN AND/OR AMMONIA (WITHOUT CAPTIVE POWER PLANT USING FOSSIL FUEL)",
+      "subheading": "Hydrogen production through electrolysis using raw/seawater and renewable energy (capacity ≥ 2.5 TPD)",
+      "category": "Orange"
+    },
+    {
+      "heading": "STANDALONE PRODUCTION OF HYDROGEN AND/OR AMMONIA (WITHOUT CAPTIVE POWER PLANT USING FOSSIL FUEL)",
+      "subheading": "Hydrogen production through electrolysis using raw/sea water and renewable energy (capacity < 2.5 TPD)",
+      "category": "Green"
+    },
+    {
+      "heading": "STANDALONE PRODUCTION OF HYDROGEN AND/OR AMMONIA (WITHOUT CAPTIVE POWER PLANT USING FOSSIL FUEL)",
+      "subheading": "Hydrogen production through electrolysis (using renewable energy) on BOO/BOOT/BOT, mode etc., located in the premises of end user industry and directly using de-mineralized water & other utilities (cooling tower, ETP, etc.) sourced from end user industry",
+      "category": "White"
+    },
+    {
+      "heading": "Glue from starch (physical mixing) with Gas/ electrically operated oven /boiler.",
+      "subheading": "",
+      "category": "Green"
+    },
+    {
+      "heading": "Gold and silver smithy (purification with acid smelting operation and sulphuric acid polishing operation) (using less or equal to 1 litre of sulphuric acid/ nitric acid per month)",
+      "subheading": "",
+      "category": "Green"
+    },
+    {
+      "heading": "Compressed oxygen Gas from crude liquid oxygen (without use of any solvents and by maintaining pressure & temperature only for separation of other Gases)",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Glass and ampules and vials making from Glass tubes",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Ground nut decorticating",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Medical Oxygen",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "HOT MIX PLANTS",
+      "subheading": "Hot mix plants using oil as fuel",
+      "category": "Orange"
+    },
+    {
+      "heading": "HOT MIX PLANTS",
+      "subheading": "Hot mix plants using gaseous as fuel",
+      "category": "Orange"
+    },
+    {
+      "heading": "Hazardous waste pre-processing/processing facility including spent acid processing, spent solvent recovery, etc.",
+      "subheading": "",
+      "category": "Red"
+    },
+    {
+      "heading": "Handloom/ carpet weaving ( without dying and bleaching operation)",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Ice cream manufacturing units",
+      "subheading": "",
+      "category": "Orange"
+    },
+    {
+      "heading": "Printing Ink Manufacturing",
+      "subheading": "",
+      "category": "Orange"
+    },
+    {
+      "heading": "Manufacturing of scientific and mathematical Instrument (assembling only)",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "JUTE PROCESSING",
+      "subheading": "Jute processing (with dyeing / with boiler)",
+      "category": "Orange"
+    },
+    {
+      "heading": "JUTE PROCESSING",
+      "subheading": "Jute processing (without dyeing / without boiler)",
+      "category": "Green"
+    },
+    {
+      "heading": "JUTE PROCESSING",
+      "subheading": "Manufacturing of products from jute (without dyeing/ without boiler)",
+      "category": "White"
+    },
+    {
+      "heading": "Lime manufacturing (using lime kiln)",
+      "subheading": "",
+      "category": "Orange"
+    },
+    {
+      "heading": "Leather foot wear and Leather products (excluding tanning and hide processing)",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Manufacturing of optical Lenses (using electrical furnace)",
+      "subheading": "",
+      "category": "Green"
+    },
+    {
+      "heading": "Leather cutting and stitching (more than 10 machine and using motor)",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Mobile towers using genset(s)",
+      "subheading": "",
+      "category": "Green"
+    },
+    {
+      "heading": "MILK PROCESSES AND DAIRY PRODUCTS",
+      "subheading": "Milk processes and dairy products (integrated project)",
+      "category": "Red"
+    },
+    {
+      "heading": "MILK PROCESSES AND DAIRY PRODUCTS",
+      "subheading": "Dairy and dairy products (Small scale units), using coal/biomass as fuel (Wastewater generation ≥ 100 KLD)",
+      "category": "Red"
+    },
+    {
+      "heading": "MILK PROCESSES AND DAIRY PRODUCTS",
+      "subheading": "Dairy and dairy products (Small scale units), using coal/biomass as fuel (Wastewater generation < 100 KLD)",
+      "category": "Orange"
+    },
+    {
+      "heading": "MILK PROCESSES AND DAIRY PRODUCTS",
+      "subheading": "Dairy and dairy products, (Small scale units), using PNG as fuel",
+      "category": "Orange"
+    },
+    {
+      "heading": "MINING AND ORE BENEFICIATION",
+      "subheading": "Open-cast coal mining",
+      "category": "Red"
+    },
+    {
+      "heading": "MINING AND ORE BENEFICIATION",
+      "subheading": "Underground coal mining",
+      "category": "Red"
+    },
+    {
+      "heading": "MINING AND ORE BENEFICIATION",
+      "subheading": "Mining of major minerals and ore beneficiation",
+      "category": "Red"
+    },
+    {
+      "heading": "MINING AND ORE BENEFICIATION",
+      "subheading": "Mining of minor minerals (except Sand/riverbed material mining)",
+      "category": "Orange"
+    },
+    {
+      "heading": "MINING AND ORE BENEFICIATION",
+      "subheading": "Grinding, processing, and screening of minor minerals",
+      "category": "Orange"
+    },
+    {
+      "heading": "Manufacturing of Mirror from sheet glass",
+      "subheading": "",
+      "category": "Orange"
+    },
+    {
+      "heading": "Mineral processing, industries involving ore sintering, pelletisating, grinding & pulverization",
+      "subheading": "",
+      "category": "Orange"
+    },
+    {
+      "heading": "Malteries (without fermentation)",
+      "subheading": "",
+      "category": "Orange"
+    },
+    {
+      "heading": "Manufacturing of Mosquito repellent & coil",
+      "subheading": "",
+      "category": "Orange"
+    },
+    {
+      "heading": "Organic Manure (physical mixing)",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Packing of powdered Milk",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "METALS AND METALLURGICAL SECTORS",
+      "subheading": "Integrated iron and steel plants",
+      "category": "Red"
+    },
+    {
+      "heading": "METALS AND METALLURGICAL SECTORS",
+      "subheading": "Stand-alone sintering/palletisation",
+      "category": "Red"
+    },
+    {
+      "heading": "METALS AND METALLURGICAL SECTORS",
+      "subheading": "Sponge iron with CPP (Captive Power Plant)",
+      "category": "Red"
+    },
+    {
+      "heading": "METALS AND METALLURGICAL SECTORS",
+      "subheading": "Sponge iron without CPP",
+      "category": "Red"
+    },
+    {
+      "heading": "METALS AND METALLURGICAL SECTORS",
+      "subheading": "Stand-alone coke oven gas plants",
+      "category": "Red"
+    },
+    {
+      "heading": "ALUMINIUM PROCESSING",
+      "subheading": "Aluminium Refinery",
+      "category": "Red"
+    },
+    {
+      "heading": "ALUMINIUM PROCESSING",
+      "subheading": "Aluminium Smelter",
+      "category": "Red"
+    },
+    {
+      "heading": "Copper Smelter",
+      "subheading": "",
+      "category": "Red"
+    },
+    {
+      "heading": "Zinc smelter",
+      "subheading": "",
+      "category": "Red"
+    },
+    {
+      "heading": "FERROUS AND NON-FERROUS METAL SECONDARY PROCESSING/REPROCESSING UNITS INVOLVING DIFFERENT FURNACES THROUGH MELTING, REFINING, CASTING, ALLOY-MAKING",
+      "subheading": "All Ferrous and Non-ferrous metal secondary processing/reprocessing units involving different furnaces through melting, refining, casting, alloy-making (using coal/liquid fuels)",
+      "category": "Red"
+    },
+    {
+      "heading": "FERROUS AND NON-FERROUS METAL SECONDARY PROCESSING/REPROCESSING UNITS INVOLVING DIFFERENT FURNACES THROUGH MELTING, REFINING, CASTING, ALLOY-MAKING",
+      "subheading": "Ferrous and Non-ferrous metal (excluding lead, nickel, and manganese) secondary processing/reprocessing units involving different furnaces through melting, refining, casting, alloy-making (using cleaner fuels/electricity)",
+      "category": "Orange"
+    },
+    {
+      "heading": "Aluminium & copper extraction from scrap using an oil-fired furnace (dry process only)",
+      "subheading": "",
+      "category": "Orange"
+    },
+    {
+      "heading": "INDUSTRY OR PROCESS INVOLVING METAL SURFACE TREATMENT OR PROCESS/HEAT TREATMENT",
+      "subheading": "Industry or process involving metal surface treatment or process such as pickling/ electroplating/paint stripping/ heat treatment using cyanide bath/ phosphating or finishing and anodizing / enamellings/ galvanizing",
+      "category": "Red"
+    },
+    {
+      "heading": "INDUSTRY OR PROCESS INVOLVING METAL SURFACE TREATMENT OR PROCESS/HEAT TREATMENT",
+      "subheading": "Plasma electrolytic polishing (electroplating)",
+      "category": "Orange"
+    },
+    {
+      "heading": "INDUSTRY OR PROCESS INVOLVING METAL SURFACE TREATMENT OR PROCESS/HEAT TREATMENT",
+      "subheading": "Heat treatment using furnace ( without cyaniding)",
+      "category": "Green"
+    },
+    {
+      "heading": "INDUSTRY OR PROCESS INVOLVING METAL SURFACE TREATMENT OR PROCESS/HEAT TREATMENT",
+      "subheading": "Heat treatment with any of the new technology like ultrasound probe, induction hardening, ionization beam, gas carburizing etc.",
+      "category": "Green"
+    },
+    {
+      "heading": "FORGING OF FERROUS AND NON- FERROUS METALS",
+      "subheading": "Forging of ferrous and non-ferrous metals using liquid fuel",
+      "category": "Orange"
+    },
+    {
+      "heading": "FORGING OF FERROUS AND NON- FERROUS METALS",
+      "subheading": "Forging of ferrous and non-ferrous metals using gaseous fuel",
+      "category": "Orange"
+    },
+    {
+      "heading": "FORGING OF FERROUS AND NON- FERROUS METALS",
+      "subheading": "Forging of ferrous and non-ferrous metals using electricity",
+      "category": "Orange"
+    },
+    {
+      "heading": "FORGING OF FERROUS AND NON- FERROUS METALS",
+      "subheading": "Forging of ferrous and non-ferrous metals (cold forging, without any heat treatment)",
+      "category": "Green"
+    },
+    {
+      "heading": "ROLLING MILLS",
+      "subheading": "Rolling and pickling",
+      "category": "Red"
+    },
+    {
+      "heading": "ROLLING MILLS",
+      "subheading": "Rolling mills (oil and coal fired)",
+      "category": "Orange"
+    },
+    {
+      "heading": "ROLLING MILLS",
+      "subheading": "Rolling mills (gas fired)",
+      "category": "Green"
+    },
+    {
+      "heading": "ROLLING MILLS",
+      "subheading": "Cold rolling mill (without heat treatment)",
+      "category": "White"
+    },
+    {
+      "heading": "FOUNDRY OPERATIONS",
+      "subheading": "Cupola furnace",
+      "category": "Orange"
+    },
+    {
+      "heading": "FOUNDRY OPERATIONS",
+      "subheading": "Induction furnace/arc furnace",
+      "category": "Orange"
+    },
+    {
+      "heading": "WIRE DRAWING AND WIRE NETTING",
+      "subheading": "Wire drawing and wire netting (with pickling)",
+      "category": "Red"
+    },
+    {
+      "heading": "WIRE DRAWING AND WIRE NETTING",
+      "subheading": "Wire drawing and wire netting (without pickling and with heat treatment)",
+      "category": "Green"
+    },
+    {
+      "heading": "WIRE DRAWING AND WIRE NETTING",
+      "subheading": "Wire drawing and wire netting (without pickling and without heat treatment)",
+      "category": "White"
+    },
+    {
+      "heading": "Die-casting /extrusion process only",
+      "subheading": "",
+      "category": "Green"
+    },
+    {
+      "heading": "Manufacturing of aluminium utensils from aluminium circles pressing/ Brass and bell Metal utensils manufacturing from circles (dry mechanical operation only)",
+      "subheading": "",
+      "category": "Green"
+    },
+    {
+      "heading": "Manufacturing of Metal caps containers etc",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Formulation/palletisation of camphor tablets, Naphthalene balls from camphor/ naphthalene powders.",
+      "subheading": "",
+      "category": "Orange"
+    },
+    {
+      "heading": "Organic and inorganic Nutrients by physical mixing (without boiler and without any reactor)",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "ORGANIC CHEMICALS INCLUDING HALOGENATED HYDROCARBONS",
+      "subheading": "Organic chemicals including halogenated hydrocarbons (using solid/liquid fuel)",
+      "category": "Red"
+    },
+    {
+      "heading": "ORGANIC CHEMICALS INCLUDING HALOGENATED HYDROCARBONS",
+      "subheading": "Organic chemicals including halogenated hydrocarbons (using cleaner fuel)",
+      "category": "Red"
+    },
+    {
+      "heading": "Oil and gas extraction (offshore & onshore extraction through drilling wells), Coal Bed Methane (CBM) drilling and shale gas, including group gathering stations (GGS), etc.",
+      "subheading": "",
+      "category": "Red"
+    },
+    {
+      "heading": "EDIBLE OIL MILLS",
+      "subheading": "Vegetable oil manufacturing including solvent extraction and refinery /hydrogenated oils",
+      "category": "Orange"
+    },
+    {
+      "heading": "EDIBLE OIL MILLS",
+      "subheading": "Oil mills Ghani and extraction without boiler (no refining/ hydrogenation)",
+      "category": "Green"
+    },
+    {
+      "heading": "POWER GENERATION PLANTS",
+      "subheading": "Power plants based on coal",
+      "category": "Red"
+    },
+    {
+      "heading": "POWER GENERATION PLANTS",
+      "subheading": "Power plants based on liquid fuels",
+      "category": "Red"
+    },
+    {
+      "heading": "POWER GENERATION PLANTS",
+      "subheading": "Biomass-based power plants",
+      "category": "Red"
+    },
+    {
+      "heading": "POWER GENERATION PLANTS",
+      "subheading": "Nuclear energy-based power plants (> 220 MW)",
+      "category": "Red"
+    },
+    {
+      "heading": "POWER GENERATION PLANTS",
+      "subheading": "Nuclear energy-based power plants (up to 220 MW)",
+      "category": "Orange"
+    },
+    {
+      "heading": "POWER GENERATION PLANTS",
+      "subheading": "Gas-based power plants",
+      "category": "Orange"
+    },
+    {
+      "heading": "PULP & PAPER (AGRO & WOOD)",
+      "subheading": "Manufacturing of bleached chemical pulp, papers, and paperboards",
+      "category": "Red"
+    },
+    {
+      "heading": "PULP & PAPER (AGRO & WOOD)",
+      "subheading": "Unbleached or Totally Chlorine Free (TCF) bleaching for manufacturing of chemical pulp, papers, and paperboards",
+      "category": "Red"
+    },
+    {
+      "heading": "PULP & PAPER (AGRO & WOOD)",
+      "subheading": "Bleached grades of chemical pulp, paper, and paperboard having Totally Chlorine Free (TCF) bleaching",
+      "category": "Red"
+    },
+    {
+      "heading": "PULP AND PAPER (RECYCLED FIBRE/WASTE PAPER BASED)",
+      "subheading": "Pulp & Paper (With bleaching)",
+      "category": "Red"
+    },
+    {
+      "heading": "PULP AND PAPER (RECYCLED FIBRE/WASTE PAPER BASED)",
+      "subheading": "Pulp & Paper (Without bleaching, capacity ≥15 TPD)",
+      "category": "Red"
+    },
+    {
+      "heading": "PULP AND PAPER (RECYCLED FIBRE/WASTE PAPER BASED)",
+      "subheading": "Pulp & Paper (Without bleaching; plant capacity <15 TPD)",
+      "category": "Orange"
+    },
+    {
+      "heading": "MANUFACTURING OF PAINTS, VARNISHES (The process may cause considerable emissions of volatile organic compounds (VOC).)",
+      "subheading": "Manufacturing of solvent-based paints/varnish",
+      "category": "Red"
+    },
+    {
+      "heading": "MANUFACTURING OF PAINTS, VARNISHES (The process may cause considerable emissions of volatile organic compounds (VOC).)",
+      "subheading": "Manufacturing of water-based paints",
+      "category": "Red"
+    },
+    {
+      "heading": "MANUFACTURING OF PAINTS, VARNISHES (The process may cause considerable emissions of volatile organic compounds (VOC).)",
+      "subheading": "Manufacturing of powder coatings",
+      "category": "Red"
+    },
+    {
+      "heading": "MANUFACTURING OF PAINTS, VARNISHES (The process may cause considerable emissions of volatile organic compounds (VOC).)",
+      "subheading": "Manufacturing of paint and varnishes (only blending and mixing)",
+      "category": "Orange"
+    },
+    {
+      "heading": "PESTICIDE INDUSTRIES",
+      "subheading": "Pesticide technical (organic chemicals based)",
+      "category": "Red"
+    },
+    {
+      "heading": "PESTICIDE INDUSTRIES",
+      "subheading": "Pesticide technical (inorganic chemicals based like Zinc Phosphide and Aluminium Phosphide)",
+      "category": "Red"
+    },
+    {
+      "heading": "PESTICIDE INDUSTRIES",
+      "subheading": "Pesticide formulation industries (Liquid formulation only) having boiler/thermopack",
+      "category": "Red"
+    },
+    {
+      "heading": "PESTICIDE INDUSTRIES",
+      "subheading": "Pesticide formulation industries (Liquid formulation only) without having boiler/thermopack",
+      "category": "Orange"
+    },
+    {
+      "heading": "PESTICIDE INDUSTRIES",
+      "subheading": "Pesticide formulation industries (having both liquid and dry formulation or dry formulation only) without having boiler / thermopack",
+      "category": "Red"
+    },
+    {
+      "heading": "PESTICIDE INDUSTRIES",
+      "subheading": "Pesticide formulation industries (having both liquid and dry formulation or dry formulation only) having boiler / thermopack",
+      "category": "Red"
+    },
+    {
+      "heading": "Photographic film and its chemicals",
+      "subheading": "",
+      "category": "Orange"
+    },
+    {
+      "heading": "Petroleum oil refineries",
+      "subheading": "",
+      "category": "Red"
+    },
+    {
+      "heading": "PETROCHEMICALS",
+      "subheading": "Petrochemicals (Naphtha cracker.)",
+      "category": "Red"
+    },
+    {
+      "heading": "PETROCHEMICALS",
+      "subheading": "Petrochemicals (Gas cracker)",
+      "category": "Red"
+    },
+    {
+      "heading": "PETROCHEMICALS",
+      "subheading": "Petrochemicals (without cracker)",
+      "category": "Red"
+    },
+    {
+      "heading": "PETROCHEMICALS",
+      "subheading": "Petrochemicals (without cracker and using cleaner/gaseous fuel)",
+      "category": "Red"
+    },
+    {
+      "heading": "MANUFACTURING OF LUBRICATING OILS, GREASE AND PETROLEUM-BASED PRODUCTS",
+      "subheading": "Manufacturing of lubricating oils, grease, and petroleum-based products",
+      "category": "Orange"
+    },
+    {
+      "heading": "MANUFACTURING OF LUBRICATING OILS, GREASE AND PETROLEUM-BASED PRODUCTS",
+      "subheading": "Manufacturing of lubricating oils, grease, and petroleum-based products (only blending)",
+      "category": "Green"
+    },
+    {
+      "heading": "PHARMACEUTICAL INDUSTRY",
+      "subheading": "Pharmaceuticals manufacturing",
+      "category": "Red"
+    },
+    {
+      "heading": "PHARMACEUTICAL INDUSTRY",
+      "subheading": "Pharmaceuticals manufacturing using cleaner/gaseous fuel",
+      "category": "Red"
+    },
+    {
+      "heading": "PHARMACEUTICAL INDUSTRY",
+      "subheading": "Pharmaceuticals (Formulation)",
+      "category": "Orange"
+    },
+    {
+      "heading": "PHARMACEUTICAL INDUSTRY",
+      "subheading": "Pharmaceuticals (Formulation) using cleaner/gaseous fuel",
+      "category": "Orange"
+    },
+    {
+      "heading": "PHARMACEUTICAL INDUSTRY",
+      "subheading": "Vaccine manufacturing",
+      "category": "Orange"
+    },
+    {
+      "heading": "PHARMACEUTICAL INDUSTRY",
+      "subheading": "Vaccine manufacturing using cleaner/gaseous fuel",
+      "category": "Orange"
+    },
+    {
+      "heading": "PHARMACEUTICAL INDUSTRY",
+      "subheading": "Pharmaceutical R&D facilities",
+      "category": "Orange"
+    },
+    {
+      "heading": "PHARMACEUTICAL INDUSTRY",
+      "subheading": "Ayurvedic or Unani medicines manufacturing",
+      "category": "Orange"
+    },
+    {
+      "heading": "PHARMACEUTICAL INDUSTRY",
+      "subheading": "Ayurvedic or unani medicines manufacturing using cleaner fuel",
+      "category": "Orange"
+    },
+    {
+      "heading": "PHARMACEUTICAL INDUSTRY",
+      "subheading": "Ayurvedic or unani medicines manufacturing (Without boiler )",
+      "category": "Green"
+    },
+    {
+      "heading": "Digital Printing on flex /vinyl, PVC etc. (more than 5 machines)",
+      "subheading": "",
+      "category": "Green"
+    },
+    {
+      "heading": "Spray Painting, Paint baking, Paint shipping",
+      "subheading": "",
+      "category": "Green"
+    },
+    {
+      "heading": "Plywood/board manufacturing ( including Veneer and laminate) with biomass fired boiler / thermic fluid heater (without resin plant)",
+      "subheading": "",
+      "category": "Orange"
+    },
+    {
+      "heading": "Printing press (newspaper, books, magazines, etc./ Gravure printing",
+      "subheading": "",
+      "category": "Orange"
+    },
+    {
+      "heading": "Manufacturing of bi-axially oriented Polypropylene (PP) film along with metalizing operations",
+      "subheading": "",
+      "category": "Green"
+    },
+    {
+      "heading": "Pulse/Dal Mills",
+      "subheading": "",
+      "category": "Green"
+    },
+    {
+      "heading": "Insulation and other coated Papers (excluding paper or pipe manufacturing)",
+      "subheading": "",
+      "category": "Green"
+    },
+    {
+      "heading": "Packaging materials manufacturing from non-asbestos fibre, vegetable fibre yarn",
+      "subheading": "",
+      "category": "Green"
+    },
+    {
+      "heading": "Polythene and plastic processed products manufacturing (virgin/compostable plastic)",
+      "subheading": "",
+      "category": "Green"
+    },
+    {
+      "heading": "Poultry, piggery, and hatchery",
+      "subheading": "",
+      "category": "Green"
+    },
+    {
+      "heading": "Puffed rice (muri) (using gas)",
+      "subheading": "",
+      "category": "Green"
+    },
+    {
+      "heading": "Biscuits trays etc from rolled PVC sheet (using automatic vacuum forming machines)",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Fountain Pen manufacturing by assembling only",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Glass Putty and sealant (by mixing with machine only)",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Manufacturing of Paper Pins, U-clips, etc.",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Solar Power generation through solar photovoltaic cell and wind power",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Synthetic Rubber excluding molding",
+      "subheading": "",
+      "category": "Orange"
+    },
+    {
+      "heading": "REFRACTORIES",
+      "subheading": "Refractories based on coal/liquid fuel (fuel consumption: 12 TPD and above)",
+      "category": "Red"
+    },
+    {
+      "heading": "REFRACTORIES",
+      "subheading": "Refractories based on coal/liquid fuel (fuel consumption: less than 12 TPD)",
+      "category": "Orange"
+    },
+    {
+      "heading": "REFRACTORIES",
+      "subheading": "Refractories based on cleaner fuels",
+      "category": "Orange"
+    },
+    {
+      "heading": "RUBBER PRODUCTS MANUFACTURING",
+      "subheading": "Tyre and tube manufacturing",
+      "category": "Orange"
+    },
+    {
+      "heading": "RUBBER PRODUCTS MANUFACTURING",
+      "subheading": "Tyres and tubes vulcanization/ hot retreading",
+      "category": "Orange"
+    },
+    {
+      "heading": "RUBBER PRODUCTS MANUFACTURING",
+      "subheading": "Rubber goods industry (with solid fuel/oil-based boiler)",
+      "category": "Orange"
+    },
+    {
+      "heading": "RUBBER PRODUCTS MANUFACTURING",
+      "subheading": "Rubber goods industry (with gas-based boiler)",
+      "category": "Green"
+    },
+    {
+      "heading": "SYNTHETIC RESINS",
+      "subheading": "Synthetic resins manufacturing",
+      "category": "Red"
+    },
+    {
+      "heading": "SYNTHETIC RESINS",
+      "subheading": "Synthetic resins manufacturing (using only gaseous fuel)",
+      "category": "Orange"
+    },
+    {
+      "heading": "Blending of melamine Resins & different powder, additives by physical mixing, including phenolic resin (without boiler)",
+      "subheading": "",
+      "category": "Green"
+    },
+    {
+      "heading": "RICE MILLS",
+      "subheading": "Parboiled rice mill (with soaking and steam/drier)",
+      "category": "Orange"
+    },
+    {
+      "heading": "RICE MILLS",
+      "subheading": "Raw rice mill (Without soaking and steam/drier)/ hullers)",
+      "category": "Green"
+    },
+    {
+      "heading": "Repairing of electric motors and generators (dry mechanical process)",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Manufacturing of plastic or cotton Rope",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Tyre Retraders",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "INDUSTRIES ENGAGED IN RECYCLING/REPROCESSING/ RECOVERY/REUSE OF HAZARDOUS WASTE UNDER SCHEDULE IV OF H&OW(M & TBM) RULES, 2016 - ITEMS, NAMELY, SPENT CATALYSTS CONTAINING NICKEL, CADMIUM, ZINC, COPPER, ARSENIC, VANADIUM, AND COBALT, INCLUDING DRY BATTERY (EXCEPT LEAD), AND CLEARED METAL CATALYST.",
+      "subheading": "Hydro & pyro metallurgy",
+      "category": "Red"
+    },
+    {
+      "heading": "INDUSTRIES ENGAGED IN RECYCLING/REPROCESSING/ RECOVERY/REUSE OF HAZARDOUS WASTE UNDER SCHEDULE IV OF H&OW(M & TBM) RULES, 2016 - ITEMS, NAMELY, SPENT CATALYSTS CONTAINING NICKEL, CADMIUM, ZINC, COPPER, ARSENIC, VANADIUM, AND COBALT, INCLUDING DRY BATTERY (EXCEPT LEAD), AND CLEARED METAL CATALYST.",
+      "subheading": "Hydro & pyro metallurgy (using cleaner/gaseous fuels & without crushing of materials)",
+      "category": "Red"
+    },
+    {
+      "heading": "INDUSTRIES ENGAGED IN RECYCLING/REPROCESSING/ RECOVERY/REUSE OF HAZARDOUS WASTE UNDER SCHEDULE IV OF H&OW(M & TBM) RULES, 2016 - ITEMS, NAMELY, SPENT CATALYSTS CONTAINING NICKEL, CADMIUM, ZINC, COPPER, ARSENIC, VANADIUM, AND COBALT, INCLUDING DRY BATTERY (EXCEPT LEAD), AND CLEARED METAL CATALYST.",
+      "subheading": "Pyro metallurgy (using coal/liquid fuels)",
+      "category": "Red"
+    },
+    {
+      "heading": "INDUSTRIES ENGAGED IN RECYCLING/REPROCESSING/ RECOVERY/REUSE OF HAZARDOUS WASTE UNDER SCHEDULE IV OF H&OW(M & TBM) RULES, 2016 - ITEMS, NAMELY, SPENT CATALYSTS CONTAINING NICKEL, CADMIUM, ZINC, COPPER, ARSENIC, VANADIUM, AND COBALT, INCLUDING DRY BATTERY (EXCEPT LEAD), AND CLEARED METAL CATALYST.",
+      "subheading": "Pyro metallurgy (using cleaner/gaseous fuels)",
+      "category": "Orange"
+    },
+    {
+      "heading": "INDUSTRIES ENGAGED IN RECYCLING/REPROCESSING/ RECOVERY/REUSE OF HAZARDOUS WASTE UNDER SCHEDULE IV OF H&OW(M & TBM) RULES, 2016 - ITEMS, NAMELY, SPENT CATALYSTS CONTAINING NICKEL, CADMIUM, ZINC, COPPER, ARSENIC, VANADIUM, AND COBALT, INCLUDING DRY BATTERY (EXCEPT LEAD), AND CLEARED METAL CATALYST.",
+      "subheading": "Hydro metallurgy",
+      "category": "Orange"
+    },
+    {
+      "heading": "E-WASTE DISMANTLING / RECYCLING",
+      "subheading": "Industry engaged in recycling of e-waste generated from the electrical and electronic Equipment (EEE) listed in the E-Waste (Management) Rules 2022 using pyro/ hydro/ electro-metallurgical processing and recycling of plastic separated from Waste EEE",
+      "category": "Red"
+    },
+    {
+      "heading": "E-WASTE DISMANTLING / RECYCLING",
+      "subheading": "Industry engaged in recycling of e-waste generated from the electrical and electronic equipment (EEE) listed in the E-Waste (Management) Rules 2022 (PCB processing limited to only mechanical processing and separation without pyro/ hydro/ electro-metallurgical processing), production of Al, Cu, and other metals from non-PCB sources and/or recycling of plastic separated from Waste EEE.",
+      "category": "Orange"
+    },
+    {
+      "heading": "E-WASTE DISMANTLING / RECYCLING",
+      "subheading": "Industry engaged in dismantling (only) of e-waste, generated from the electrical and electronic equipment (EEE) listed in the E-Waste (Management) Rules 2022",
+      "category": "Green"
+    },
+    {
+      "heading": "E-WASTE DISMANTLING / RECYCLING",
+      "subheading": "E-waste refurbishing centres",
+      "category": "Green"
+    },
+    {
+      "heading": "INDUSTRIES ENGAGED IN RECYCLING/REPROCESSING/ RECOVERY/REUSE OF HAZARDOUS WASTE (Items as per Schedule IV of H&OW( M & TBM) Rules, 2016.)",
+      "subheading": "Lead Recycling ( Lead Acid Batteries with Acids; Lead Scrap Recycling) Rotary Furnace/ Pit Furnace (Mandir/Canopy Bhatti)",
+      "category": "Red"
+    },
+    {
+      "heading": "INDUSTRIES ENGAGED IN RECYCLING/REPROCESSING/ RECOVERY/REUSE OF HAZARDOUS WASTE (Items as per Schedule IV of H&OW( M & TBM) Rules, 2016.)",
+      "subheading": "Lead Recycling ( Drained Lead Acid Batteries; Lead Scrap Recycling) Rotary Furnace/Mandir Bhatti on Cleaner Fuel",
+      "category": "Red"
+    },
+    {
+      "heading": "INDUSTRIES ENGAGED IN RECYCLING/REPROCESSING/ RECOVERY/REUSE OF HAZARDOUS WASTE (Items as per Schedule IV of H&OW( M & TBM) Rules, 2016.)",
+      "subheading": "Isolated storages (as defined under Manufacture, Storage, and Import of Hazardous Chemicals Rules, 1989 as amended)",
+      "category": "Orange"
+    },
+    {
+      "heading": "INDUSTRIES ENGAGED IN RECYCLING/REPROCESSING/ RECOVERY/REUSE OF HAZARDOUS WASTE (Items as per Schedule IV of H&OW( M & TBM) Rules, 2016.)",
+      "subheading": "Paint and ink sludge / residues recycling",
+      "category": "Orange"
+    },
+    {
+      "heading": "INDUSTRIES ENGAGED IN RECYCLING/REPROCESSING/ RECOVERY/REUSE OF HAZARDOUS WASTE (Items as per Schedule IV of H&OW( M & TBM) Rules, 2016.)",
+      "subheading": "Industries engaged in recycling / reprocessing/ recovery/reuse of Hazardous Waste, excluding lead, paint, and ink sludge",
+      "category": "Orange"
+    },
+    {
+      "heading": "INDUSTRIES ENGAGED IN RECYCLING/REPROCESSING/ RECOVERY/REUSE OF HAZARDOUS WASTE (Items as per Schedule IV of H&OW( M & TBM) Rules, 2016.)",
+      "subheading": "Refining of used oil by hydro-treating/using solvent extraction",
+      "category": "Orange"
+    },
+    {
+      "heading": "INDUSTRIES ENGAGED IN RECYCLING/REPROCESSING/ RECOVERY/REUSE OF HAZARDOUS WASTE (Items as per Schedule IV of H&OW( M & TBM) Rules, 2016.)",
+      "subheading": "Refining of used oil by using thin film evaporation/vacuum distillation with clay treatment",
+      "category": "Orange"
+    },
+    {
+      "heading": "INDUSTRIES ENGAGED IN RECYCLING/REPROCESSING/ RECOVERY/REUSE OF HAZARDOUS WASTE (Items as per Schedule IV of H&OW( M & TBM) Rules, 2016.)",
+      "subheading": "Recycling / reprocessing of waste oil",
+      "category": "Orange"
+    },
+    {
+      "heading": "RECYCLING OF PLASTIC WASTE",
+      "subheading": "Manufacturing of flakes/staple fibre/strip from the recycling of PET bottles",
+      "category": "Orange"
+    },
+    {
+      "heading": "RECYCLING OF PLASTIC WASTE",
+      "subheading": "Plastic waste processing (manufacturing of flakes/granules)",
+      "category": "Orange"
+    },
+    {
+      "heading": "SCRAPING FACILITIES FOR RECYCLING END-OF-LIFE VEHICLES, WAGONS, AND COACHES",
+      "subheading": "Collection, Depollution and Dismantling Centers (Without shredding)",
+      "category": "Orange"
+    },
+    {
+      "heading": "SCRAPING FACILITIES FOR RECYCLING END-OF-LIFE VEHICLES, WAGONS, AND COACHES",
+      "subheading": "Collection, Depollution, Dismantling and shredding Centers",
+      "category": "Orange"
+    },
+    {
+      "heading": "SCRAPING FACILITIES FOR RECYCLING END-OF-LIFE VEHICLES, WAGONS, AND COACHES",
+      "subheading": "Common Shredders (Standalone)",
+      "category": "Green"
+    },
+    {
+      "heading": "SCRAPING FACILITIES FOR RECYCLING END-OF-LIFE VEHICLES, WAGONS, AND COACHES",
+      "subheading": "Collection Centers (Without depollution, dismantling and shredding)",
+      "category": "White"
+    },
+    {
+      "heading": "Sugar (excluding khandsari/jaggery)",
+      "subheading": "",
+      "category": "Red"
+    },
+    {
+      "heading": "Ship breaking industries",
+      "subheading": "",
+      "category": "Orange"
+    },
+    {
+      "heading": "Slaughterhouse / Slaughterhouse (with rendering plant)/ integrated slaughtering unit, meat processing units, bone mill, processing of animal horns, hoofs and other body parts",
+      "subheading": "",
+      "category": "Red"
+    },
+    {
+      "heading": "Manufacturing of Silica gel",
+      "subheading": "",
+      "category": "Orange"
+    },
+    {
+      "heading": "Manufacturing of Iodized Salt from Crude / Raw Salt",
+      "subheading": "",
+      "category": "Orange"
+    },
+    {
+      "heading": "Manufacturing of Starch / Sago / Sorbitol",
+      "subheading": "",
+      "category": "Orange"
+    },
+    {
+      "heading": "Stone crushers",
+      "subheading": "",
+      "category": "Orange"
+    },
+    {
+      "heading": "Stone crushing/grinding/washing & screening of riverbed material(s)",
+      "subheading": "",
+      "category": "Orange"
+    },
+    {
+      "heading": "MANUFACTURING OF SURGICAL AND MEDICAL PRODUCTS",
+      "subheading": "Manufacturing of Surgical and medical products",
+      "category": "Orange"
+    },
+    {
+      "heading": "MANUFACTURING OF SURGICAL AND MEDICAL PRODUCTS",
+      "subheading": "Surgical and medical products assembled only (with effluent-generating processes)",
+      "category": "Green"
+    },
+    {
+      "heading": "MANUFACTURING OF SURGICAL AND MEDICAL PRODUCTS",
+      "subheading": "Surgical and medical products assembled only (without effluent-generating processes)",
+      "category": "White"
+    },
+    {
+      "heading": "SEMICONDUCTOR MANUFACTURING INDUSTRIES",
+      "subheading": "Semiconductor fabs manufacturing",
+      "category": "Red"
+    },
+    {
+      "heading": "SEMICONDUCTOR MANUFACTURING INDUSTRIES",
+      "subheading": "Display fabs manufacturing",
+      "category": "Red"
+    },
+    {
+      "heading": "SEMICONDUCTOR MANUFACTURING INDUSTRIES",
+      "subheading": "Sensor fabs manufacturing/ Compound semiconductors/ silicon photonics",
+      "category": "Red"
+    },
+    {
+      "heading": "SEMICONDUCTOR MANUFACTURING INDUSTRIES",
+      "subheading": "Semiconductor Assembly, Testing, Marking and Packaging Facility (ATMP)",
+      "category": "Green"
+    },
+    {
+      "heading": "Saw mills",
+      "subheading": "",
+      "category": "Green"
+    },
+    {
+      "heading": "Spice grinding",
+      "subheading": "",
+      "category": "Green"
+    },
+    {
+      "heading": "Cutting, Sizing and polishing of marble, granite and other stones",
+      "subheading": "",
+      "category": "Green"
+    },
+    {
+      "heading": "Manufacturing of Solar module/ non-conventional energy apparatus",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "TANNERIES",
+      "subheading": "Tanneries (Raw to finish)",
+      "category": "Red"
+    },
+    {
+      "heading": "TANNERIES",
+      "subheading": "Tanneries (Raw to wet blue)",
+      "category": "Red"
+    },
+    {
+      "heading": "TANNERIES",
+      "subheading": "Tanneries (Wet blue to finish)",
+      "category": "Red"
+    },
+    {
+      "heading": "TANNERIES",
+      "subheading": "Vegetable tanning",
+      "category": "Orange"
+    },
+    {
+      "heading": "MANUFACTURING OF TOOTH POWDER, TOOTHPASTE, TALCUM POWDER AND OTHER COSMETIC ITEMS",
+      "subheading": "Manufacturing of toothpaste and other cosmetic items",
+      "category": "Orange"
+    },
+    {
+      "heading": "MANUFACTURING OF TOOTH POWDER, TOOTHPASTE, TALCUM POWDER AND OTHER COSMETIC ITEMS",
+      "subheading": "Manufacturing of tooth powder, talcum powder",
+      "category": "Green"
+    },
+    {
+      "heading": "THERMOMETER MANUFACTURING",
+      "subheading": "Glass (mercury based) thermometer manufacturing",
+      "category": "Orange"
+    },
+    {
+      "heading": "THERMOMETER MANUFACTURING",
+      "subheading": "Digital thermometer manufacturing",
+      "category": "White"
+    },
+    {
+      "heading": "Manufacturing of Teflon-based products",
+      "subheading": "",
+      "category": "Orange"
+    },
+    {
+      "heading": "Thermocol manufacturing (with boiler)",
+      "subheading": "",
+      "category": "Orange"
+    },
+    {
+      "heading": "MANUFACTURING OF TOBACCO PRODUCTS INCLUDING CIGARETTES AND TOBACCO PROCESSES",
+      "subheading": "Manufacturing of tobacco products including cigarettes and tobacco processes (with boiler)",
+      "category": "Orange"
+    },
+    {
+      "heading": "MANUFACTURING OF TOBACCO PRODUCTS INCLUDING CIGARETTES AND TOBACCO PROCESSES",
+      "subheading": "Manufacturing of tobacco products including cigarettes and tobacco processes (without boiler)",
+      "category": "Green"
+    },
+    {
+      "heading": "Transformer repairing/ manufacturing (dry process only)",
+      "subheading": "",
+      "category": "Green"
+    },
+    {
+      "heading": "Tyre Pyrolysis Oil Industries-Applicable for advanced batch automated process / continuous TPO units",
+      "subheading": "",
+      "category": "Orange"
+    },
+    {
+      "heading": "Tamarind powder manufacturing",
+      "subheading": "",
+      "category": "Green"
+    },
+    {
+      "heading": "TEA PROCESSING AND BLENDING",
+      "subheading": "Tea processing (with boiler)",
+      "category": "Orange"
+    },
+    {
+      "heading": "TEA PROCESSING AND BLENDING",
+      "subheading": "Tea processing (without boiler)",
+      "category": "Green"
+    },
+    {
+      "heading": "TEA PROCESSING AND BLENDING",
+      "subheading": "Blending and packing of tea",
+      "category": "White"
+    },
+    {
+      "heading": "TEXTILE INDUSTRY",
+      "subheading": "Yarn / Textile processing involving any effluent/emission generating processes including bleaching, dyeing, printing, and colouring, including the garment and apparel manufacturing industry",
+      "category": "Red"
+    },
+    {
+      "heading": "TEXTILE INDUSTRY",
+      "subheading": "Yarn to grey fabric manufacturing with water jet machines",
+      "category": "Orange"
+    },
+    {
+      "heading": "TEXTILE INDUSTRY",
+      "subheading": "Garment and apparel manufacturing industry including Doubling / Reeling / TFO-Two for one unit (dry process)-with boiler",
+      "category": "Green"
+    },
+    {
+      "heading": "TEXTILE INDUSTRY",
+      "subheading": "Garment and apparel manufacturing industry including Doubling / Reeling / TFO-Two for one unit (dry process)-without boiler",
+      "category": "White"
+    },
+    {
+      "heading": "SAREE/FABRIC PRINTING BY SCREEN / WOODEN BLOCK /HAND BLOCK",
+      "subheading": "Saree/fabric printing by screen / wooden block/hand block",
+      "category": "Orange"
+    },
+    {
+      "heading": "SAREE/FABRIC PRINTING BY SCREEN / WOODEN BLOCK /HAND BLOCK",
+      "subheading": "Hand block printing without effluent generation",
+      "category": "Green"
+    },
+    {
+      "heading": "TEXTILE SPINNING, SIZING AND WEAVING MILLS",
+      "subheading": "Textile spinning, sizing and weaving mills (wastewater generation≥ 10 KLD )",
+      "category": "Orange"
+    },
+    {
+      "heading": "TEXTILE SPINNING, SIZING AND WEAVING MILLS",
+      "subheading": "Textile spinning, sizing and weaving mills (wastewater generation <10 KLD)",
+      "category": "Green"
+    },
+    {
+      "heading": "Power looms (without dye and bleaching)",
+      "subheading": "",
+      "category": "Green"
+    },
+    {
+      "heading": "REPROCESSING OF WASTE TEXTILE FABRIC",
+      "subheading": "Integrated facility for reprocessing of waste textile fabric (including washing, bleaching, dyeing etc.)",
+      "category": "Red"
+    },
+    {
+      "heading": "REPROCESSING OF WASTE TEXTILE FABRIC",
+      "subheading": "Reprocessing of waste textile fabric (dry process)",
+      "category": "Green"
+    },
+    {
+      "heading": "Cotton and woollen Hosiers making (Dry process only without any dying / washing operation)",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Seasoning of Wood in steam heated chamber",
+      "subheading": "",
+      "category": "Green"
+    },
+    {
+      "heading": "Pulverization of bamboo and scrap Wood",
+      "subheading": "",
+      "category": "Green"
+    },
+    {
+      "heading": "Distilled Water (without boiler) with electricity as source of heat",
+      "subheading": "",
+      "category": "Green"
+    },
+    {
+      "heading": "Purification of Water and packaging (mineralized/non-mineralized water)",
+      "subheading": "",
+      "category": "Green"
+    },
+    {
+      "heading": "COMMON EFFLUENT TREATMENT PLANT (CETP)",
+      "subheading": "CETP having MEE/spray drier",
+      "category": "Red"
+    },
+    {
+      "heading": "COMMON EFFLUENT TREATMENT PLANT (CETP)",
+      "subheading": "CETP (without having MEE/spray drier), Common MEE/common spray driers",
+      "category": "Red"
+    },
+    {
+      "heading": "COMMON EFFLUENT TREATMENT PLANT (CETP)",
+      "subheading": "Common Sewage-Effluent Treatment Plant (CSETP)",
+      "category": "Red"
+    },
+    {
+      "heading": "Effluent conveyance projects",
+      "subheading": "",
+      "category": "Red"
+    },
+    {
+      "heading": "COMMON HAZARDOUS WASTE TREATMENT, STORAGE AND DISPOSAL FACILITY",
+      "subheading": "Integrated facility (Secured landfill and incinerator)",
+      "category": "Red"
+    },
+    {
+      "heading": "COMMON HAZARDOUS WASTE TREATMENT, STORAGE AND DISPOSAL FACILITY",
+      "subheading": "Only secured landfill",
+      "category": "Red"
+    },
+    {
+      "heading": "COMMON HAZARDOUS WASTE TREATMENT, STORAGE AND DISPOSAL FACILITY",
+      "subheading": "Only incinerator",
+      "category": "Red"
+    },
+    {
+      "heading": "COMMON BIO-MEDICAL WASTE TREATMENT FACILITY (CBWTF)",
+      "subheading": "CBWTF",
+      "category": "Red"
+    },
+    {
+      "heading": "COMMON BIO-MEDICAL WASTE TREATMENT FACILITY (CBWTF)",
+      "subheading": "CBWTF using cleaner/gaseous fuel",
+      "category": "Red"
+    },
+    {
+      "heading": "MUNICIPAL SOLID WASTE MANAGEMENT FACILITY",
+      "subheading": "Municipal Solid Waste Management Facility (Sanitary landfill/ Integrated Sanitary landfill with material recycling facility/ refused derived fuel, etc.)",
+      "category": "Blue"
+    },
+    {
+      "heading": "MUNICIPAL SOLID WASTE MANAGEMENT FACILITY",
+      "subheading": "Waste to energy power plants",
+      "category": "Blue"
+    },
+    {
+      "heading": "MUNICIPAL SOLID WASTE MANAGEMENT FACILITY",
+      "subheading": "Bio-mining of legacy waste projects",
+      "category": "Blue"
+    },
+    {
+      "heading": "MUNICIPAL SOLID WASTE MANAGEMENT FACILITY",
+      "subheading": "Municipal Solid Waste Bio-methanation plant (Quantity of MSW ≥ 5 TPD)",
+      "category": "Blue"
+    },
+    {
+      "heading": "MUNICIPAL SOLID WASTE MANAGEMENT FACILITY",
+      "subheading": "Municipal Solid Waste Composting Facility (Quantity of MSW ≥ 5 TPD)",
+      "category": "Blue"
+    },
+    {
+      "heading": "MUNICIPAL SOLID WASTE MANAGEMENT FACILITY",
+      "subheading": "Municipal Solid Waste Material Recovery Facility (Quantity of MSW ≥ 5 TPD)",
+      "category": "Blue"
+    },
+    {
+      "heading": "Construction and Demolition (C&D) Waste Processing Plants",
+      "subheading": "",
+      "category": "Blue"
+    },
+    {
+      "heading": "SEWAGE TREATMENT PLANT",
+      "subheading": "Sewage Treatment Plant (5 MLD and above)",
+      "category": "Blue"
+    },
+    {
+      "heading": "SEWAGE TREATMENT PLANT",
+      "subheading": "Sewage Treatment Plant (less than 5 MLD)",
+      "category": "Blue"
+    },
+    {
+      "heading": "STANDALONE GENERATOR SET (Genset) ( i. Standalone genset(s) of total capacity less than 1000 KVA may not require additional classification. The used oil/waste oil generated during repair and maintenance need to be disposed through authorized hazardous waste recycler by service provider/OEM. ii. Projects such data centers etc. having pollution potential due to gensets only, may be classified based on the capacity and fuel used.) ",
+      "subheading": "Genset(s) of total capacity ≥ 1 MVA, using liquid fuel",
+      "category": "Orange"
+    },
+    {
+      "heading": "STANDALONE GENERATOR SET (Genset) ( i. Standalone genset(s) of total capacity less than 1000 KVA may not require additional classification. The used oil/waste oil generated during repair and maintenance need to be disposed through authorized hazardous waste recycler by service provider/OEM. ii. Projects such data centers etc. having pollution potential due to gensets only, may be classified based on the capacity and fuel used.)",
+      "subheading": "Genset(s) of total capacity ≥ 1 MVA, using cleaner/gaseous fuel",
+      "category": "Green"
+    },
+    {
+      "heading": "Airports",
+      "subheading": "",
+      "category": "Orange"
+    },
+    {
+      "heading": "HEALTH CARE FACILITIES (HCFS) (AS DEFINED UNDER BIO-MEDICAL WASTE MANAGEMENT RULES, 2016) (Sectors generates bio-medical waste. As per methodology scores assigned to H.)",
+      "subheading": "HCFs with captive incinerator, irrespective of number of beds",
+      "category": "Red"
+    },
+    {
+      "heading": "HEALTH CARE FACILITIES (HCFS) (AS DEFINED UNDER BIO-MEDICAL WASTE MANAGEMENT RULES, 2016) (Sectors generates bio-medical waste. As per methodology scores assigned to H.)",
+      "subheading": "more than 1000 bedded HCFs",
+      "category": "Red"
+    },
+    {
+      "heading": "HEALTH CARE FACILITIES (HCFS) (AS DEFINED UNDER BIO-MEDICAL WASTE MANAGEMENT RULES, 2016) (Sectors generates bio-medical waste. As per methodology scores assigned to H.)",
+      "subheading": "501 to 1,000 bedded HCFs",
+      "category": "Red"
+    },
+    {
+      "heading": "HEALTH CARE FACILITIES (HCFS) (AS DEFINED UNDER BIO-MEDICAL WASTE MANAGEMENT RULES, 2016) (Sectors generates bio-medical waste. As per methodology scores assigned to H.)",
+      "subheading": "201 to 500 bedded HCFs",
+      "category": "Orange"
+    },
+    {
+      "heading": "HEALTH CARE FACILITIES (HCFS) (AS DEFINED UNDER BIO-MEDICAL WASTE MANAGEMENT RULES, 2016) (Sectors generates bio-medical waste. As per methodology scores assigned to H.)",
+      "subheading": "51 to 200 bedded HCFs",
+      "category": "Orange"
+    },
+    {
+      "heading": "HEALTH CARE FACILITIES (HCFS) (AS DEFINED UNDER BIO-MEDICAL WASTE MANAGEMENT RULES, 2016) (Sectors generates bio-medical waste. As per methodology scores assigned to H.)",
+      "subheading": "11 to 50 bedded HCFs",
+      "category": "Green"
+    },
+    {
+      "heading": "HEALTH CARE FACILITIES (HCFS) (AS DEFINED UNDER BIO-MEDICAL WASTE MANAGEMENT RULES, 2016) (Sectors generates bio-medical waste. As per methodology scores assigned to H.)",
+      "subheading": "Up to 10 bedded HCFs",
+      "category": "Green"
+    },
+    {
+      "heading": "HEALTH CARE FACILITIES (HCFS) (AS DEFINED UNDER BIO-MEDICAL WASTE MANAGEMENT RULES, 2016) (Sectors generates bio-medical waste. As per methodology scores assigned to H.)",
+      "subheading": "Non-bedded HCFs",
+      "category": "Green"
+    },
+    {
+      "heading": "HOTELS/BANQUET HALLS HAVING ROOM FACILITY",
+      "subheading": "Hotels (above 3 star) or having 100 & above rooms",
+      "category": "Red"
+    },
+    {
+      "heading": "HOTELS/BANQUET HALLS HAVING ROOM FACILITY",
+      "subheading": "Hotels (above 3 star) or having 100 & above rooms (based on cleaner /gaseous fuel)",
+      "category": "Orange"
+    },
+    {
+      "heading": "HOTELS/BANQUET HALLS HAVING ROOM FACILITY",
+      "subheading": "Hotels (up to 3 star) or having more than 20 rooms but less than 100 rooms.",
+      "category": "Orange"
+    },
+    {
+      "heading": "HOTELS/BANQUET HALLS HAVING ROOM FACILITY",
+      "subheading": "Up to 20 rooms",
+      "category": "Green"
+    },
+    {
+      "heading": "RAILWAY LOCOMOTIVE WORK SHOP/ INTEGRATED ROAD TRANSPORT WORKSHOP/ AUTHORIZED SERVICE CENTERS",
+      "subheading": "Railway locomotive work shop/ Integrated road transport workshop/ Authorized service centers (wastewater generation ≥ 10 KLD)",
+      "category": "Red"
+    },
+    {
+      "heading": "RAILWAY LOCOMOTIVE WORK SHOP/ INTEGRATED ROAD TRANSPORT WORKSHOP/ AUTHORIZED SERVICE CENTERS",
+      "subheading": "Railway locomotive work shop/ Integrated road transport workshop/ Authorized service centers (wastewater generation <10 KLD)",
+      "category": "Orange"
+    },
+    {
+      "heading": "RAILWAY STATIONS",
+      "subheading": "Railway Stations (Wastewater Generation ≥ 5 MLD)",
+      "category": "Orange"
+    },
+    {
+      "heading": "RAILWAY STATIONS",
+      "subheading": "Railway Stations (Wastewater Generation ≥ 100 KLD, but < 5 MLD)",
+      "category": "Green"
+    },
+    {
+      "heading": "RAILWAY SIDINGS (Fugitive emissions  due to loading, unloading, storage and  transportation  of the minerals.) ",
+      "subheading": "Railway sidings / Mineral stock yard",
+      "category": "Green"
+    },
+    {
+      "heading": "RAILWAY SIDINGS (Fugitive emissions  due to loading, unloading, storage and  transportation  of the minerals.) ",
+      "subheading": "Railway sidings only for defence purpose",
+      "category": "White"
+    },
+    {
+      "heading": "PORTS AND HARBOURS",
+      "subheading": "Ports and harbours, jetties and dredging operations",
+      "category": "Red"
+    },
+    {
+      "heading": "PORTS AND HARBOURS",
+      "subheading": "Ports and harbours (only containers handling)/ Captive jetties",
+      "category": "Orange"
+    },
+    {
+      "heading": "Automobile service stations/ workshops",
+      "subheading": "",
+      "category": "Orange"
+    },
+    {
+      "heading": "BUILDING CONSTRUCTION PROJECTS ( i. During the construction phase, the sector is mainly air polluting. However, in post construction phase it is mainly water polluting due to generation of sewage. Consent to Establish/Operate to be taken as per EC conditions, as applicable. Establish/Operate to be taken as per EC conditions, as applicable. ii. Building  construction  project  ≥ 5,000 sq. m., but < 20,000 sq. m. built-up area (with connectivity to terminal STP) may not require separate classification. iii. For projects < 5000 the wastewater shall be managed according to on-site sanitation methods as mentioned in the Manual on Sewerage and Sewage Treatment System (2013), published by the Central Public Health and Environmental Engineering Organisation (CPHEEO), and as amended from time to time.)  ",
+      "subheading": "Building construction project ≥ 20,000 sq. m. built-up area",
+      "category": "Orange"
+    },
+    {
+      "heading": "BUILDING CONSTRUCTION PROJECTS ( i. During the construction phase, the sector is mainly air polluting. However, in post construction phase it is mainly water polluting due to generation of sewage. Consent to Establish/Operate to be taken as per EC conditions, as applicable. Establish/Operate to be taken as per EC conditions, as applicable. ii. Building  construction  project  ≥ 5,000 sq. m., but < 20,000 sq. m. built-up area (with connectivity to terminal STP) may not require separate classification. iii. For projects < 5000 the wastewater shall be managed according to on-site sanitation methods as mentioned in the Manual on Sewerage and Sewage Treatment System (2013), published by the Central Public Health and Environmental Engineering Organisation (CPHEEO), and as amended from time to time.)",
+      "subheading": "Building construction project ≥ 5,000 sq. m., but < 20,000 sq. m. built-up area (without connectivity to terminal STP)",
+      "category": "Green"
+    },
+    {
+      "heading": "Standalone mechanized laundry (using boiler)",
+      "subheading": "",
+      "category": "Orange"
+    },
+    {
+      "heading": "New highway construction project",
+      "subheading": "",
+      "category": "Orange"
+    },
+    {
+      "heading": "DAIRY FARM (Dairy farms having less than 15 animals do not require separate classification.) ",
+      "subheading": "Dairy Farm (having more than 500 animals)",
+      "category": "Red"
+    },
+    {
+      "heading": "DAIRY FARM (Dairy farms having less than 15 animals do not require separate classification.) ",
+      "subheading": "Dairy Farm (having 101 to 500 animals)",
+      "category": "Orange"
+    },
+    {
+      "heading": "DAIRY FARM (Dairy farms having less than 15 animals do not require separate classification.) ",
+      "subheading": "Dairy Farm (having 15 to 100 animals)",
+      "category": "Orange"
+    },
+    {
+      "heading": "Gold Assaying & Hallmarking Centres",
+      "subheading": "",
+      "category": "Green"
+    },
+    {
+      "heading": "Facility of handling, storage, and transportation of food grains in bulk",
+      "subheading": "",
+      "category": "Green"
+    },
+    {
+      "heading": "Flyash export or disposal operations",
+      "subheading": "",
+      "category": "Green"
+    },
+    {
+      "heading": "Oil and gas transportation pipeline (excluding pipeline covered under definition of isolated storage of hazardous chemicals, as per Manufacture, Storage, and Import of Hazardous Chemicals Rules, 1989)",
+      "subheading": "",
+      "category": "Green"
+    },
+    {
+      "heading": "Gaushalas",
+      "subheading": "",
+      "category": "Green"
+    },
+    {
+      "heading": "Household bio-digesters/gobar-gas (cow-dung) plants based on biodegradable wastes, etc.",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "HYDEL POWER PLANTS INCLUDING PUMPED STORAGE PROJECTS",
+      "subheading": "Hydel power plants (Capacity > 50 MW)",
+      "category": "Red"
+    },
+    {
+      "heading": "HYDEL POWER PLANTS INCLUDING PUMPED STORAGE PROJECTS",
+      "subheading": "Mini Hydel power plants (Capacity from more than 25 MVA and up to 50 MW)",
+      "category": "Orange"
+    },
+    {
+      "heading": "HYDEL POWER PLANTS INCLUDING PUMPED STORAGE PROJECTS",
+      "subheading": "Mini Hydel power plants (Capacity ≤ 25 MW)",
+      "category": "White"
+    },
+    {
+      "heading": "SAND / RIVERBED MATERIAL MINING FROM RIVERBED AND ITS FLOODPLAINS (excluding manual excavation) ( i. Sand / riverbed material mining from riverbed and its floodplains may cause ecological disturbances, erosion of riverbed, change in hydro-geological conditions & river ecosystem, etc. ii. Cluster mining means that the distance of mining lease area is less than 500 m from periphery of another lease area. iii. This categorization is made considering the ecological damages and not based on pollution potential/index. iv. Cluster mining as defined in ‘Enforcement & Monitoring Guidelines for Sand Mining, 2020’, issued by MoEF&CC.)",
+      "subheading": "Mining lease area more than 5 hectares or Mining lease area up to 5 hectares which is part of cluster mining",
+      "category": "Red"
+    },
+    {
+      "heading": "SAND / RIVERBED MATERIAL MINING FROM RIVERBED AND ITS FLOODPLAINS (excluding manual excavation) ( i. Sand / riverbed material mining from riverbed and its floodplains may cause ecological disturbances, erosion of riverbed, change in hydro-geological conditions & river ecosystem, etc. ii. Cluster mining means that the distance of mining lease area is less than 500 m from periphery of another lease area. iii. This categorization is made considering the ecological damages and not based on pollution potential/index. iv. Cluster mining as defined in ‘Enforcement & Monitoring Guidelines for Sand Mining, 2020’, issued by MoEF&CC.)",
+      "subheading": "Standalone mining lease area up to five hectares in areas (not a part of any cluster mining)",
+      "category": "Orange"
+    },
+    {
+      "heading": "Agarbatti (incense sticks) and dhoop (Natural i.e., without use of solvents/chemicals)",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Agricultural services not elsewhere classified (like harvesting & threshing)",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Aluminium, Stainless Steel, Brass Vessel marking units having only process, without use of buffing, spinning polishing and pickling, washing, Hot/Cold rolling annealing furnace and anodizing processes",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Artificial jewelry making (Hand made)",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Assembling of Air/water cooler and refrigerator",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Assembling of Almirah, Grill Manufacturing (Without Painting)",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Assembling of Computer (only hardware)",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Assembling of rackets for badminton, lawn tennis, table tennis, etc.",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Assembling of weighing machines",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Assembling units for TV,VCR, Radio sets, Tape Recorders, etc.",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Assembly of bicycles, baby carriages and other small non motorizing vehicles",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Assembly of electrical and electronic items",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Assembly of Household appliances and kitchen equipment, without wet process.",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Assembly of match boxes on cottage scale.",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Assembly of Musical instruments (without wet process)",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Attar formulation units",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Automobile Body building (without wet process)",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Automobile fuel outlets (only dispensing)",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Bailing (hydraulic press) of waste papers",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Bamboo crafts and furniture",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Basket weaving",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Beekeeping and honey processing",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Bio fertilizer and bio-pesticides manufacturing units (without using organic chemicals)",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Biscuits trays etc. manufacturing units (from rolled PVC sheet using automatic vacuum forming machines)",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Blended khadi (cotton-silk, wool-silk)",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Block making of printing without foundry (excluding wooden block making)",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Body building of wooden boats & trawlers",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Book Binding.",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Button & hooks manufacturing units (without any surface treatment)",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Candle making",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Cane product manufacturing",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Carpentry & furniture units without Seasoning without electrical motor",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Carpet weaving",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Ceramic products manufacturing by sun drying",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Clay idol manufacturing (without painting activity)",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Common salt crushing and packing units",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Compressed oxygen gas manufacturing units from crude liquid oxygen (without use of any solvents and by maintaining pressure & temperature only for separation of other gases)",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Compressed/Refined Bio-Gas Production from Biodegradable Wastes (Domestic Bio-digesters based on cow-dung or household biodegradable wastes such as Gobargas plant)",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Cotton and woolen hosiery making",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Cotton khadi spinning and weaving",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Cotton socks-knitting",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "D.G. Setinstallation having capacity up to 1000 kVA",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Decoration of ceramic cups & plates etc. by electric/gas furnace (Investment Rs. 1 Crore)",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Decorative earthenware (without painting activity)",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Diamond Industries (handmade activity)",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Eco-friendly packaging units",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Electric lamp (bulb and CFL) manufacturing units(assembling only)",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Electrical / electronic testing and measuring instruments without wet process",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Electro magnets, fans, armature, coils and electro-magnetic instruments (assembling only)",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Embroidery and decorative textile items",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Embroidery and tailoring",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Engineering & fabrication units (dry process without any heat treatment / metal surface finishing operations / painting)",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Engineering workshop, machine shop, fabrication shop, smithy shop, turning shop, cutting shop",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Fabric painting (Madhubani, Warli, etc.)",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Fabricating units for tractor trailer, agricultural equipment etc. (without electroplating, spray painting & powder coating)",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Fabricating units for vehicle parts without electroplating, heat treatment, spray painting and powder coating",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Fabricating units for aluminum doors, windows and furniture (only assembling).",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Fabricating units for stove, cooker, kitchen equipment etc. (without electroplating, spray painting & powder coating)",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Fabricating units for drawing, surveying and scientific equipment",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Fabricatingunits for iron doors and shutters (without electroplating, spray painting & powder coating)",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Finished leather goods, conversion of finished without wet process.",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Fish net manufacturing without dyeing",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Flavored betel nuts production / grinding units (completely dry mechanical operations)",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Floriculture & Horticulture",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Flour milling (chakki)",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Fly ash bricks / block manufacturing units",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Footwear manufacturers from plastic / PVC",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Fountain pen manufacturing units(assembling only)",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Frying of dals and other cereals etc",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Fuel Dispensing only (without Automobile servicing, repairing and painting.",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Glass ampoules and vials making units from glass tubes",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Glass painting and mirror crafts",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Glass putty and sealant manufacturing units (by mixing with machine only)",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Green House/Floriculture under Mechanized process under controlled temperature.",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Groundnut decorticating units (only dry process)",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Hand Tools without casting",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Handicrafts (wood, metal, stone)",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Handloom weaving",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Handmade leather footwear (mojari, chappal)",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Handmade paper manufacturing",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Herbal medicines and cosmetics (without boiler & effluent generation)",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Industrial items from engineering plastics by fabrication process only (excluding single use plastic)",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Industrial liquid oxygen through molecular sieving",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Inland water fishing",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Jute and mesta pressing and baling units",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Jute-based manufacturing (bags, mats, ropes)",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Khadi bags and accessories",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Khadi readymade garments",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Leaf plate and dona making (sal/palash leaves)",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Leather cutting and stitching units (Less than 10 machines using motor)",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Leather products (belts, purses, footwear, keychains, folders) (excluding tanning and hide processing)",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Making of laces and fringes by hand",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Mamra manufacturing units",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Manufacture of digital thermometers",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Manufacture of distilled water (without boiler) with electricity as source of heat (< 1 KLD)",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Manufacturing of cement concrete pipe, spun pipe, mosaic tiles, pillars",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Manufacturing of paper napkins, dishes, labels, paper rolls from ready paper",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Manufacturing of rolling shutters of iron or steel (without spray painting)",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Manufacturing of advertising sign-boards and displays etc.",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Manufacturing of all types of threads, cordage, twines etc.",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Manufacturing of articles made of palm leaf, screwpine leaf and khajoor leaf.",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Manufacturing of balls including those of billiards",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Manufacturing of billiard sticks, hockey sticks, cricket bats, stumps and others",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Manufacturing of blankets and shawls by hand",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Manufacturing of boora",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Manufacturing of broomsticks",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Manufacturing of brushes/dusters and similar articles of feathers",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Manufacturing of bullock-carts, push-carts and hand-carts etc.",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Manufacturing of carrom boards and tables for billiards, table tennis and others",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Manufacturing of Coir products (mats, ropes, brushes)",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Manufacturing of cotton carpets by hand",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Manufacturing of decoration pieces",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Manufacturing of durries, druggets and rugs by hand",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Manufacturing of fork-knife, scissors (without surface treatment activity)",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Manufacturing of frames for spectacles (only assembling)",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Manufacturing of glass bangles",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Manufacturing of hats, caps and school bags.",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Manufacturing of jaggery powder from jaggery (With crushing & grinding only)",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Manufacturing of lock-net of cement concrete",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Manufacturing of locks (without electroplating / anodising)",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Manufacturing of made-up canvas goods such as tents and sails etc.",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Manufacturing of made-up textile articles (without bleaching, dyeing & printing)",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Manufacturing of market basketry, grain storage bins, ration baskets and similar",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Manufacturing of matches on cottage scale",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Manufacturing of metal caps, containers etc. (without surface treatment & painting activity)",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Manufacturing of musical instruments (without surface treatment & painting activity)",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Manufacturing of nets (except mosquito nets)",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Manufacturing of oil stoves (pressure and non-pressure) (without painting activity)",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Manufacturing of other wooden household products n.e.c.",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Manufacturing of paper cups, saucers, plates and other similar products",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Manufacturing of rackets for badminton, lawn tennis, table tennis, etc.",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Manufacturing of raincoats, hats, caps and school bags",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Manufacturing of screw, nut-bolts etc. (without surface treatment & painting activity)",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Manufacturing of shoe brush & wire brush",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Manufacturing of silk carpets by hand",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Manufacturing of sports kit",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Manufacturing of Stove Wicks (assembling only)",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Manufacturing of tapes, niwar and wicks etc. (assembling only)",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Manufacturing of wooden agricultural implements",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Manufacturing of wooden industrial fixtures such as bobbins, spools, sewing ruler",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Manufacturing of wooden industrial fixtures such as bobbins, spools, sewing ruler.",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Manufacturing of wooden tool handles",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Manufacturing of wooden toys",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Manufacturing of woolen carpets by hand",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Manufacturing units of Articles of paper (used as containers)",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Manufacturing units of blankets, shawls, carpets, rugs (only weaving)",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Manufacturing units of blankets, shawls, rugs (only weaving).",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Manufacturing units of purses and ladies’ handbags. artistic leather presentation from ready leather.",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Masala (spice) grinding and packaging",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Measuring / controlling / regulating instruments manufacturing units",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Medical oxygen",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Motor and Pump appurtenances – dry process (without foundry)",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Motor Rewinding",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Mushroom cultivation under controlled conditions/temperature and its compost making",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Non-bedded Health Care Establishments (HCEs) (clinics, dispensaries, clinical establishments, Health camps, vaccination centres, medical or surgical camps, blood donation camps, forensic laboratories)",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Non-Electrical machine tools manufacturing units",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Non-Motorized cycles / wheelchairs & parts manufacturing",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Ocean, sea and coastal fishing",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Oil extraction (Ghani)",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Optical Frames and glasses without wet process (physical assembly only)",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Optical frames without electroplating",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Organic & inorganic nutrients manufacturing (by physical mixing)",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Organic manure manufacturing (manual mixing)",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Orthopaedic equipment's without casting/wet process",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Packing and Processing of food items using Mechanized Process",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Packing of Agricultural/Forest Produce under controlled Temperature (Mechanized Process)",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Packing of powdered milk",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Painting and decorating work for constructions",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Papad and badi making",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Paper bags, files, envelopes",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Paper Pins, 'U' Clips, pen Holders without wet process",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Paper straws",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Paper Tubes",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Paper-cones",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Plastic products by simple processes like cutting and sealing (without single use plastic)",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Pottery and terracotta items",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Printed books, Notebooks, Registers and other printed materials",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Printing of cloth by hand",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Processing of dry rice",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Processing of edible nuts except oil expeller",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Processing of groundnuts except oil expeller",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Production of firewood / fuel wood (including charcoal by burning) by exploitation",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Pump and motor assembling units",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Quilting and applique work",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Repairing of electric motors & generators (dry mechanical process)",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Rope (plastic and cotton)",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Salt manufacturing at cottage scale",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Salt quarrying and screening etc.",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Sanitary napkin units (Waving, stitching only)",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Scientific & mathematical instrument manufacturing",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Scientific services like soil testing",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Shell and bead jewelry",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Silk khadi manufacturing",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Slate, chalk and blackboard production",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Soil conservation services",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Soil desalination services",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Solar power generation through solar photovoltaic cell plants of all capacities, wind power plants of all capacities and mini hydel power plants of capacity less than 25 MW",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Solar module non conventional energy apparatus manufacturing unit (without surface treatment & painting activity)",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Spinning, weaving and finishing of sann hemp and other vegetable fibre textile",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Stainless steel in primary and finished forms",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Standalone manufacturing of concrete admixtures up to 1000 MT per month capacity by physical mixing (without boiler or reactor and no generation of wastewater)",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Sun drying of fish",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Sun drying of fruits & vegetables",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Surgical and medical products assembling only (not involving effluent / emission generating processes)",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Tea blending & packaging units",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Timber works such as fixing of doors, windows and panels etc.",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Toy making (wooden/clay)",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Toys and stationery items manufacturing",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Transformer assembling units",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Umbrella assembling",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Units carrying Electrical installation work for constructions",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Used cooking oil (UCO) Collection centres",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Various types of Hand Tools manufacturing",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Warehouse (Dry Storage only) (below 20,000 Sq. mtrs)",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Warehousing of agricultural products without refrigeration (below 20,000 Sq. mtrs)",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Waste papers bailing process (hydraulic press)",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Wax items and decorative pieces",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Wind Mill (Electricity generation)",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Wooden furniture (basic items)",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Wool khadi manufacturing",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Woolen and silk weaving",
+      "subheading": "",
+      "category": "White"
+    },
+    {
+      "heading": "Zip Fasteners (Without any surface treatment)",
+      "subheading": "",
+      "category": "White"
+    }
+  ]
+}

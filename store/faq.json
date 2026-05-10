@@ -1,0 +1,102 @@
+[
+  {
+    "question": "How can I reset my password?",
+    "answer": "Click Forgot Password on the login page, enter your registered email ID, and follow the instructions sent to you. If you still can’t reset, contact the portal support team."
+  },
+  {
+    "question": "How can I check the current status of my application?",
+    "answer": "Login → Dashboard → Check Status. The status will display as In-Process, Approved, or Rejected."
+  },
+  {
+    "question": "What should I do if I face a payment issue (failed/deducted but not updated)?",
+    "answer": "Wait 24 hours for the update. If unresolved, email the transaction ID, application number, and payment proof to the portal support."
+  },
+  {
+    "question": "Why was Form No. 10 discarded?",
+    "answer": "This may occur due to incomplete submission, incorrect details, or missing documents. Please correct and re-submit."
+  },
+  {
+    "question": "How can I edit my Consent Application after submission?",
+    "answer": "Direct editing isn’t possible after final submission. Submit a correction request to your regional MPCB office."
+  },
+  {
+    "question": "How do I register as a new industry?",
+    "answer": "Click New Industry Login on the homepage. Enter industry details (name, email, address, phone/mobile, partners’ information). Activate the account via the email with the system-generated password. Log in and update the temporary password."
+  },
+  {
+    "question": "How do I pay JVS (Joint Vigilance Squad) bills online?",
+    "answer": "Login → Billing/Payments → JVS Bills → Generate Payment Link → Pay using the available modes. Keep the receipt for records."
+  },
+  {
+    "question": "How can I file Form No. 5 or apply for Mass Tree Plantation consent/clearance?",
+    "answer": "Login → Applications → Select Form 5 → Fill details → Upload documents → Submit for approval."
+  },
+  {
+    "question": "How do I update my industry profile?",
+    "answer": "Use Profile Edit in the dashboard. For locked fields (e.g., PAN, GST), raise a helpdesk request."
+  },
+  {
+    "question": "How do I check the status of my White Category application?",
+    "answer": "White Category approvals are often auto-generated. Check under Dashboard → My Applications → Status."
+  },
+  {
+    "question": "How do I file a pollution-related complaint?",
+    "answer": "Use the E-Catalyst or Mahaparivartan app → Register complaint with details/photos → Track status in the app."
+  },
+  {
+    "question": "I cannot upload documents. What should I do?",
+    "answer": "Ensure the file is in PDF, under 2 MB, and the file name has no special characters."
+  },
+  {
+    "question": "What should I do if I face an error while submitting my application?",
+    "answer": "Refresh the page and re-login. If the issue continues, contact the MPCB Helpdesk by phone or email with a screenshot."
+  },
+  {
+    "question": "How can I discard an incorrect application?",
+    "answer": "If payment is not made, raise a ticket or email the portal support to request discard."
+  },
+  {
+    "question": "I am facing an online payment issue. How can I resolve it?",
+    "answer": "Check payment details. If money is deducted but not updated, wait 24 hours. If still unresolved, share transaction details with MPCB Helpdesk."
+  },
+  {
+    "question": "My documents are not uploading. What should I do?",
+    "answer": "Check the file format/size (as per MPCB guidelines). Try another browser or system if the issue persists."
+  },
+  {
+    "question": "How can I discard a wrongly uploaded document?",
+    "answer": "Email your regional MPCB office requesting a discard. Once they confirm, portal support will remove it."
+  },
+  {
+    "question": "How can I access JVS payment links?",
+    "answer": "JVS bills and payment links are available on your dashboard."
+  },
+  {
+    "question": "I entered wrong payment details in the offline payment section.",
+    "answer": "Re-enter the corrected payment details under the offline payment section."
+  },
+  {
+    "question": "Can I change the SRO (Sub-Regional Office) selection in my application?",
+    "answer": "Yes. Raise a request with valid reasons to MPCB."
+  },
+  {
+    "question": "How can I contact MPCB for account-related queries?",
+    "answer": "Email: Use the official contact form or regional office email on www.mpcb.gov.in. Phone: Call the MPCB helpline or your respective regional office."
+  },
+  {
+    "question": "What does “BG Verified” mean?",
+    "answer": "It indicates that MPCB has verified the submitted Bank Guarantee, required for Consent to Operate/Establish in certain industry categories."
+  },
+  {
+    "question": "Why is my application still pending?",
+    "answer": "Possible reasons: Missing documents Incomplete information Pending inspection or approval from the regional officeCheck the status on the MPCB portal."
+  },
+  {
+    "question": "How do I get the payment link for my MPCB application?",
+    "answer": "Find it under your application dashboard. If not available, contact the MPCB helpdesk or regional office."
+  },
+  {
+    "question": "Who should I contact for missing field details or required documents in my application?",
+    "answer": "Contact the concerned regional MPCB office for guidance on required corrections or document submissions."
+  }
+]

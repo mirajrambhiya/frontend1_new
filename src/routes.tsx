@@ -5,6 +5,8 @@ import { useEffect } from 'react'
 import NavBar from './components/navigation'
 import Footer from './components/footer'
 import SplashScreen from './components/SplashScreen'
+import WhatsAppButton from './components/WhatsAppButton'
+import GreenMindAI from './components/GreenMindAI'
 
 // Page Components
 import HomePage from './pages/Home'
@@ -212,6 +214,8 @@ const RootComponent = () => (
       <Outlet />
     </main>
     <Footer />
+    <WhatsAppButton />
+    <GreenMindAI />
   </>
 )
 
