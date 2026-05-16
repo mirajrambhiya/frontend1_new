@@ -1,4 +1,4 @@
-import React from 'react';
+﻿import React from 'react';
 // Using assets from public folder
 const industry = "/assets/industry_full.png";
 
@@ -6,12 +6,12 @@ const AboutUsBanner: React.FC = () => {
 
     return (
         <>
-            <section className="w-full flex justify-center bg-white font-family-helvetica">
+            <section className="w-full flex justify-center bg-white pt-4 font-family-helvetica">
                 {/* 1282px Max-Width Container to match the rest of your site */}
                 <div className="w-full max-w-[1282px] px-4">
 
                     {/* Main Banner Container: Responsive Height */}
-                    <div className="relative w-full h-[200px] md:h-[280px] rounded-t-[24px] md:rounded-t-[48px] overflow-hidden">
+                    <div className="relative w-full h-[200px] md:h-[280px] rounded-t-[30px] md:rounded-t-[40px] lg:rounded-t-[48px] overflow-hidden">
 
                         {/* LAYER 1: The Sharp Base Image */}
                         <div

@@ -508,7 +508,7 @@ function ComplianceAndReinforcement() {
     ];
 
     return (
-        <section className="w-full py-16 bg-white font-family-helvetica mt-[50px]">
+        <section className="w-full py-12 bg-white font-family-helvetica mt-[20px]">
             {/* Custom scrollbar styles */}
             <style>{`
                 .accordion-scroll::-webkit-scrollbar {

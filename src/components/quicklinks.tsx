@@ -142,7 +142,7 @@ const QuickLinks: React.FC = () => {
   }
 
   return (
-    <div className="flex flex-col items-center w-full py-10 bg-white font-sans overflow-hidden">
+    <div className="flex flex-col items-center w-full py-6 bg-white font-sans overflow-hidden">
       <div className="relative w-full max-w-[1202px] px-4">
 
         {/* Header Section */}

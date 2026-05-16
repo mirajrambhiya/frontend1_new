@@ -1,4 +1,4 @@
-import { useState } from 'react';
+﻿import { useState } from 'react';
 import { ChevronRight, ChevronLeft, ChevronDown } from 'lucide-react';
 import DocumentCard from '../components/DocumentCard';
 import { useNavigate } from '@tanstack/react-router';
@@ -349,9 +349,9 @@ function PollutionIndex() {
     return (
         <div className="font-family-helvetica">
             {/* Top Banner Section */}
-            <section className="w-full flex justify-center bg-white">
+            <section className="w-full flex justify-center bg-white pt-4">
                 <div className="w-full max-w-[1282px] px-4">
-                    <div className="relative w-full h-[200px] md:h-[280px] rounded-t-[24px] md:rounded-t-[48px] overflow-hidden">
+                    <div className="relative w-full h-[200px] md:h-[280px] rounded-t-[30px] md:rounded-t-[40px] lg:rounded-t-[48px] overflow-hidden">
                         <div
                             className="absolute inset-0 z-0 bg-cover bg-center"
                             style={{ backgroundImage: `url(${standingorders})` }}

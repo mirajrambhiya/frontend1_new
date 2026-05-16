@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+﻿import { useState, useEffect } from 'react';
 import { X, ChevronLeft, ChevronRight, Play } from 'lucide-react';
 import GalleryCard from '../../../components/GalleryCard';
 import DocumentCard from '../../../components/DocumentCard';
@@ -91,9 +91,9 @@ const Archive2024 = () => {
     return (
         <div className="min-h-screen bg-[#FDFDFD] font-family-helvetica text-[#333333]">
             {/* Top Banner Section (rts.tsx style) */}
-            <section className="w-full flex justify-center bg-white">
+            <section className="w-full flex justify-center bg-white pt-4">
                 <div className="w-full max-w-[1282px] px-4">
-                    <div className="relative w-full h-[200px] md:h-[280px] rounded-t-[24px] md:rounded-t-[48px] overflow-hidden">
+                    <div className="relative w-full h-[200px] md:h-[280px] rounded-t-[30px] md:rounded-t-[40px] lg:rounded-t-[48px] overflow-hidden">
                         <div className="absolute inset-0 z-0 bg-cover bg-center" style={{ backgroundImage: `url(${standingorders})` }} />
                         <div className="absolute inset-0 z-10 bg-cover bg-center blur-sm scale-105" style={{ backgroundImage: `url(${standingorders})`, maskImage: 'linear-gradient(to bottom, black 0%, transparent 70%)' }} />
                         <div className="absolute inset-0 z-20 bg-linear-to-b from-[#00A3FF]/30 via-[#00A3FF]/60 to-white" />

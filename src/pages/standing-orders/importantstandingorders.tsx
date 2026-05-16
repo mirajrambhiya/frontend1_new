@@ -1,4 +1,4 @@
-import React, { useState, useRef } from 'react';
+﻿import React, { useState, useRef } from 'react';
 import { ChevronLeft, ChevronRight, FileText, Eye, Download } from 'lucide-react';
 
 // --- Assets ---
@@ -227,9 +227,9 @@ interface BannerProps {
 
 const Banner: React.FC<BannerProps> = ({ searchQuery, onSearchChange, onApply, onClear }) => {
     return (
-        <section className="w-full flex justify-center bg-white font-family-helvetica">
+        <section className="w-full flex justify-center bg-white pt-4 font-family-helvetica">
             <div className="w-full max-w-[1282px] px-4">
-                <div className="relative w-full h-[200px] md:h-[280px] rounded-[24px] md:rounded-t-[48px] overflow-hidden">
+                <div className="relative w-full h-[200px] md:h-[280px] rounded-t-[30px] md:rounded-t-[40px] lg:rounded-t-[48px] overflow-hidden">
                     {/* Background layers */}
                     <div className="absolute inset-0 z-0 bg-cover bg-center" style={{ backgroundImage: `url(${standingorders})` }} />
                     <div className="absolute inset-0 z-10 bg-cover bg-center blur-sm scale-105" style={{ backgroundImage: `url(${standingorders})`, WebkitMaskImage: 'linear-gradient(to bottom, black 0%, transparent 70%)', maskImage: 'linear-gradient(to bottom, black 0%, transparent 70%)' }} />

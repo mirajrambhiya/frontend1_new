@@ -82,8 +82,8 @@ const EnvironmentalMonitoring: React.FC = () => {
   ];
 
   return (
-    <div className="flex justify-center items-center w-full min-h-screen">
-      <div className="flex justify-center w-full max-w-[1361px] py-10 md:py-20 bg-linear-to-b from-[#006fff]/12 to-[#ffffff] font-family-helvetica rounded-[32px] md:rounded-[53px] mx-4">
+    <div className="flex justify-center items-center w-full">
+      <div className="flex justify-center w-full max-w-[1361px] py-8 md:py-12 bg-linear-to-b from-[#006fff]/12 to-[#ffffff] font-family-helvetica rounded-[32px] md:rounded-[53px] mx-4">
         <div className="flex flex-col items-center w-full max-w-[1140px] px-4">
           {/* Component Title */}
           <h2 className="text-[28px] md:text-[42px] font-[550] text-[#006fff] mb-8 md:mb-16 text-center tracking-tight leading-tight">

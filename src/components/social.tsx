@@ -53,7 +53,7 @@ const FacebookPageEmbed: React.FC<{ pageUrl: string; title: string }> = ({ pageU
 
 const SocialPresence: React.FC = () => {
   return (
-    <section className="w-full flex justify-center py-20 bg-white font-family-helvetica mb-[-100px]">
+    <section className="w-full flex justify-center py-10 bg-white font-family-helvetica mb-[-60px]">
       <div className="w-full max-w-[1282px] flex flex-col items-center px-4">
 
         {/* Section Header */}

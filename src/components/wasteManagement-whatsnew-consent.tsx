@@ -84,7 +84,7 @@ function WasteManagement() {
     }, [activeTab, wasteTags.length]);
 
     return (
-        <section className="w-full py-16 bg-white font-family-helvetica mt-[-40px]">
+        <section className="w-full py-8 bg-white font-family-helvetica mt-[-20px]">
             {/* Custom scrollbar styles */}
             <style>{`
                 .whats-new-scroll::-webkit-scrollbar {

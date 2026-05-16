@@ -82,7 +82,7 @@ const StoriesSection: React.FC = () => {
 
   return (
     <>
-      <section className="w-full flex justify-center py-20 bg-white overflow-hidden font-family-helvetica mb-[-40px]">
+      <section className="w-full flex justify-center py-10 bg-white overflow-hidden font-family-helvetica mb-[-20px]">
 
         <div className="w-full max-w-[1282px] flex flex-col items-center px-4">
 

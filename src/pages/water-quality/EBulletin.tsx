@@ -1,4 +1,4 @@
-import { useState } from 'react';
+﻿import { useState } from 'react';
 import { useNavigate } from '@tanstack/react-router';
 import { ChevronDown, ChevronUp, ChevronRight } from 'lucide-react';
 
@@ -92,7 +92,7 @@ function EBulletin() {
     return (
         <div className="font-family-helvetica min-h-screen bg-white">
             {/* Top Banner Section */}
-            <section className="w-full flex justify-center bg-white">
+            <section className="w-full flex justify-center bg-white pt-4">
                 <div className="w-full max-w-[1282px] px-4">
                     <div className="relative w-full h-[200px] md:h-[250px] lg:h-[280px] rounded-t-[30px] md:rounded-t-[40px] lg:rounded-t-[48px] overflow-hidden">
                         <div

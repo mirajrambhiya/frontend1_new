@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+﻿import { useState, useEffect } from 'react';
 import { ChevronLeft, ChevronRight, X } from 'lucide-react';
 import GalleryCard from '../../../components/GalleryCard';
 import standingorders from '/assets/standingorders.svg';
@@ -61,7 +61,7 @@ const HoliFestivalPhotos = () => {
     return (
         <div className="min-h-screen bg-[#FDFDFD] pb-20 font-family-helvetica">
             {/* Top Banner Section (like rts.tsx) */}
-            <section className="w-full flex justify-center bg-white">
+            <section className="w-full flex justify-center bg-white pt-4">
                 <div className="w-full max-w-[1282px] px-4">
                     <div className="relative w-full h-[200px] md:h-[250px] lg:h-[280px] rounded-t-[30px] md:rounded-t-[40px] lg:rounded-t-[48px] overflow-hidden">
                         <div

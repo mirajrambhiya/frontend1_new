@@ -1,4 +1,4 @@
-import React from 'react';
+﻿import React from 'react';
 
 const missionlife = "/assets/missionlife.png";
 const openingquotes = "/assets/openingquotes.png";
@@ -15,7 +15,7 @@ function MissionLife() {
             {/* Hero Banner Section */}
             <section className="w-full flex justify-center items-center bg-white">
                 <div className="w-full max-w-[1282px] px-4">
-                    <div className="relative w-full h-[200px] md:h-[280px] rounded-t-[24px] md:rounded-t-[48px] overflow-hidden flex items-center justify-center bg-gray-50">
+                    <div className="relative w-full h-[200px] md:h-[280px] rounded-t-[30px] md:rounded-t-[40px] lg:rounded-t-[48px] overflow-hidden flex items-center justify-center bg-gray-50">
                         {/* Mission LiFE Banner Image - Centered */}
                         <img
                             src={missionlife}
