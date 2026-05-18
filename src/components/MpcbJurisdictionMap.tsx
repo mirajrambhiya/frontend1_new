@@ -311,7 +311,8 @@ function MapView({
     const mapBounds = layer.getBounds().pad(0.18);
     baseBoundsRef.current = layer.getBounds();
     map.setMaxBounds(mapBounds);
-    map.fitBounds(layer.getBounds(), { padding: [54, 54] });
+    const isMobileInit = window.matchMedia("(max-width: 980px)").matches;
+    map.fitBounds(layer.getBounds(), { padding: isMobileInit ? [8, 8] : [54, 54] });
     map.setMinZoom(map.getZoom());
 
     map.on("click", () => {
@@ -343,7 +344,8 @@ function MapView({
     if (!selectedDistrict) {
       mapRef.current.closePopup();
       if (baseBoundsRef.current) {
-        mapRef.current.fitBounds(baseBoundsRef.current, { padding: [54, 54] });
+        const isMobileReset = window.matchMedia("(max-width: 980px)").matches;
+        mapRef.current.fitBounds(baseBoundsRef.current, { padding: isMobileReset ? [8, 8] : [54, 54] });
       }
       return;
     }
