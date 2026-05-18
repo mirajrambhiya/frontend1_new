@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { ArrowUpRight, FileText, Scale, ArrowRight, ArrowLeft } from 'lucide-react';
 
@@ -121,8 +121,18 @@ const QuickLinks: React.FC = () => {
 
   // Logic for 2 rows x 3 columns = 6 items per slide (Desktop)
   const itemsPerPage = 6;
-  const viewportWidth = 1202;
   const totalPages = Math.ceil(quickLinks.length / itemsPerPage);
+
+  // Measure the actual carousel container width so slides never overflow
+  const carouselRef = useRef<HTMLDivElement>(null);
+  const [slideWidth, setSlideWidth] = useState(0);
+  useEffect(() => {
+    const el = carouselRef.current;
+    if (!el) return;
+    const ro = new ResizeObserver(([entry]) => setSlideWidth(entry.contentRect.width));
+    ro.observe(el);
+    return () => ro.disconnect();
+  }, []);
 
   // Desktop Pagination Handlers
   const nextSlide = () => setCurrentIndex((prev) => Math.min(prev + 1, totalPages - 1));
@@ -234,17 +244,17 @@ const QuickLinks: React.FC = () => {
                 </button>
 
                 {/* The 2x3 Carousel Grid */}
-                <div className="overflow-hidden w-full">
+                <div className="overflow-hidden w-full" ref={carouselRef}>
                   <motion.div
                     className="flex"
-                    animate={{ x: -(currentIndex * viewportWidth) }}
+                    animate={{ x: -(currentIndex * slideWidth) }}
                     transition={{ type: "spring", stiffness: 220, damping: 28 }}
                   >
                     {pages.map((page, pageIdx) => (
                       <div
                         key={pageIdx}
                         className="shrink-0 grid grid-cols-3 grid-rows-2 gap-4"
-                        style={{ width: `${viewportWidth}px` }}
+                        style={{ width: slideWidth > 0 ? `${slideWidth}px` : '100%' }}
                       >
                         {page.map((link, linkIdx) => (
                           <QuickLinkCard key={linkIdx} link={link} />
