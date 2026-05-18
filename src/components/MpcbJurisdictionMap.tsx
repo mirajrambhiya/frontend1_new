@@ -216,7 +216,7 @@ function MapView({
   const mapRef = useRef<L.Map | null>(null);
   const baseBoundsRef = useRef<L.LatLngBounds | null>(null);
   const geoJsonLayerRef = useRef<L.GeoJSON | null>(null);
-  const districtLayersRef = useRef<Record<string, L.Layer & { getBounds(): L.LatLngBounds; setStyle(s: object): void }>>({});
+  const districtLayersRef = useRef<Record<string, L.Polygon>>({});
   const districtPopupRefs = useRef<Record<string, L.Popup>>({});
   const openingPopupRef = useRef(false);
   const selectedDistrictRef = useRef<string | null>(null);
@@ -250,11 +250,11 @@ function MapView({
           fillOpacity: 0.9,
         };
       },
-      onEachFeature(feature, districtLayer) {
+      onEachFeature(feature, rawLayer) {
+        const poly = rawLayer as L.Polygon;
         const district = feature.properties!.district as string;
         const records = recordsByDistrict[district] || [];
-        // eslint-disable-next-line @typescript-eslint/no-explicit-any
-        districtLayersRef.current[district] = districtLayer as any;
+        districtLayersRef.current[district] = poly;
 
         districtPopupRefs.current[district] = L.popup({
           maxWidth: 560,
@@ -265,26 +265,31 @@ function MapView({
           autoPanPaddingTopLeft: [28, 28],
           autoPanPaddingBottomRight: [28, 28],
         })
-          // eslint-disable-next-line @typescript-eslint/no-explicit-any
-          .setLatLng((districtLayer as any).getBounds().getNorthEast())
+          .setLatLng(poly.getBounds().getNorthEast())
           .setContent(popupMarkup(district, records));
 
         const labelPoint = feature.properties!.labelPoint as [number, number] | undefined;
         const labelLatLng = labelPoint
           ? L.latLng(labelPoint[1], labelPoint[0])
-          : districtLayer.getBounds().getCenter();
-        districtLayer.bindTooltip(district, {
+          : poly.getBounds().getCenter();
+
+        // Standalone tooltip pinned to the map at the polylabel visual centre.
+        // This avoids Leaflet repositioning the label to the bounding-box centroid
+        // on every zoom/pan event (the default behaviour for layer-bound tooltips).
+        L.tooltip({
           permanent: true,
           direction: "center",
           className: "mjm-district-label",
           offset: [0, 0],
-        });
-        districtLayer.openTooltip(labelLatLng);
+          interactive: false,
+        })
+          .setLatLng(labelLatLng)
+          .setContent(district)
+          .addTo(map);
 
-        districtLayer.on({
+        poly.on({
           click(event) {
-            // eslint-disable-next-line @typescript-eslint/no-explicit-any
-            if ((event as any).originalEvent) L.DomEvent.stop((event as any).originalEvent);
+            if (event.originalEvent) L.DomEvent.stop(event.originalEvent);
             if (selectedDistrictRef.current) {
               onOpenDistrict(null);
               return;
@@ -292,14 +297,11 @@ function MapView({
             onOpenDistrict(district);
           },
           mouseover(event) {
-            // eslint-disable-next-line @typescript-eslint/no-explicit-any
-            (event as any).target.setStyle({ weight: 2, color: "#1d5b69", fillOpacity: 0.98 });
-            // eslint-disable-next-line @typescript-eslint/no-explicit-any
-            (event as any).target.bringToFront();
+            (event.target as L.Polygon).setStyle({ weight: 2, color: "#1d5b69", fillOpacity: 0.98 });
+            (event.target as L.Polygon).bringToFront();
           },
           mouseout(event) {
-            // eslint-disable-next-line @typescript-eslint/no-explicit-any
-            layer.resetStyle((event as any).target);
+            layer.resetStyle(event.target as L.Polygon);
           },
         });
       },
