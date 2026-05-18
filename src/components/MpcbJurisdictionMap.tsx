@@ -237,16 +237,13 @@ function MapView({
     L.control.zoom({ position: "bottomright" }).addTo(map);
 
     const recordsByDistrict = sro.byDistrict || {};
-    const maxRecords = Math.max(1, ...Object.values(recordsByDistrict).map((recs) => recs.length));
 
     const layer = L.geoJSON(geojson, {
-      style(feature) {
-        const count = recordsByDistrict[feature!.properties!.district]?.length || 0;
-        const intensity = count / maxRecords;
+      style() {
         return {
           color: "#ffffff",
           weight: 1.15,
-          fillColor: count ? `hsl(${176 - intensity * 56}, 48%, ${76 - intensity * 24}%)` : "#d9e7e5",
+          fillColor: "hsl(148, 48%, 64%)",
           fillOpacity: 0.9,
         };
       },
@@ -377,10 +374,6 @@ function MapView({
   return (
     <section className="mjm-map-panel">
       <div id="mjm-map" aria-label="Maharashtra district jurisdiction map" />
-      <div className="mjm-map-legend" aria-hidden="true">
-        <span />
-        <p>Color deepens as more SRO entries map to a district</p>
-      </div>
     </section>
   );
 }
