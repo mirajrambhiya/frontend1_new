@@ -71,10 +71,8 @@ const QuickLinkCard: React.FC<{ link: QuickLink }> = ({ link }) => {
   const handleClick = () => {
     if (link.url) {
       if (link.url.startsWith('/')) {
-        // Internal path - use window.location for navigation
         window.location.href = link.url;
       } else {
-        // External URL - open in new tab
         window.open(link.url, '_blank');
       }
     }
@@ -83,34 +81,34 @@ const QuickLinkCard: React.FC<{ link: QuickLink }> = ({ link }) => {
   return (
     <div
       onClick={handleClick}
-      className="w-full min-h-[120px] h-auto p-4 md:p-5 border border-gray-100 rounded-[20px] md:rounded-[24px] bg-white flex items-center justify-between group cursor-pointer hover:shadow-[0_10px_30px_-10px_rgba(0,0,0,0.08)] hover:border-blue-100 transition-all duration-300"
+      className="w-full h-auto p-2.5 md:p-5 border border-gray-100 rounded-[14px] md:rounded-[24px] bg-white flex items-start justify-between group cursor-pointer hover:shadow-[0_10px_30px_-10px_rgba(0,0,0,0.08)] hover:border-blue-100 transition-all duration-300"
     >
-      <div className="flex items-center gap-4">
+      <div className="flex items-start gap-2.5 md:gap-4 flex-1 min-w-0">
         {/* Icon Container */}
-        <div className="shrink-0 w-[50px] h-[50px] md:w-[64px] md:h-[64px] bg-[#EBF5FF] rounded-[16px] md:rounded-[20px] flex items-center justify-center">
-          {link.icon}
+        <div className="shrink-0 w-[36px] h-[36px] md:w-[64px] md:h-[64px] bg-[#EBF5FF] rounded-[10px] md:rounded-[20px] flex items-center justify-center mt-0.5">
+          <span className="[&>svg]:w-[18px] [&>svg]:h-[18px] md:[&>svg]:w-8 md:[&>svg]:h-8">
+            {link.icon}
+          </span>
         </div>
         {/* Text Content */}
-        <div className="flex flex-col gap-1">
-          <div className="flex items-center gap-2">
-            <h3 className="text-[14px] md:text-[16px] font-bold text-[#1A1A1A] leading-tight line-clamp-2 md:line-clamp-none">
-              {link.title}
-            </h3>
-            {link.hasNewBadge && (
-              <span className="px-2 py-[2px] bg-[#FFEDED] text-[#F44336] text-[10px] font-extrabold rounded-full uppercase">
-                New
-              </span>
-            )}
-          </div>
+        <div className="flex flex-col gap-1 min-w-0">
+          <h3 className="text-[11.5px] md:text-[16px] font-semibold text-[#1A1A1A] leading-snug">
+            {link.title}
+          </h3>
+          {link.hasNewBadge && (
+            <span className="self-start px-1.5 py-[1px] bg-[#FFEDED] text-[#F44336] text-[9px] font-extrabold rounded-full uppercase">
+              New
+            </span>
+          )}
           {link.description && (
-            <p className="text-[13px] text-[#808080] leading-snug">
+            <p className="text-[11px] md:text-[13px] text-[#808080] leading-snug">
               {link.description}
             </p>
           )}
         </div>
       </div>
-      <div className="self-start mt-1">
-        <ArrowUpRight className="w-5 h-5 text-[#C7C7C7] group-hover:text-blue-500 transition-colors" />
+      <div className="shrink-0 ml-1.5 mt-0.5">
+        <ArrowUpRight className="w-3.5 h-3.5 md:w-5 md:h-5 text-[#C7C7C7] group-hover:text-blue-500 transition-colors" />
       </div>
     </div>
   );
