@@ -9,8 +9,6 @@ import { generateRangeMetrics, formatDate } from '../utils/visitorUtils';
 const embelem = "/assets/embelem.svg";
 const appstore = "/assets/appstore.svg";
 const playstore = "/assets/playstore.svg";
-import industry from "/assets/industry.svg";
-
 
 
 const Footer: React.FC = () => {
@@ -30,42 +28,8 @@ const Footer: React.FC = () => {
     <footer className="w-full flex flex-col items-center font-family-helvetica mt-[30px] overflow-hidden">
 
 
-      {/* 1. CALL TO ACTION SECTION (With Background Image) */}
-      <div
-        className="relative w-full max-w-[1100px] h-auto min-h-[320px] rounded-[24px] md:rounded-[48px] overflow-hidden -mb-32 z-10 flex flex-col items-center justify-center text-center px-4 md:px-6 shadow-2xl mx-4"
-      >
-        {/* The Background Image */}
-        <div
-          className="absolute inset-0 z-0 bg-cover bg-center bg-no-repeat"
-          style={{
-            // Replace this URL with your actual image path
-            backgroundImage: `url(${industry})`
-          }}
-        />
-
-        {/* Expert Overlay: Ensures text remains readable */}
-        <div className="absolute inset-0 z-10 bg-[#005BFF] opacity-70 backdrop-blur-[2px]" />
-
-        {/* Content - Lifted above the image and overlay with z-20 */}
-        <div className="relative z-20 flex flex-col items-center py-10 md:py-0 md:mt-[20px]">
-          <h2 className="text-[24px] md:text-[38px] font-bold text-white mb-2 tracking-tight">Need Assistance?</h2>
-          <p className="text-[14px] md:text-[18px] text-white mb-8 md:mb-10 max-w-[600px] font-normal leading-relaxed">
-            Our team is here to help you with consents, authorizations, and environmental compliance.
-          </p>
-
-          <div className="flex flex-col md:flex-row gap-4 mb-[20px] w-full md:w-auto">
-            <Link to="/contact-us" className="px-10 py-4 bg-white text-blue-600 rounded-2xl font-medium text-[18px] md:text-[22px] hover:bg-blue-50 transition-all shadow-lg hover:scale-105 active:scale-95 text-center flex items-center justify-center w-full md:w-auto">
-              Contact Us
-            </Link>
-            <Link to="/faq" className="px-10 py-4 bg-[#0096ff] backdrop-blur-md border border-white/20 text-white rounded-2xl font-medium text-[18px] md:text-[22px] hover:[#0096ff] transition-all shadow-lg hover:scale-105 active:scale-95 text-center flex items-center justify-center w-full md:w-auto">
-              View FAQs
-            </Link>
-          </div>
-        </div>
-      </div>
-
       {/* 2. MAIN FOOTER CONTENT */}
-      <div className="w-full bg-[#003458] pt-40 md:pt-48 pb-10 flex flex-col items-center">
+      <div className="w-full bg-[#003458] pt-10 pb-10 flex flex-col items-center">
         <div className="w-full max-w-[1100px] grid grid-cols-1 md:grid-cols-12 gap-10 px-6 md:px-4">
           {/* Column 1: Logo & Address */}
           <div className="col-span-1 md:col-span-4 flex flex-col gap-6 items-center md:items-start text-center md:text-left">
