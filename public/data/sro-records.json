@@ -1,0 +1,1441 @@
+{
+  "records": [
+    {
+      "id": 1,
+      "serial": "1",
+      "hod": "JD-Air",
+      "ro": "Kalyan",
+      "sro": "SRO Kalyan-1",
+      "district": "Thane",
+      "jurisdiction": "Kalyan Municipal Corporation & part of Jilha Parishad Thane",
+      "userName": "sro_kn1",
+      "districts": [
+        "Thane"
+      ]
+    },
+    {
+      "id": 2,
+      "serial": "1",
+      "hod": "JD-Air",
+      "ro": "Kalyan",
+      "sro": "SRO Kalyan-2",
+      "district": "Thane",
+      "jurisdiction": "Ulhasnagar , Badlapur",
+      "userName": "sro_kn2",
+      "districts": [
+        "Thane"
+      ]
+    },
+    {
+      "id": 3,
+      "serial": "1",
+      "hod": "JD-Air",
+      "ro": "Kalyan",
+      "sro": "SRO Kalyan-3",
+      "district": "Thane , Palghar",
+      "jurisdiction": "Wada , Murbad, Shahapur Taluka",
+      "userName": "sro_kn3",
+      "districts": [
+        "Palghar",
+        "Thane"
+      ]
+    },
+    {
+      "id": 4,
+      "serial": "1",
+      "hod": "JD-Air",
+      "ro": "Kalyan",
+      "sro": "SRO Bhiwandi",
+      "district": "Thane",
+      "jurisdiction": "Saravali MIDC , Bhiwandi Taluka including MMRDA/MMR, Bhiwandi Municipal Corporation Area",
+      "userName": null,
+      "districts": [
+        "Thane"
+      ]
+    },
+    {
+      "id": 5,
+      "serial": "1",
+      "hod": "JD-Air",
+      "ro": "Thane",
+      "sro": "SRO Thane I",
+      "district": "Thane",
+      "jurisdiction": "Thane Municipal Corporation, Wagle Estate MIDC",
+      "userName": "sro1_tn",
+      "districts": [
+        "Thane"
+      ]
+    },
+    {
+      "id": 6,
+      "serial": "1",
+      "hod": "JD-Air",
+      "ro": "Thane",
+      "sro": "SRO Thane II",
+      "district": "Thane / Palghar",
+      "jurisdiction": "Mira Bhaynder Municipal Corporation area in Thane District, Vasai Taluka and Vasai Virar Municipal Corporation in Palghar District.",
+      "userName": "sro_stn2",
+      "districts": [
+        "Palghar",
+        "Thane"
+      ]
+    },
+    {
+      "id": 7,
+      "serial": "1",
+      "hod": "JD-Air",
+      "ro": "Thane",
+      "sro": "S.R.O.Tarapur",
+      "district": "Palghar",
+      "jurisdiction": "Tarapur MIDC and related area.",
+      "userName": "sro_tp",
+      "districts": [
+        "Palghar"
+      ]
+    },
+    {
+      "id": 8,
+      "serial": "1",
+      "hod": "JD-Air",
+      "ro": "Thane",
+      "sro": "S.R.O.Tarapur II",
+      "district": "Palghar",
+      "jurisdiction": "Dahanu , Talasari , Mokhada,Javhar and Vikramgadh, Palghar taluka (Except SRO-Tarapur- I jurisdiction).",
+      "userName": "fo2_stp2",
+      "districts": [
+        "Palghar"
+      ]
+    },
+    {
+      "id": 9,
+      "serial": "1",
+      "hod": "JD-Air",
+      "ro": "Navi Mumbai",
+      "sro": "S.R.O.Navi Mumbai-I",
+      "district": "Thane",
+      "jurisdiction": "CBD Belapur, Shiravne, Nerul, Seawood, Juinagar, Vashi, MIDC- Turbhe, MIDC-Pawane, MIDC- Khairne (Part)",
+      "userName": "sro1_nm",
+      "districts": [
+        "Thane"
+      ]
+    },
+    {
+      "id": 10,
+      "serial": "1",
+      "hod": "JD-Air",
+      "ro": "Navi Mumbai",
+      "sro": "S.R.O.Navi Mumbai-II",
+      "district": "Thane",
+      "jurisdiction": "MIDC-Mahape, MIDC-khairne (Part), MIDC-Rabale, Ghansoli, Airoli, Dighe, Dahisar Mori, Nagaon, Bhandarli, Pimpri, Uttarshiv, Ghoterghar",
+      "userName": "sro2_nm",
+      "districts": [
+        "Thane"
+      ]
+    },
+    {
+      "id": 11,
+      "serial": "1",
+      "hod": "JD-Air",
+      "ro": "Navi Mumbai",
+      "sro": "S.R.O. Taloja",
+      "district": "Raigad",
+      "jurisdiction": "MIDC Taloja, Uran Taluka",
+      "userName": "sro3_nm",
+      "districts": [
+        "Raigad"
+      ]
+    },
+    {
+      "id": 12,
+      "serial": "2",
+      "hod": "JD-Water",
+      "ro": "Pune",
+      "sro": "S.R.O.Pune-I",
+      "district": "Pune",
+      "jurisdiction": "Haveli (Pune Municipal Corporation Area), Bhor, Purandar, Baramati, Indapur and Daund Corporation- 1. Council- 6 & Cantonment Board- 2 (Pune Cantonment Board & Khadki Cantonment Board) Newly 23 villages has been added to PMC limit are as follows:- Mhalunge, Sus, Bavdhan Bk & Kh., Kirkitwadi, Pisoli, Kondhve- Dhavde, Kopre, Nanded, Khadakvasla, Manjari Bk., Narhe, Holkarwadi, Autade-Handewadi, Wadachiwadi, Shevalewadi, Nandoshi, Sanasnagar, Mangdewadi, Bhilarewadi, Gujarnimbalkarwadi, Jambhulwadi, Kolewadi, Wagholi, Kalas, Dhanori, Lohgaon, Phursungi, Uruli Devachi, Dhayri, Yewalewadi, Baner, Balewadi)",
+      "userName": "sro_spn1",
+      "districts": [
+        "Pune"
+      ]
+    },
+    {
+      "id": 13,
+      "serial": "2",
+      "hod": "JD-Water",
+      "ro": "Pune",
+      "sro": "S.R.O.Pune-II",
+      "district": "Pune",
+      "jurisdiction": "Haveli Taluka ( Except Pune Municipal Corporation with newly added 23 villages and Pimpri - Chinchwad Municipal Corporation Area) Khed Taluka, Mulshi Taluka, Ambegaon Taluka, Junnar Taluka, Maval Taluka, and Shirur Taluka. Dehu Cantonment Board.",
+      "userName": "sro_spn2",
+      "districts": [
+        "Pune"
+      ]
+    },
+    {
+      "id": 14,
+      "serial": "2",
+      "hod": "JD-Water",
+      "ro": "Pune",
+      "sro": "S.R.O.Pimpri-Chichwad",
+      "district": "Pune",
+      "jurisdiction": "Pimpri - Chinchwad Municipal Corporation Area Including MIDC Area of Pimpri, Chinchwad & Bhosari.",
+      "userName": "sro_pc",
+      "districts": [
+        "Pune"
+      ]
+    },
+    {
+      "id": 15,
+      "serial": "2",
+      "hod": "JD-Water",
+      "ro": "Pune",
+      "sro": "S.R.O.Satara",
+      "district": "Satara district",
+      "jurisdiction": "Satara District (11 Taluka), Satara, Karad, Phaltan, Wai, Mahabaleshwar, Khandala, Man, Khatav, Patan,Jawali, Koregaon",
+      "userName": "sro_stra",
+      "districts": [
+        "Satara"
+      ]
+    },
+    {
+      "id": 16,
+      "serial": "2",
+      "hod": "JD-Water",
+      "ro": "Pune",
+      "sro": "S.R.O.Solapur",
+      "district": "Solapur district.",
+      "jurisdiction": "Solapur District.",
+      "userName": "sro_slpr",
+      "districts": [
+        "Solapur"
+      ]
+    },
+    {
+      "id": 17,
+      "serial": "2",
+      "hod": "JD-Water",
+      "ro": "Pune",
+      "sro": "Pune Lab",
+      "district": "Pune Corporation area",
+      "jurisdiction": "Daund , Indapur , Baramati,Purandar , Bhor and Velhe",
+      "userName": "fc_plab",
+      "districts": [
+        "Pune"
+      ]
+    },
+    {
+      "id": 18,
+      "serial": "2",
+      "hod": "JD-Water",
+      "ro": "Kolhapur",
+      "sro": "S.R.O. Kolhapur",
+      "district": "Kolhapur district.",
+      "jurisdiction": "Kolhapur District",
+      "userName": "sro_kop",
+      "districts": [
+        "Kolhapur"
+      ]
+    },
+    {
+      "id": 19,
+      "serial": "2",
+      "hod": "JD-Water",
+      "ro": "Kolhapur",
+      "sro": "S.R.O. Sangli",
+      "district": "Sangli district.",
+      "jurisdiction": "Sangli District",
+      "userName": "sro_sgli",
+      "districts": [
+        "Sangli"
+      ]
+    },
+    {
+      "id": 20,
+      "serial": "2",
+      "hod": "JD-Water",
+      "ro": "Kolhapur",
+      "sro": "S.R.O. Ratnagiri",
+      "district": "Sindhudurga",
+      "jurisdiction": "Ratnagiri District, Rajapur, Ratnagiri, Lanja and Sangmeshwar Taluka, Sindhudurg District, Kudal, Kankavli, Sawantwadi, Vengurla, Malvan, Vaibhavwadi, Devgad & Dodamarg.",
+      "userName": "sro_rgri",
+      "districts": [
+        "Ratnagiri",
+        "Sindhudurg"
+      ]
+    },
+    {
+      "id": 21,
+      "serial": "2",
+      "hod": "JD-Water",
+      "ro": "Kolhapur",
+      "sro": "S.R.O. Chiplun",
+      "district": "Ratnagiri",
+      "jurisdiction": "Chiplun, Guhagar, Khed, Dapoli and Mandangad Taluka in Ratnagiri District",
+      "userName": "sro_chi",
+      "districts": [
+        "Ratnagiri"
+      ]
+    },
+    {
+      "id": 22,
+      "serial": "2",
+      "hod": "JD-Water",
+      "ro": "Raigad",
+      "sro": "S.R.O.Raigad-I",
+      "district": "Raigad",
+      "jurisdiction": "Khalapur, Panvel Taluka (Except MIDC Taloja)",
+      "userName": "sro1_rd",
+      "districts": [
+        "Raigad"
+      ]
+    },
+    {
+      "id": 23,
+      "serial": "2",
+      "hod": "JD-Water",
+      "ro": "Raigad",
+      "sro": "S.R.O.Raigad-II",
+      "district": "Raigad",
+      "jurisdiction": "Pen, Karjat, Roha, Alibag, Sudhagad Pali and Murud Janjira Taluka",
+      "userName": "sro2_rd",
+      "districts": [
+        "Raigad"
+      ]
+    },
+    {
+      "id": 24,
+      "serial": "2",
+      "hod": "JD-Water",
+      "ro": "Raigad",
+      "sro": "S.R.O. Mahad",
+      "district": "Raigad",
+      "jurisdiction": "Mahad, Mangaon, Shriwardhan, Poladpur, Mhasala and Tala Taluka",
+      "userName": "sro_mhd",
+      "districts": [
+        "Raigad"
+      ]
+    },
+    {
+      "id": 25,
+      "serial": "3",
+      "hod": "PSO",
+      "ro": "Nagpur",
+      "sro": "S.R.O. Nagpur I",
+      "district": "Nagpur",
+      "jurisdiction": "Nagpur City, Nagpur Urban, Kamthi, Katol, Kalmeshwar, Narkhed, Ramtek, Savner, Parshivni.",
+      "userName": "sro1_ngp",
+      "districts": [
+        "Nagpur"
+      ]
+    },
+    {
+      "id": 26,
+      "serial": "3",
+      "hod": "PSO",
+      "ro": "Nagpur",
+      "sro": "S.R.O. Nagpur II",
+      "district": "Wardha , Nagpur",
+      "jurisdiction": "Nagpur Gramin, Hingna, Mauda, Umred (Nagpur District), Kuhi Bhivapur and Wardha Taluka",
+      "userName": "sro2_ngp",
+      "districts": [
+        "Nagpur",
+        "Wardha"
+      ]
+    },
+    {
+      "id": 27,
+      "serial": "3",
+      "hod": "PSO",
+      "ro": "Nagpur",
+      "sro": "S.R.O. Bhandara",
+      "district": "Bhandara and Gondia",
+      "jurisdiction": "Bhandara and Gondia District",
+      "userName": "sro_bha",
+      "districts": [
+        "Bhandara",
+        "Gondia"
+      ]
+    },
+    {
+      "id": 28,
+      "serial": "3",
+      "hod": "PSO",
+      "ro": "Chandrapur",
+      "sro": "S.R.O.Chandrapur-I",
+      "district": "Chandrapur",
+      "jurisdiction": "Chandrapur District Yavatmal District Gadchiroli District",
+      "userName": "sro_chnd",
+      "districts": [
+        "Chandrapur",
+        "Gadchiroli",
+        "Yavatmal"
+      ]
+    },
+    {
+      "id": 29,
+      "serial": "4",
+      "hod": "AS(T)",
+      "ro": "Amravati",
+      "sro": "S.R.O. Amravati I",
+      "district": "Amravati",
+      "jurisdiction": "Amravati District, Amravati, Achalpur, Chandur Bajar, Tiosa, Daryapur Anjangaonsurji, Chandur Railway, Dhamangaon Railway Morshi, Warud, Nandgaon Khandeshwar, Bhatukli, Dharni, Chikhaldara.",
+      "userName": "sro1_amt",
+      "districts": [
+        "Amravati"
+      ]
+    },
+    {
+      "id": 30,
+      "serial": "4",
+      "hod": "AS(T)",
+      "ro": "Amravati",
+      "sro": "S.R.O. Amravati II",
+      "district": "Vashim",
+      "jurisdiction": "Vashim District",
+      "userName": "sro2_amt",
+      "districts": [
+        "Washim"
+      ]
+    },
+    {
+      "id": 31,
+      "serial": "4",
+      "hod": "AS(T)",
+      "ro": "Amravati",
+      "sro": "S.R.O. Akola",
+      "district": "Akola and Buldhana",
+      "jurisdiction": "Akola District, Akola, Balapur, Patur, Akot, Telhara, Murtijapur, Barshi Takli, Buldhana District, Buldhana, Chikhli, Mehkar, Lonar, Shegaon, Sindakhedraja, Deulgaonraja, Khamgaon, Nandura, Malkapur, Motala, Jalgaon Jamod, Sangrampur",
+      "userName": "sro_akol",
+      "districts": [
+        "Akola",
+        "Buldhana"
+      ]
+    },
+    {
+      "id": 32,
+      "serial": "5",
+      "hod": "RO BMW",
+      "ro": "Mumbai",
+      "sro": "S.R.O. Mumbai-I",
+      "district": "Mumbai",
+      "jurisdiction": "Mumbai City District comprising MCGM Ward No. A.B.C D. E, F(South) F(North) G(South) and G(North)",
+      "userName": "sro_mum1",
+      "districts": [
+        "Mumbai"
+      ]
+    },
+    {
+      "id": 33,
+      "serial": "5",
+      "hod": "RO BMW",
+      "ro": "Mumbai",
+      "sro": "S.R.O. Mumbai-II",
+      "district": "Mumbai",
+      "jurisdiction": "Mumbai City District comprising MCGM Ward No. L Ward , K Ward East & West , H Ward East & West , P South ward",
+      "userName": "sro_mum2",
+      "districts": [
+        "Mumbai"
+      ]
+    },
+    {
+      "id": 34,
+      "serial": "5",
+      "hod": "RO BMW",
+      "ro": "Mumbai",
+      "sro": "S.R.O. Mumbai-III",
+      "district": "Mumbai",
+      "jurisdiction": "Part Of Mumbai Suburb, Ward No. M (East) , M(West),S, and N,",
+      "userName": "sro_mum3",
+      "districts": [
+        "Mumbai Suburban"
+      ]
+    },
+    {
+      "id": 35,
+      "serial": "5",
+      "hod": "RO BMW",
+      "ro": "Mumbai",
+      "sro": "S.R.O. Mumbai-IV",
+      "district": "Mumbai",
+      "jurisdiction": "Suburb of Mumbai, Ward No. P(North), R(North), R(South) and T, ward R (Centre)",
+      "userName": "sro_mum4",
+      "districts": [
+        "Mumbai Suburban"
+      ]
+    },
+    {
+      "id": 36,
+      "serial": "5",
+      "hod": "RO BMW",
+      "ro": "Nashik",
+      "sro": "S.R.O.Nashik",
+      "district": "Nashik",
+      "jurisdiction": "Nashik District",
+      "userName": "sro_nsk",
+      "districts": [
+        "Nashik"
+      ]
+    },
+    {
+      "id": 37,
+      "serial": "5",
+      "hod": "RO BMW",
+      "ro": "Nashik",
+      "sro": "S.R.O. Jalgaon",
+      "district": "Jalgaon",
+      "jurisdiction": "Jalgaon District,",
+      "userName": "sro_jgn1",
+      "districts": [
+        "Jalgaon"
+      ]
+    },
+    {
+      "id": 38,
+      "serial": "5",
+      "hod": "RO BMW",
+      "ro": "Nashik",
+      "sro": "S.R.O. Dhule",
+      "district": "Dhule , Nandurbar",
+      "jurisdiction": "Dhule District, and Nandurbar District",
+      "userName": "sro_dhule",
+      "districts": [
+        "Dhule",
+        "Nandurbar"
+      ]
+    },
+    {
+      "id": 39,
+      "serial": "5",
+      "hod": "RO BMW",
+      "ro": "Nashik",
+      "sro": "S.R.O. Ahilyanagar",
+      "district": "Ahilyanagar",
+      "jurisdiction": "Ahilyanagar District",
+      "userName": "sro_amdr",
+      "districts": [
+        "Ahilyanagar"
+      ]
+    },
+    {
+      "id": 40,
+      "serial": "5",
+      "hod": "RO BMW",
+      "ro": "Chhatrapati Sambhaji Nagar",
+      "sro": "S.R.O.Chhatrapati Sambhaji Nagar",
+      "district": "Chhatrapati Sambhaji Nagar",
+      "jurisdiction": "Chhatrapati Sambhaji Nagar District",
+      "userName": null,
+      "districts": [
+        "Chhatrapati Sambhaji Nagar"
+      ]
+    },
+    {
+      "id": 41,
+      "serial": "5",
+      "hod": "RO BMW",
+      "ro": "Chhatrapati Sambhaji Nagar",
+      "sro": "S.R.O.Jalna",
+      "district": "Jalna and Beed",
+      "jurisdiction": "Jalna and Beed (Except Parli Taluka)",
+      "userName": "sro_sad2",
+      "districts": [
+        "Beed",
+        "Jalna"
+      ]
+    },
+    {
+      "id": 42,
+      "serial": "5",
+      "hod": "RO BMW",
+      "ro": "Chhatrapati Sambhaji Nagar",
+      "sro": "S.R.O.Latur",
+      "district": "Latur, Dharashiv",
+      "jurisdiction": "Latur, Dharashiv District",
+      "userName": "sro_sltr",
+      "districts": [
+        "Dharashiv",
+        "Latur"
+      ]
+    },
+    {
+      "id": 43,
+      "serial": "5",
+      "hod": "RO BMW",
+      "ro": "Chhatrapati Sambhaji Nagar",
+      "sro": "S.R.O.Nanded",
+      "district": "Nanded",
+      "jurisdiction": "Nanded District",
+      "userName": "sro_snnd",
+      "districts": [
+        "Nanded"
+      ]
+    },
+    {
+      "id": 44,
+      "serial": "5",
+      "hod": "RO BMW",
+      "ro": "Chhatrapati Sambhaji Nagar",
+      "sro": "S.R.O.Parbhani",
+      "district": "Parbhani, Hingoli",
+      "jurisdiction": "Parbhani, Hingoli and Beed District Parli-Vaijyanath Taluka",
+      "userName": "sro_pbn",
+      "districts": [
+        "Beed",
+        "Hingoli",
+        "Parbhani"
+      ]
+    }
+  ],
+  "byDistrict": {
+    "Ahilyanagar": [
+      {
+        "id": 39,
+        "serial": "5",
+        "hod": "RO BMW",
+        "ro": "Nashik",
+        "sro": "S.R.O. Ahilyanagar",
+        "district": "Ahilyanagar",
+        "jurisdiction": "Ahilyanagar District",
+        "userName": "sro_amdr",
+        "districts": [
+          "Ahilyanagar"
+        ]
+      }
+    ],
+    "Akola": [
+      {
+        "id": 31,
+        "serial": "4",
+        "hod": "AS(T)",
+        "ro": "Amravati",
+        "sro": "S.R.O. Akola",
+        "district": "Akola and Buldhana",
+        "jurisdiction": "Akola District, Akola, Balapur, Patur, Akot, Telhara, Murtijapur, Barshi Takli, Buldhana District, Buldhana, Chikhli, Mehkar, Lonar, Shegaon, Sindakhedraja, Deulgaonraja, Khamgaon, Nandura, Malkapur, Motala, Jalgaon Jamod, Sangrampur",
+        "userName": "sro_akol",
+        "districts": [
+          "Akola",
+          "Buldhana"
+        ]
+      }
+    ],
+    "Amravati": [
+      {
+        "id": 29,
+        "serial": "4",
+        "hod": "AS(T)",
+        "ro": "Amravati",
+        "sro": "S.R.O. Amravati I",
+        "district": "Amravati",
+        "jurisdiction": "Amravati District, Amravati, Achalpur, Chandur Bajar, Tiosa, Daryapur Anjangaonsurji, Chandur Railway, Dhamangaon Railway Morshi, Warud, Nandgaon Khandeshwar, Bhatukli, Dharni, Chikhaldara.",
+        "userName": "sro1_amt",
+        "districts": [
+          "Amravati"
+        ]
+      }
+    ],
+    "Beed": [
+      {
+        "id": 41,
+        "serial": "5",
+        "hod": "RO BMW",
+        "ro": "Chhatrapati Sambhaji Nagar",
+        "sro": "S.R.O.Jalna",
+        "district": "Jalna and Beed",
+        "jurisdiction": "Jalna and Beed (Except Parli Taluka)",
+        "userName": "sro_sad2",
+        "districts": [
+          "Beed",
+          "Jalna"
+        ]
+      },
+      {
+        "id": 44,
+        "serial": "5",
+        "hod": "RO BMW",
+        "ro": "Chhatrapati Sambhaji Nagar",
+        "sro": "S.R.O.Parbhani",
+        "district": "Parbhani, Hingoli",
+        "jurisdiction": "Parbhani, Hingoli and Beed District Parli-Vaijyanath Taluka",
+        "userName": "sro_pbn",
+        "districts": [
+          "Beed",
+          "Hingoli",
+          "Parbhani"
+        ]
+      }
+    ],
+    "Bhandara": [
+      {
+        "id": 27,
+        "serial": "3",
+        "hod": "PSO",
+        "ro": "Nagpur",
+        "sro": "S.R.O. Bhandara",
+        "district": "Bhandara and Gondia",
+        "jurisdiction": "Bhandara and Gondia District",
+        "userName": "sro_bha",
+        "districts": [
+          "Bhandara",
+          "Gondia"
+        ]
+      }
+    ],
+    "Buldhana": [
+      {
+        "id": 31,
+        "serial": "4",
+        "hod": "AS(T)",
+        "ro": "Amravati",
+        "sro": "S.R.O. Akola",
+        "district": "Akola and Buldhana",
+        "jurisdiction": "Akola District, Akola, Balapur, Patur, Akot, Telhara, Murtijapur, Barshi Takli, Buldhana District, Buldhana, Chikhli, Mehkar, Lonar, Shegaon, Sindakhedraja, Deulgaonraja, Khamgaon, Nandura, Malkapur, Motala, Jalgaon Jamod, Sangrampur",
+        "userName": "sro_akol",
+        "districts": [
+          "Akola",
+          "Buldhana"
+        ]
+      }
+    ],
+    "Chandrapur": [
+      {
+        "id": 28,
+        "serial": "3",
+        "hod": "PSO",
+        "ro": "Chandrapur",
+        "sro": "S.R.O.Chandrapur-I",
+        "district": "Chandrapur",
+        "jurisdiction": "Chandrapur District Yavatmal District Gadchiroli District",
+        "userName": "sro_chnd",
+        "districts": [
+          "Chandrapur",
+          "Gadchiroli",
+          "Yavatmal"
+        ]
+      }
+    ],
+    "Chhatrapati Sambhaji Nagar": [
+      {
+        "id": 40,
+        "serial": "5",
+        "hod": "RO BMW",
+        "ro": "Chhatrapati Sambhaji Nagar",
+        "sro": "S.R.O.Chhatrapati Sambhaji Nagar",
+        "district": "Chhatrapati Sambhaji Nagar",
+        "jurisdiction": "Chhatrapati Sambhaji Nagar District",
+        "userName": null,
+        "districts": [
+          "Chhatrapati Sambhaji Nagar"
+        ]
+      }
+    ],
+    "Dharashiv": [
+      {
+        "id": 42,
+        "serial": "5",
+        "hod": "RO BMW",
+        "ro": "Chhatrapati Sambhaji Nagar",
+        "sro": "S.R.O.Latur",
+        "district": "Latur, Dharashiv",
+        "jurisdiction": "Latur, Dharashiv District",
+        "userName": "sro_sltr",
+        "districts": [
+          "Dharashiv",
+          "Latur"
+        ]
+      }
+    ],
+    "Dhule": [
+      {
+        "id": 38,
+        "serial": "5",
+        "hod": "RO BMW",
+        "ro": "Nashik",
+        "sro": "S.R.O. Dhule",
+        "district": "Dhule , Nandurbar",
+        "jurisdiction": "Dhule District, and Nandurbar District",
+        "userName": "sro_dhule",
+        "districts": [
+          "Dhule",
+          "Nandurbar"
+        ]
+      }
+    ],
+    "Gadchiroli": [
+      {
+        "id": 28,
+        "serial": "3",
+        "hod": "PSO",
+        "ro": "Chandrapur",
+        "sro": "S.R.O.Chandrapur-I",
+        "district": "Chandrapur",
+        "jurisdiction": "Chandrapur District Yavatmal District Gadchiroli District",
+        "userName": "sro_chnd",
+        "districts": [
+          "Chandrapur",
+          "Gadchiroli",
+          "Yavatmal"
+        ]
+      }
+    ],
+    "Gondia": [
+      {
+        "id": 27,
+        "serial": "3",
+        "hod": "PSO",
+        "ro": "Nagpur",
+        "sro": "S.R.O. Bhandara",
+        "district": "Bhandara and Gondia",
+        "jurisdiction": "Bhandara and Gondia District",
+        "userName": "sro_bha",
+        "districts": [
+          "Bhandara",
+          "Gondia"
+        ]
+      }
+    ],
+    "Hingoli": [
+      {
+        "id": 44,
+        "serial": "5",
+        "hod": "RO BMW",
+        "ro": "Chhatrapati Sambhaji Nagar",
+        "sro": "S.R.O.Parbhani",
+        "district": "Parbhani, Hingoli",
+        "jurisdiction": "Parbhani, Hingoli and Beed District Parli-Vaijyanath Taluka",
+        "userName": "sro_pbn",
+        "districts": [
+          "Beed",
+          "Hingoli",
+          "Parbhani"
+        ]
+      }
+    ],
+    "Jalgaon": [
+      {
+        "id": 37,
+        "serial": "5",
+        "hod": "RO BMW",
+        "ro": "Nashik",
+        "sro": "S.R.O. Jalgaon",
+        "district": "Jalgaon",
+        "jurisdiction": "Jalgaon District,",
+        "userName": "sro_jgn1",
+        "districts": [
+          "Jalgaon"
+        ]
+      }
+    ],
+    "Jalna": [
+      {
+        "id": 41,
+        "serial": "5",
+        "hod": "RO BMW",
+        "ro": "Chhatrapati Sambhaji Nagar",
+        "sro": "S.R.O.Jalna",
+        "district": "Jalna and Beed",
+        "jurisdiction": "Jalna and Beed (Except Parli Taluka)",
+        "userName": "sro_sad2",
+        "districts": [
+          "Beed",
+          "Jalna"
+        ]
+      }
+    ],
+    "Kolhapur": [
+      {
+        "id": 18,
+        "serial": "2",
+        "hod": "JD-Water",
+        "ro": "Kolhapur",
+        "sro": "S.R.O. Kolhapur",
+        "district": "Kolhapur district.",
+        "jurisdiction": "Kolhapur District",
+        "userName": "sro_kop",
+        "districts": [
+          "Kolhapur"
+        ]
+      }
+    ],
+    "Latur": [
+      {
+        "id": 42,
+        "serial": "5",
+        "hod": "RO BMW",
+        "ro": "Chhatrapati Sambhaji Nagar",
+        "sro": "S.R.O.Latur",
+        "district": "Latur, Dharashiv",
+        "jurisdiction": "Latur, Dharashiv District",
+        "userName": "sro_sltr",
+        "districts": [
+          "Dharashiv",
+          "Latur"
+        ]
+      }
+    ],
+    "Mumbai": [
+      {
+        "id": 32,
+        "serial": "5",
+        "hod": "RO BMW",
+        "ro": "Mumbai",
+        "sro": "S.R.O. Mumbai-I",
+        "district": "Mumbai",
+        "jurisdiction": "Mumbai City District comprising MCGM Ward No. A.B.C D. E, F(South) F(North) G(South) and G(North)",
+        "userName": "sro_mum1",
+        "districts": [
+          "Mumbai"
+        ]
+      },
+      {
+        "id": 33,
+        "serial": "5",
+        "hod": "RO BMW",
+        "ro": "Mumbai",
+        "sro": "S.R.O. Mumbai-II",
+        "district": "Mumbai",
+        "jurisdiction": "Mumbai City District comprising MCGM Ward No. L Ward , K Ward East & West , H Ward East & West , P South ward",
+        "userName": "sro_mum2",
+        "districts": [
+          "Mumbai"
+        ]
+      }
+    ],
+    "Mumbai Suburban": [
+      {
+        "id": 34,
+        "serial": "5",
+        "hod": "RO BMW",
+        "ro": "Mumbai",
+        "sro": "S.R.O. Mumbai-III",
+        "district": "Mumbai",
+        "jurisdiction": "Part Of Mumbai Suburb, Ward No. M (East) , M(West),S, and N,",
+        "userName": "sro_mum3",
+        "districts": [
+          "Mumbai Suburban"
+        ]
+      },
+      {
+        "id": 35,
+        "serial": "5",
+        "hod": "RO BMW",
+        "ro": "Mumbai",
+        "sro": "S.R.O. Mumbai-IV",
+        "district": "Mumbai",
+        "jurisdiction": "Suburb of Mumbai, Ward No. P(North), R(North), R(South) and T, ward R (Centre)",
+        "userName": "sro_mum4",
+        "districts": [
+          "Mumbai Suburban"
+        ]
+      }
+    ],
+    "Nagpur": [
+      {
+        "id": 25,
+        "serial": "3",
+        "hod": "PSO",
+        "ro": "Nagpur",
+        "sro": "S.R.O. Nagpur I",
+        "district": "Nagpur",
+        "jurisdiction": "Nagpur City, Nagpur Urban, Kamthi, Katol, Kalmeshwar, Narkhed, Ramtek, Savner, Parshivni.",
+        "userName": "sro1_ngp",
+        "districts": [
+          "Nagpur"
+        ]
+      },
+      {
+        "id": 26,
+        "serial": "3",
+        "hod": "PSO",
+        "ro": "Nagpur",
+        "sro": "S.R.O. Nagpur II",
+        "district": "Wardha , Nagpur",
+        "jurisdiction": "Nagpur Gramin, Hingna, Mauda, Umred (Nagpur District), Kuhi Bhivapur and Wardha Taluka",
+        "userName": "sro2_ngp",
+        "districts": [
+          "Nagpur",
+          "Wardha"
+        ]
+      }
+    ],
+    "Nanded": [
+      {
+        "id": 43,
+        "serial": "5",
+        "hod": "RO BMW",
+        "ro": "Chhatrapati Sambhaji Nagar",
+        "sro": "S.R.O.Nanded",
+        "district": "Nanded",
+        "jurisdiction": "Nanded District",
+        "userName": "sro_snnd",
+        "districts": [
+          "Nanded"
+        ]
+      }
+    ],
+    "Nandurbar": [
+      {
+        "id": 38,
+        "serial": "5",
+        "hod": "RO BMW",
+        "ro": "Nashik",
+        "sro": "S.R.O. Dhule",
+        "district": "Dhule , Nandurbar",
+        "jurisdiction": "Dhule District, and Nandurbar District",
+        "userName": "sro_dhule",
+        "districts": [
+          "Dhule",
+          "Nandurbar"
+        ]
+      }
+    ],
+    "Nashik": [
+      {
+        "id": 36,
+        "serial": "5",
+        "hod": "RO BMW",
+        "ro": "Nashik",
+        "sro": "S.R.O.Nashik",
+        "district": "Nashik",
+        "jurisdiction": "Nashik District",
+        "userName": "sro_nsk",
+        "districts": [
+          "Nashik"
+        ]
+      }
+    ],
+    "Palghar": [
+      {
+        "id": 3,
+        "serial": "1",
+        "hod": "JD-Air",
+        "ro": "Kalyan",
+        "sro": "SRO Kalyan-3",
+        "district": "Thane , Palghar",
+        "jurisdiction": "Wada , Murbad, Shahapur Taluka",
+        "userName": "sro_kn3",
+        "districts": [
+          "Palghar",
+          "Thane"
+        ]
+      },
+      {
+        "id": 6,
+        "serial": "1",
+        "hod": "JD-Air",
+        "ro": "Thane",
+        "sro": "SRO Thane II",
+        "district": "Thane / Palghar",
+        "jurisdiction": "Mira Bhaynder Municipal Corporation area in Thane District, Vasai Taluka and Vasai Virar Municipal Corporation in Palghar District.",
+        "userName": "sro_stn2",
+        "districts": [
+          "Palghar",
+          "Thane"
+        ]
+      },
+      {
+        "id": 7,
+        "serial": "1",
+        "hod": "JD-Air",
+        "ro": "Thane",
+        "sro": "S.R.O.Tarapur",
+        "district": "Palghar",
+        "jurisdiction": "Tarapur MIDC and related area.",
+        "userName": "sro_tp",
+        "districts": [
+          "Palghar"
+        ]
+      },
+      {
+        "id": 8,
+        "serial": "1",
+        "hod": "JD-Air",
+        "ro": "Thane",
+        "sro": "S.R.O.Tarapur II",
+        "district": "Palghar",
+        "jurisdiction": "Dahanu , Talasari , Mokhada,Javhar and Vikramgadh, Palghar taluka (Except SRO-Tarapur- I jurisdiction).",
+        "userName": "fo2_stp2",
+        "districts": [
+          "Palghar"
+        ]
+      }
+    ],
+    "Parbhani": [
+      {
+        "id": 44,
+        "serial": "5",
+        "hod": "RO BMW",
+        "ro": "Chhatrapati Sambhaji Nagar",
+        "sro": "S.R.O.Parbhani",
+        "district": "Parbhani, Hingoli",
+        "jurisdiction": "Parbhani, Hingoli and Beed District Parli-Vaijyanath Taluka",
+        "userName": "sro_pbn",
+        "districts": [
+          "Beed",
+          "Hingoli",
+          "Parbhani"
+        ]
+      }
+    ],
+    "Pune": [
+      {
+        "id": 12,
+        "serial": "2",
+        "hod": "JD-Water",
+        "ro": "Pune",
+        "sro": "S.R.O.Pune-I",
+        "district": "Pune",
+        "jurisdiction": "Haveli (Pune Municipal Corporation Area), Bhor, Purandar, Baramati, Indapur and Daund Corporation- 1. Council- 6 & Cantonment Board- 2 (Pune Cantonment Board & Khadki Cantonment Board) Newly 23 villages has been added to PMC limit are as follows:- Mhalunge, Sus, Bavdhan Bk & Kh., Kirkitwadi, Pisoli, Kondhve- Dhavde, Kopre, Nanded, Khadakvasla, Manjari Bk., Narhe, Holkarwadi, Autade-Handewadi, Wadachiwadi, Shevalewadi, Nandoshi, Sanasnagar, Mangdewadi, Bhilarewadi, Gujarnimbalkarwadi, Jambhulwadi, Kolewadi, Wagholi, Kalas, Dhanori, Lohgaon, Phursungi, Uruli Devachi, Dhayri, Yewalewadi, Baner, Balewadi)",
+        "userName": "sro_spn1",
+        "districts": [
+          "Pune"
+        ]
+      },
+      {
+        "id": 13,
+        "serial": "2",
+        "hod": "JD-Water",
+        "ro": "Pune",
+        "sro": "S.R.O.Pune-II",
+        "district": "Pune",
+        "jurisdiction": "Haveli Taluka ( Except Pune Municipal Corporation with newly added 23 villages and Pimpri - Chinchwad Municipal Corporation Area) Khed Taluka, Mulshi Taluka, Ambegaon Taluka, Junnar Taluka, Maval Taluka, and Shirur Taluka. Dehu Cantonment Board.",
+        "userName": "sro_spn2",
+        "districts": [
+          "Pune"
+        ]
+      },
+      {
+        "id": 14,
+        "serial": "2",
+        "hod": "JD-Water",
+        "ro": "Pune",
+        "sro": "S.R.O.Pimpri-Chichwad",
+        "district": "Pune",
+        "jurisdiction": "Pimpri - Chinchwad Municipal Corporation Area Including MIDC Area of Pimpri, Chinchwad & Bhosari.",
+        "userName": "sro_pc",
+        "districts": [
+          "Pune"
+        ]
+      },
+      {
+        "id": 17,
+        "serial": "2",
+        "hod": "JD-Water",
+        "ro": "Pune",
+        "sro": "Pune Lab",
+        "district": "Pune Corporation area",
+        "jurisdiction": "Daund , Indapur , Baramati,Purandar , Bhor and Velhe",
+        "userName": "fc_plab",
+        "districts": [
+          "Pune"
+        ]
+      }
+    ],
+    "Raigad": [
+      {
+        "id": 11,
+        "serial": "1",
+        "hod": "JD-Air",
+        "ro": "Navi Mumbai",
+        "sro": "S.R.O. Taloja",
+        "district": "Raigad",
+        "jurisdiction": "MIDC Taloja, Uran Taluka",
+        "userName": "sro3_nm",
+        "districts": [
+          "Raigad"
+        ]
+      },
+      {
+        "id": 22,
+        "serial": "2",
+        "hod": "JD-Water",
+        "ro": "Raigad",
+        "sro": "S.R.O.Raigad-I",
+        "district": "Raigad",
+        "jurisdiction": "Khalapur, Panvel Taluka (Except MIDC Taloja)",
+        "userName": "sro1_rd",
+        "districts": [
+          "Raigad"
+        ]
+      },
+      {
+        "id": 23,
+        "serial": "2",
+        "hod": "JD-Water",
+        "ro": "Raigad",
+        "sro": "S.R.O.Raigad-II",
+        "district": "Raigad",
+        "jurisdiction": "Pen, Karjat, Roha, Alibag, Sudhagad Pali and Murud Janjira Taluka",
+        "userName": "sro2_rd",
+        "districts": [
+          "Raigad"
+        ]
+      },
+      {
+        "id": 24,
+        "serial": "2",
+        "hod": "JD-Water",
+        "ro": "Raigad",
+        "sro": "S.R.O. Mahad",
+        "district": "Raigad",
+        "jurisdiction": "Mahad, Mangaon, Shriwardhan, Poladpur, Mhasala and Tala Taluka",
+        "userName": "sro_mhd",
+        "districts": [
+          "Raigad"
+        ]
+      }
+    ],
+    "Ratnagiri": [
+      {
+        "id": 20,
+        "serial": "2",
+        "hod": "JD-Water",
+        "ro": "Kolhapur",
+        "sro": "S.R.O. Ratnagiri",
+        "district": "Sindhudurga",
+        "jurisdiction": "Ratnagiri District, Rajapur, Ratnagiri, Lanja and Sangmeshwar Taluka, Sindhudurg District, Kudal, Kankavli, Sawantwadi, Vengurla, Malvan, Vaibhavwadi, Devgad & Dodamarg.",
+        "userName": "sro_rgri",
+        "districts": [
+          "Ratnagiri",
+          "Sindhudurg"
+        ]
+      },
+      {
+        "id": 21,
+        "serial": "2",
+        "hod": "JD-Water",
+        "ro": "Kolhapur",
+        "sro": "S.R.O. Chiplun",
+        "district": "Ratnagiri",
+        "jurisdiction": "Chiplun, Guhagar, Khed, Dapoli and Mandangad Taluka in Ratnagiri District",
+        "userName": "sro_chi",
+        "districts": [
+          "Ratnagiri"
+        ]
+      }
+    ],
+    "Sangli": [
+      {
+        "id": 19,
+        "serial": "2",
+        "hod": "JD-Water",
+        "ro": "Kolhapur",
+        "sro": "S.R.O. Sangli",
+        "district": "Sangli district.",
+        "jurisdiction": "Sangli District",
+        "userName": "sro_sgli",
+        "districts": [
+          "Sangli"
+        ]
+      }
+    ],
+    "Satara": [
+      {
+        "id": 15,
+        "serial": "2",
+        "hod": "JD-Water",
+        "ro": "Pune",
+        "sro": "S.R.O.Satara",
+        "district": "Satara district",
+        "jurisdiction": "Satara District (11 Taluka), Satara, Karad, Phaltan, Wai, Mahabaleshwar, Khandala, Man, Khatav, Patan,Jawali, Koregaon",
+        "userName": "sro_stra",
+        "districts": [
+          "Satara"
+        ]
+      }
+    ],
+    "Sindhudurg": [
+      {
+        "id": 20,
+        "serial": "2",
+        "hod": "JD-Water",
+        "ro": "Kolhapur",
+        "sro": "S.R.O. Ratnagiri",
+        "district": "Sindhudurga",
+        "jurisdiction": "Ratnagiri District, Rajapur, Ratnagiri, Lanja and Sangmeshwar Taluka, Sindhudurg District, Kudal, Kankavli, Sawantwadi, Vengurla, Malvan, Vaibhavwadi, Devgad & Dodamarg.",
+        "userName": "sro_rgri",
+        "districts": [
+          "Ratnagiri",
+          "Sindhudurg"
+        ]
+      }
+    ],
+    "Solapur": [
+      {
+        "id": 16,
+        "serial": "2",
+        "hod": "JD-Water",
+        "ro": "Pune",
+        "sro": "S.R.O.Solapur",
+        "district": "Solapur district.",
+        "jurisdiction": "Solapur District.",
+        "userName": "sro_slpr",
+        "districts": [
+          "Solapur"
+        ]
+      }
+    ],
+    "Thane": [
+      {
+        "id": 1,
+        "serial": "1",
+        "hod": "JD-Air",
+        "ro": "Kalyan",
+        "sro": "SRO Kalyan-1",
+        "district": "Thane",
+        "jurisdiction": "Kalyan Municipal Corporation & part of Jilha Parishad Thane",
+        "userName": "sro_kn1",
+        "districts": [
+          "Thane"
+        ]
+      },
+      {
+        "id": 2,
+        "serial": "1",
+        "hod": "JD-Air",
+        "ro": "Kalyan",
+        "sro": "SRO Kalyan-2",
+        "district": "Thane",
+        "jurisdiction": "Ulhasnagar , Badlapur",
+        "userName": "sro_kn2",
+        "districts": [
+          "Thane"
+        ]
+      },
+      {
+        "id": 3,
+        "serial": "1",
+        "hod": "JD-Air",
+        "ro": "Kalyan",
+        "sro": "SRO Kalyan-3",
+        "district": "Thane , Palghar",
+        "jurisdiction": "Wada , Murbad, Shahapur Taluka",
+        "userName": "sro_kn3",
+        "districts": [
+          "Palghar",
+          "Thane"
+        ]
+      },
+      {
+        "id": 4,
+        "serial": "1",
+        "hod": "JD-Air",
+        "ro": "Kalyan",
+        "sro": "SRO Bhiwandi",
+        "district": "Thane",
+        "jurisdiction": "Saravali MIDC , Bhiwandi Taluka including MMRDA/MMR, Bhiwandi Municipal Corporation Area",
+        "userName": null,
+        "districts": [
+          "Thane"
+        ]
+      },
+      {
+        "id": 5,
+        "serial": "1",
+        "hod": "JD-Air",
+        "ro": "Thane",
+        "sro": "SRO Thane I",
+        "district": "Thane",
+        "jurisdiction": "Thane Municipal Corporation, Wagle Estate MIDC",
+        "userName": "sro1_tn",
+        "districts": [
+          "Thane"
+        ]
+      },
+      {
+        "id": 6,
+        "serial": "1",
+        "hod": "JD-Air",
+        "ro": "Thane",
+        "sro": "SRO Thane II",
+        "district": "Thane / Palghar",
+        "jurisdiction": "Mira Bhaynder Municipal Corporation area in Thane District, Vasai Taluka and Vasai Virar Municipal Corporation in Palghar District.",
+        "userName": "sro_stn2",
+        "districts": [
+          "Palghar",
+          "Thane"
+        ]
+      },
+      {
+        "id": 9,
+        "serial": "1",
+        "hod": "JD-Air",
+        "ro": "Navi Mumbai",
+        "sro": "S.R.O.Navi Mumbai-I",
+        "district": "Thane",
+        "jurisdiction": "CBD Belapur, Shiravne, Nerul, Seawood, Juinagar, Vashi, MIDC- Turbhe, MIDC-Pawane, MIDC- Khairne (Part)",
+        "userName": "sro1_nm",
+        "districts": [
+          "Thane"
+        ]
+      },
+      {
+        "id": 10,
+        "serial": "1",
+        "hod": "JD-Air",
+        "ro": "Navi Mumbai",
+        "sro": "S.R.O.Navi Mumbai-II",
+        "district": "Thane",
+        "jurisdiction": "MIDC-Mahape, MIDC-khairne (Part), MIDC-Rabale, Ghansoli, Airoli, Dighe, Dahisar Mori, Nagaon, Bhandarli, Pimpri, Uttarshiv, Ghoterghar",
+        "userName": "sro2_nm",
+        "districts": [
+          "Thane"
+        ]
+      }
+    ],
+    "Wardha": [
+      {
+        "id": 26,
+        "serial": "3",
+        "hod": "PSO",
+        "ro": "Nagpur",
+        "sro": "S.R.O. Nagpur II",
+        "district": "Wardha , Nagpur",
+        "jurisdiction": "Nagpur Gramin, Hingna, Mauda, Umred (Nagpur District), Kuhi Bhivapur and Wardha Taluka",
+        "userName": "sro2_ngp",
+        "districts": [
+          "Nagpur",
+          "Wardha"
+        ]
+      }
+    ],
+    "Washim": [
+      {
+        "id": 30,
+        "serial": "4",
+        "hod": "AS(T)",
+        "ro": "Amravati",
+        "sro": "S.R.O. Amravati II",
+        "district": "Vashim",
+        "jurisdiction": "Vashim District",
+        "userName": "sro2_amt",
+        "districts": [
+          "Washim"
+        ]
+      }
+    ],
+    "Yavatmal": [
+      {
+        "id": 28,
+        "serial": "3",
+        "hod": "PSO",
+        "ro": "Chandrapur",
+        "sro": "S.R.O.Chandrapur-I",
+        "district": "Chandrapur",
+        "jurisdiction": "Chandrapur District Yavatmal District Gadchiroli District",
+        "userName": "sro_chnd",
+        "districts": [
+          "Chandrapur",
+          "Gadchiroli",
+          "Yavatmal"
+        ]
+      }
+    ]
+  },
+  "metadata": {
+    "generatedAt": "2026-05-17T16:03:30.040Z",
+    "recordCount": 44,
+    "mappedDistrictCount": 36,
+    "geometryDistrictCount": 36,
+    "missingGeometryDistricts": []
+  }
+}

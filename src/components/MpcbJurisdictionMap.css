@@ -1,0 +1,708 @@
+.mjm-root {
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  color: #17313a;
+  background: #eef5f4;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 18px 44px rgba(32, 79, 87, 0.10);
+  /* Contain Leaflet's internal z-indices so they never bleed above the sticky navbar */
+  isolation: isolate;
+  position: relative;
+}
+
+.mjm-root * {
+  box-sizing: border-box;
+}
+
+.mjm-shell {
+  display: grid;
+  grid-template-columns: minmax(340px, 400px) minmax(0, 1fr);
+  gap: 16px;
+  padding: 16px;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.74), rgba(255, 255, 255, 0)), #eef5f4;
+  height: 620px;
+}
+
+/* ---- sidebar ---- */
+
+.mjm-sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  height: 100%;
+  padding: 20px;
+  overflow: auto;
+  background: rgba(255, 255, 255, 0.92);
+  border: 1px solid rgba(105, 139, 144, 0.24);
+  border-radius: 10px;
+  box-shadow: 0 10px 28px rgba(32, 79, 87, 0.08);
+  color: #17313a;
+}
+
+/* ---- search ---- */
+
+.mjm-search-panel {
+  display: grid;
+  gap: 10px;
+  padding: 13px;
+  border: 1px solid rgba(107, 146, 149, 0.2);
+  border-radius: 8px;
+  background: #ffffff;
+  box-shadow: 0 8px 20px rgba(31, 75, 82, 0.06);
+  flex-shrink: 0;
+}
+
+.mjm-search-panel label {
+  display: block;
+  color: #2f565f;
+  font-size: 13px;
+  font-weight: 800;
+  margin: 0;
+}
+
+.mjm-search-box {
+  display: grid;
+  grid-template-columns: 30px 1fr;
+  align-items: center;
+  min-height: 42px;
+  border: 1px solid rgba(88, 132, 138, 0.28);
+  border-radius: 8px;
+  background: #f6fbfa;
+}
+
+.mjm-search-box span {
+  color: #1f766b;
+  font-size: 20px;
+  text-align: center;
+  display: block;
+}
+
+.mjm-search-box input {
+  width: 100%;
+  min-width: 0;
+  border: 0;
+  outline: 0;
+  background: transparent;
+  color: #17313a;
+  font-size: 14px;
+  font-family: inherit;
+}
+
+.mjm-search-box:focus-within {
+  border-color: #1f8d86;
+  box-shadow: 0 0 0 3px rgba(31, 141, 134, 0.14);
+}
+
+.mjm-search-results {
+  display: grid;
+  gap: 6px;
+  max-height: 260px;
+  overflow: auto;
+}
+
+.mjm-search-result {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  width: 100%;
+  padding: 9px 10px;
+  border: 1px solid rgba(109, 154, 159, 0.2);
+  border-radius: 8px;
+  background: #fbfdf9;
+  color: #17313a !important;
+  text-align: left;
+  cursor: pointer;
+  font-family: inherit;
+}
+
+.mjm-search-result:hover,
+.mjm-search-result:focus-visible {
+  border-color: rgba(31, 141, 134, 0.42);
+  background: #f2faf5;
+  outline: none;
+}
+
+.mjm-search-result > span {
+  min-width: 0;
+  display: block;
+}
+
+.mjm-search-result strong {
+  display: block;
+  font-size: 13px;
+  color: #17313a;
+  font-weight: 700;
+}
+
+.mjm-search-result small {
+  display: block;
+  margin-top: 2px;
+  color: #607780;
+  font-size: 11px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.mjm-search-result em,
+.mjm-district-trigger em {
+  display: inline-flex;
+  flex: 0 0 auto;
+  align-items: center;
+  justify-content: center;
+  min-width: 28px;
+  height: 24px;
+  padding: 0 7px;
+  border-radius: 999px;
+  background: #fff3bf;
+  color: #6f5600;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 800;
+}
+
+.mjm-no-results {
+  margin: 0;
+  padding: 8px 2px 2px;
+  color: #607780;
+  font-size: 12px;
+}
+
+/* ---- district list ---- */
+
+.mjm-district-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  overflow: auto;
+  padding-bottom: 6px;
+  flex: 1 1 0;
+  min-height: 0;
+}
+
+.mjm-section-heading {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 10px;
+  position: sticky;
+  top: 0;
+  background: rgba(255, 255, 255, 0.95);
+  padding-bottom: 6px;
+  z-index: 1;
+  flex-shrink: 0;
+}
+
+.mjm-section-heading h2 {
+  margin: 0;
+  color: #17313a;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.mjm-section-heading span {
+  color: #6a8087;
+  font-size: 12px;
+  display: block;
+}
+
+/* ---- district cards ---- */
+
+.mjm-district-card {
+  overflow: hidden;
+  border: 1px solid rgba(109, 154, 159, 0.22);
+  border-radius: 8px;
+  background: #ffffff;
+  box-shadow: 0 6px 16px rgba(31, 75, 82, 0.04);
+  flex-shrink: 0;
+}
+
+.mjm-district-card.mjm-is-open {
+  border-color: rgba(31, 141, 134, 0.48);
+  box-shadow: 0 10px 24px rgba(31, 117, 107, 0.10);
+}
+
+.mjm-district-trigger {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  gap: 12px;
+  width: 100%;
+  min-height: 52px;
+  padding: 10px 13px;
+  border: 0;
+  background: #ffffff !important;
+  color: #17313a !important;
+  text-align: left;
+  cursor: pointer;
+  font-family: inherit;
+  line-height: 1.4;
+}
+
+.mjm-district-trigger:hover {
+  background: #f4faf8 !important;
+}
+
+.mjm-district-trigger > span {
+  display: block;
+  min-width: 0;
+  flex: 1 1 0;
+  overflow: hidden;
+}
+
+.mjm-district-trigger strong {
+  display: block !important;
+  font-size: 14px !important;
+  color: #17313a !important;
+  font-weight: 700 !important;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.mjm-district-trigger small {
+  display: block !important;
+  margin-top: 3px;
+  color: #667d83 !important;
+  font-size: 11px !important;
+  font-weight: 400 !important;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* ---- district details ---- */
+
+.mjm-district-details {
+  display: grid;
+  gap: 8px;
+  padding: 0 10px 10px;
+  background: linear-gradient(180deg, #ffffff, #f8fcfb);
+}
+
+.mjm-sro-detail {
+  padding: 13px;
+  border: 1px solid rgba(109, 154, 159, 0.18);
+  border-radius: 8px;
+  background: #fbfdfb;
+}
+
+.mjm-sro-detail header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+
+.mjm-sro-detail h3 {
+  margin: 0;
+  color: #153741;
+  font-size: 15px;
+  line-height: 1.2;
+  font-weight: 700;
+}
+
+.mjm-sro-detail header > span {
+  flex: 0 0 auto;
+  padding: 2px 6px;
+  border-radius: 999px;
+  background: #e8f5ef;
+  color: #1f766b;
+  font-size: 10px;
+  font-weight: 800;
+  display: block;
+}
+
+.mjm-sro-detail dl {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 8px;
+  margin: 0 0 10px;
+}
+
+.mjm-sro-detail dl > div {
+  padding: 10px;
+  border: 1px solid rgba(125, 161, 166, 0.18);
+  border-radius: 8px;
+  background: #f5faf9;
+}
+
+.mjm-sro-detail dt {
+  color: #5c757c;
+  font-size: 10px;
+  font-weight: 800;
+  text-transform: uppercase;
+  display: block;
+}
+
+.mjm-sro-detail dd {
+  margin: 4px 0 0;
+  color: #223e47;
+  font-size: 13px;
+  line-height: 1.3;
+  overflow-wrap: anywhere;
+  display: block;
+}
+
+.mjm-sro-detail > p {
+  margin: 0;
+  color: #38535b;
+  font-size: 13px;
+  line-height: 1.45;
+}
+
+/* ---- map ---- */
+
+.mjm-map-panel {
+  position: relative;
+  min-width: 0;
+  height: 100%;
+  overflow: hidden;
+  border: 1px solid rgba(105, 139, 144, 0.18);
+  border-radius: 10px;
+  background: #e8f1f2;
+  box-shadow: 0 10px 28px rgba(32, 79, 87, 0.08);
+}
+
+#mjm-map {
+  width: 100%;
+  height: 100%;
+  background: #e8f1f2;
+}
+
+.mjm-map-legend {
+  position: absolute;
+  right: 18px;
+  top: 18px;
+  z-index: 500;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  max-width: 240px;
+  padding: 8px 11px;
+  border: 1px solid rgba(104, 142, 148, 0.24);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.92);
+  box-shadow: 0 8px 20px rgba(31, 75, 82, 0.10);
+}
+
+.mjm-map-legend > span {
+  width: 40px;
+  height: 9px;
+  border-radius: 999px;
+  background: linear-gradient(90deg, #a6dcd5, #2f9f88, #f3c84b);
+  flex-shrink: 0;
+  display: block;
+}
+
+.mjm-map-legend > p {
+  margin: 0;
+  color: #3f5d65;
+  font-size: 11px;
+  line-height: 1.3;
+}
+
+/* ---- loading ---- */
+
+.mjm-loading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 300px;
+  color: #263f47;
+  background: #eef5f4;
+  border-radius: 16px;
+  font-family: Inter, ui-sans-serif, system-ui, sans-serif;
+  font-size: 15px;
+}
+
+/* ---- leaflet district labels ---- */
+
+.mjm-district-label {
+  border: 0 !important;
+  border-radius: 5px !important;
+  background: rgba(255, 255, 255, 0.72) !important;
+  box-shadow: 0 2px 8px rgba(27, 65, 72, 0.12) !important;
+  color: #153741 !important;
+  font-size: 10px !important;
+  font-weight: 800 !important;
+  line-height: 1.1 !important;
+  padding: 2px 4px !important;
+  text-align: center !important;
+  white-space: normal !important;
+  pointer-events: none !important;
+  font-family: Inter, ui-sans-serif, system-ui, sans-serif !important;
+}
+
+.mjm-district-label::before {
+  display: none !important;
+}
+
+/* ---- leaflet popup ---- */
+
+.mjm-jurisdiction-popup .leaflet-popup-content-wrapper {
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 18px 44px rgba(18, 49, 60, 0.24);
+  padding: 0;
+}
+
+.mjm-jurisdiction-popup .leaflet-popup-close-button {
+  left: 10px;
+  right: auto;
+  top: 10px;
+  z-index: 5;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  border: 1px solid rgba(105, 139, 144, 0.28);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.96);
+  box-shadow: 0 6px 14px rgba(22, 64, 72, 0.12);
+  color: #153741;
+  font-size: 20px;
+  line-height: 1;
+}
+
+.mjm-jurisdiction-popup .leaflet-popup-content {
+  width: min(520px, 74vw) !important;
+  margin: 0;
+}
+
+.mjm-district-popup {
+  position: relative;
+  max-height: min(560px, 68vh);
+  overflow: auto;
+  background: #ffffff;
+}
+
+.mjm-district-popup header {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  padding: 13px 16px 12px 50px;
+  border-bottom: 1px solid #dbe9e8;
+  background: #ffffff;
+}
+
+.mjm-district-popup header > span {
+  display: block;
+  color: #607a80;
+  font-size: 10px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.mjm-district-popup h2 {
+  margin: 2px 0 0;
+  color: #14333e;
+  font-size: 18px;
+  font-family: Inter, ui-sans-serif, system-ui, sans-serif;
+}
+
+.mjm-popup-record {
+  padding: 14px 16px;
+  border-bottom: 1px solid #e3eeee;
+}
+
+.mjm-popup-record:last-child {
+  border-bottom: 0;
+}
+
+.mjm-popup-record h3 {
+  margin: 0 0 8px;
+  color: #17313a;
+  font-size: 15px;
+  font-family: Inter, ui-sans-serif, system-ui, sans-serif;
+  font-weight: 700;
+}
+
+.mjm-popup-record dl {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 6px 10px;
+  margin: 0 0 10px;
+}
+
+.mjm-popup-record div {
+  min-width: 0;
+}
+
+.mjm-popup-record dt {
+  color: #607a80;
+  font-size: 10px;
+  font-weight: 800;
+  text-transform: uppercase;
+  display: block;
+}
+
+.mjm-popup-record dd {
+  margin: 2px 0 0;
+  color: #263f47;
+  font-size: 12px;
+  overflow-wrap: anywhere;
+  display: block;
+}
+
+.mjm-popup-record > p,
+.mjm-empty {
+  margin: 0;
+  color: #38535b;
+  font-size: 12px;
+  line-height: 1.45;
+}
+
+.mjm-empty {
+  padding: 14px 16px;
+}
+
+/* ---- mobile active district (hidden on desktop, shown on mobile) ---- */
+
+.mjm-mobile-active-district {
+  display: none;
+  gap: 10px;
+}
+
+/* ---- responsive: ≤ 980px ---- */
+
+@media (max-width: 980px) {
+  .mjm-shell {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto minmax(520px, 1fr);
+    height: auto;
+    gap: 12px;
+  }
+
+  .mjm-sidebar {
+    height: auto;
+    max-height: none;
+    padding: 18px;
+    overflow: visible;
+  }
+
+  /* Hide the full A-Z district directory on mobile */
+  .mjm-full-directory {
+    display: none;
+  }
+
+  /* Show the selected-district panel on mobile */
+  .mjm-mobile-active-district {
+    display: grid;
+  }
+
+  .mjm-map-panel {
+    min-height: 520px;
+    height: 60vw;
+    max-height: 580px;
+  }
+
+  .mjm-search-results {
+    max-height: 190px;
+  }
+}
+
+/* ---- responsive: ≤ 560px ---- */
+
+@media (max-width: 560px) {
+  .mjm-shell {
+    gap: 10px;
+    padding: 10px;
+    grid-template-rows: auto minmax(430px, 1fr);
+  }
+
+  .mjm-sidebar {
+    padding: 12px;
+  }
+
+  .mjm-map-panel {
+    min-height: 430px;
+    height: 70vw;
+    max-height: 500px;
+  }
+
+  .mjm-map-legend {
+    left: 12px;
+    right: 12px;
+    top: 12px;
+    max-width: none;
+  }
+
+  .mjm-search-panel {
+    padding: 11px;
+  }
+
+  .mjm-search-box {
+    min-height: 42px;
+  }
+
+  .mjm-search-results {
+    max-height: 160px;
+  }
+
+  .mjm-mobile-active-district .mjm-district-card {
+    max-height: 230px;
+    overflow: auto;
+  }
+
+  .mjm-mobile-active-district .mjm-district-trigger {
+    min-height: 50px;
+    padding: 10px 12px;
+  }
+
+  .mjm-mobile-active-district .mjm-district-details {
+    padding: 0 10px 10px;
+  }
+
+  .mjm-mobile-active-district .mjm-sro-detail {
+    padding: 12px;
+  }
+
+  .mjm-mobile-active-district .mjm-sro-detail h3 {
+    font-size: 15px;
+  }
+
+  .mjm-mobile-active-district .mjm-sro-detail dd,
+  .mjm-mobile-active-district .mjm-sro-detail > p {
+    font-size: 13px;
+  }
+
+  .mjm-sro-detail dl,
+  .mjm-popup-record dl {
+    grid-template-columns: 1fr;
+  }
+
+  .mjm-district-label {
+    font-size: 8px !important;
+    padding: 2px 3px !important;
+  }
+
+  .mjm-jurisdiction-popup .leaflet-popup-content {
+    width: min(360px, calc(100vw - 34px)) !important;
+  }
+
+  .mjm-jurisdiction-popup .leaflet-popup-content-wrapper {
+    max-height: 72vh;
+  }
+
+  .mjm-district-popup {
+    max-height: 68vh;
+  }
+
+  .mjm-district-popup header {
+    padding-left: 50px;
+  }
+
+  .mjm-district-popup h2 {
+    font-size: 17px;
+  }
+
+  .mjm-jurisdiction-popup .leaflet-popup-close-button {
+    width: 28px;
+    height: 28px;
+    font-size: 18px;
+  }
+}

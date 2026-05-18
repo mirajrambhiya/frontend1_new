@@ -278,6 +278,7 @@ function WasteManagement() {
           </div>
         </div>
             </div>
+
         </section>
     );
 }
