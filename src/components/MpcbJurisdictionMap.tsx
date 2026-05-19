@@ -218,6 +218,7 @@ function MapView({
   const geoJsonLayerRef = useRef<L.GeoJSON | null>(null);
   const districtLayersRef = useRef<Record<string, L.Polygon>>({});
   const districtPopupRefs = useRef<Record<string, L.Popup>>({});
+  const districtCentersRef = useRef<Record<string, L.LatLng>>({});
   const openingPopupRef = useRef(false);
   const selectedDistrictRef = useRef<string | null>(null);
 
@@ -253,6 +254,13 @@ function MapView({
         const records = recordsByDistrict[district] || [];
         districtLayersRef.current[district] = poly;
 
+        const labelPoint = feature.properties!.labelPoint as [number, number] | undefined;
+        const labelLatLng = labelPoint
+          ? L.latLng(labelPoint[1], labelPoint[0])
+          : poly.getBounds().getCenter();
+
+        districtCentersRef.current[district] = labelLatLng;
+
         districtPopupRefs.current[district] = L.popup({
           maxWidth: 560,
           minWidth: 360,
@@ -262,13 +270,8 @@ function MapView({
           autoPanPaddingTopLeft: [28, 28],
           autoPanPaddingBottomRight: [28, 28],
         })
-          .setLatLng(poly.getBounds().getNorthEast())
+          .setLatLng(labelLatLng)
           .setContent(popupMarkup(district, records));
-
-        const labelPoint = feature.properties!.labelPoint as [number, number] | undefined;
-        const labelLatLng = labelPoint
-          ? L.latLng(labelPoint[1], labelPoint[0])
-          : poly.getBounds().getCenter();
 
         // Standalone tooltip pinned to the map at the polylabel visual centre.
         // This avoids Leaflet repositioning the label to the bounding-box centroid
@@ -362,7 +365,8 @@ function MapView({
       mapRef.current.closePopup();
     } else {
       const popup = districtPopupRefs.current[selectedDistrict];
-      popup.setLatLng(bounds.getNorthEast());
+      const center = districtCentersRef.current[selectedDistrict] ?? bounds.getCenter();
+      popup.setLatLng(center);
       popup.openOn(mapRef.current);
     }
     window.setTimeout(() => {
