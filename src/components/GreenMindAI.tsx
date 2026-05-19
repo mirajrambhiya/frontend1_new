@@ -2,7 +2,7 @@ import { useState, useRef, useEffect } from "react";
 import type { ComponentPropsWithoutRef } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import ReactMarkdown from "react-markdown";
-import { X, Send, Bot, User, ChevronDown, Minus, Plus, Factory, MapPin, MessageCircle, Phone, Mail, HelpCircle } from "lucide-react";
+import { X, Send, Bot, User, ChevronDown, Minus, Plus, Factory, MapPin, MessageCircle, Phone, Mail, HelpCircle, ClipboardList } from "lucide-react";
 import chatbotData from "../../store/chatbot.json";
 import sroData from "../../store/ro_wise_pincode_details.json";
 import faqData from "../../store/faq.json";
@@ -37,7 +37,7 @@ interface SROEntry {
   Email: string;
 }
 
-type ChatMode = "options" | "industry" | "sro" | "general" | "faq";
+type ChatMode = "options" | "track" | "industry" | "sro" | "general" | "faq";
 
 // ============================================================================
 // Industry Search
@@ -576,6 +576,7 @@ const GreenMindAI = () => {
   }, [isOpen]);
 
   const handleOptionSelect = (option: ChatMode) => {
+    if (option === "track") return;
     setChatMode(option);
     if (option === "industry") {
       setMessages([
@@ -1159,6 +1160,13 @@ const GreenMindAI = () => {
 
   const chatOptions = [
     {
+      id: "track" as ChatMode,
+      label: "Track Your Application",
+      sublabel: "Check application status",
+      icon: <ClipboardList className="w-5 h-5" />,
+      color: "from-cyan-500 to-sky-500",
+    },
+    {
       id: "industry" as ChatMode,
       label: "Industry Categorisation",
       sublabel: "Green / Orange / Red / White",
@@ -1311,9 +1319,9 @@ const GreenMindAI = () => {
                   <motion.div
                     initial={{ opacity: 0, y: 10 }}
                     animate={{ opacity: 1, y: 0 }}
-                    className="flex flex-col gap-2 pt-1"
+                    className="flex flex-col gap-1.5 pt-1"
                   >
-                    <div className="flex items-start gap-2 mb-1">
+                    <div className="flex items-start gap-2">
                       <div className="w-7 h-7 rounded-full flex items-center justify-center flex-shrink-0 bg-gradient-to-br from-[#0085E2] to-[#00A3FF]">
                         <Bot className="w-3.5 h-3.5 text-white" />
                       </div>
@@ -1338,9 +1346,9 @@ const GreenMindAI = () => {
                         whileHover={{ scale: 1.02 }}
                         whileTap={{ scale: 0.98 }}
                         onClick={() => handleOptionSelect(option.id)}
-                        className="ml-9 flex items-center gap-2.5 px-3 py-2.5 bg-white border border-gray-200 rounded-xl hover:border-[#0085E2]/40 hover:shadow-md transition-all text-left cursor-pointer group"
+                        className="ml-9 flex items-center gap-2.5 px-3 py-2 bg-white border border-gray-200 rounded-xl hover:border-[#0085E2]/40 hover:shadow-md transition-all text-left cursor-pointer group"
                       >
-                        <div className={`w-9 h-9 rounded-lg bg-gradient-to-br ${option.color} flex items-center justify-center text-white shrink-0 group-hover:scale-110 transition-transform`}>
+                        <div className={`w-8 h-8 rounded-lg bg-gradient-to-br ${option.color} flex items-center justify-center text-white shrink-0 group-hover:scale-110 transition-transform`}>
                           {option.icon}
                         </div>
                         <div>
